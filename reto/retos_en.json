@@ -1,0 +1,1867 @@
+{
+  "fechaInicio": "2026-11-16",
+  "preguntas": [
+    {
+      "categoria": "Film & music",
+      "pregunta": "How many people attended Taylor Swift's 149 Eras Tour concerts in total?",
+      "unidad": "people",
+      "respuesta": 10168008,
+      "pistas": [
+        "She played almost always in football (soccer) stadiums.",
+        "A big stadium holds between 60,000 and 70,000 people per concert."
+      ],
+      "explicacion": "149 concerts × about 68,000 people per night ≈ 10 million. Official figure: 10,168,008 tickets.",
+      "curiosidad": "It was the first tour in history to pass $2 billion in ticket sales: about $204 per person on average.",
+      "fuente": "Taylor Swift Touring, official figures published by The New York Times (December 2024)",
+      "simulacion": {
+        "mediana": 7000000,
+        "sigma": 0.9
+      },
+      "id": "e001"
+    },
+    {
+      "categoria": "Brands",
+      "pregunta": "How many copies of Minecraft had been sold worldwide by April 2025?",
+      "unidad": "copies",
+      "respuesta": 350000000,
+      "pistas": [
+        "It is the best-selling video game of all time.",
+        "There are about 8 billion people in the world. One in how many has bought it?"
+      ],
+      "explicacion": "If one in every 23 people on the planet has bought it: 8 billion / 23 ≈ 350 million. That is the figure Mojang confirmed in April 2025.",
+      "curiosidad": "In October 2023 it was 300 million: in a year and a half, another 50 million copies of a 2011 game were sold.",
+      "fuente": "Mojang Studios (April 2025)",
+      "simulacion": {
+        "mediana": 200000000,
+        "sigma": 1.1
+      },
+      "id": "e002"
+    },
+    {
+      "categoria": "Brands",
+      "pregunta": "How many stores does the Inditex group (the group that owns Zara, Bershka, Pull&Bear, Stradivarius…) have worldwide?",
+      "unidad": "stores",
+      "respuesta": 5460,
+      "pistas": [
+        "It is in almost 100 countries.",
+        "In most countries it has a few dozen stores; in a few, hundreds."
+      ],
+      "explicacion": "About 95 countries × about 55 stores on average ≈ 5,200. Official figure at the end of fiscal year 2025: 5,460.",
+      "curiosidad": "Every year it has fewer stores (103 fewer than the year before) and sells more: it closes small ones and opens huge ones.",
+      "fuente": "Inditex, fiscal year 2025 results (31 January 2026)",
+      "simulacion": {
+        "mediana": 9000,
+        "sigma": 1.0
+      },
+      "id": "e003"
+    },
+    {
+      "categoria": "Brands",
+      "pregunta": "How many McDonald's restaurants were there in the world at the end of 2025?",
+      "unidad": "restaurants",
+      "respuesta": 45356,
+      "pistas": [
+        "It is in more than 100 countries.",
+        "The United States alone has 13,706: almost one in three."
+      ],
+      "explicacion": "If the 13,706 in the United States are a little under a third: 13,706 × 3.3 ≈ 45,000. Official figure on 31 December 2025: 45,356.",
+      "curiosidad": "In 2025 alone it opened about 2,300: more than six new restaurants every day.",
+      "fuente": "McDonald's Corporation, 2025 annual results",
+      "simulacion": {
+        "mediana": 35000,
+        "sigma": 0.9
+      },
+      "id": "e004"
+    },
+    {
+      "categoria": "Brands",
+      "pregunta": "How many Starbucks coffee shops were there in the world in autumn 2025?",
+      "unidad": "coffee shops",
+      "respuesta": 40990,
+      "pistas": [
+        "It is in 89 countries.",
+        "The United States and China together have about 25,000: six out of ten."
+      ],
+      "explicacion": "25,000 coffee shops / 0.6 ≈ 41,000. Official figure at the end of its 2025 fiscal year: 40,990.",
+      "curiosidad": "A little under half are not run by Starbucks itself: other companies operate them under license.",
+      "fuente": "Starbucks Corporation, fiscal year 2025 annual report",
+      "simulacion": {
+        "mediana": 25000,
+        "sigma": 1.0
+      },
+      "id": "e005"
+    },
+    {
+      "categoria": "Brands",
+      "pregunta": "How many visits did IKEA stores around the world receive in one year (fiscal year 2025)?",
+      "unidad": "visits",
+      "respuesta": 915000000,
+      "pistas": [
+        "There are about 500 IKEA stores in the world.",
+        "About 5,000 people pass through each store every day."
+      ],
+      "explicacion": "500 stores × 5,000 visits a day × 365 days ≈ 912 million. IKEA reported 915 million visits.",
+      "curiosidad": "It is as if one in nine people on the planet had been to an IKEA that year.",
+      "fuente": "IKEA (Inter IKEA Group), fiscal year 2025 annual summary",
+      "simulacion": {
+        "mediana": 400000000,
+        "sigma": 1.3
+      },
+      "id": "e006"
+    },
+    {
+      "categoria": "Food",
+      "pregunta": "How many drinks from The Coca-Cola Company's brands are enjoyed around the world every day?",
+      "unidad": "drinks",
+      "respuesta": 2200000000,
+      "pistas": [
+        "About 65 billion drinks of all kinds are consumed in the world every day.",
+        "A little over 3 in every 100 are from a Coca-Cola brand (Fanta, Sprite, Aquarius…)."
+      ],
+      "explicacion": "65 billion drinks × 0.034 ≈ 2.2 billion a day, the figure the company itself gives.",
+      "curiosidad": "That is one of the company's drinks for every four people on the planet, every day.",
+      "fuente": "The Coca-Cola Company, 2025 annual report",
+      "simulacion": {
+        "mediana": 800000000,
+        "sigma": 1.3
+      },
+      "id": "e007"
+    },
+    {
+      "categoria": "Brands",
+      "pregunta": "How many cars did Tesla deliver worldwide in 2025?",
+      "unidad": "cars",
+      "respuesta": 1636129,
+      "pistas": [
+        "About 80 million new cars are sold in the world every year.",
+        "Two in every hundred are a Tesla."
+      ],
+      "explicacion": "80 million cars × 0.02 = 1.6 million. Tesla's official figure: 1,636,129 deliveries.",
+      "curiosidad": "It was its second year in a row of decline, and China's BYD overtook it as the biggest seller of electric cars.",
+      "fuente": "Tesla, 2025 production and deliveries release",
+      "simulacion": {
+        "mediana": 1200000,
+        "sigma": 1.1
+      },
+      "id": "e008"
+    },
+    {
+      "categoria": "Brands",
+      "pregunta": "How many Apple Stores were there in the world in mid-2026?",
+      "unidad": "stores",
+      "respuesta": 537,
+      "pistas": [
+        "There are stores in 27 countries; France has 20.",
+        "Half are in the United States: 269."
+      ],
+      "explicacion": "If the 269 in the United States are half, the total is 269 × 2 ≈ 540. Count in July 2026: 537 stores.",
+      "curiosidad": "Italy has 17 and Germany 16: all of Europe put together has far fewer than the United States.",
+      "fuente": "Count based on Apple's store directory (July 2026)",
+      "simulacion": {
+        "mediana": 900,
+        "sigma": 1.1
+      },
+      "id": "e009"
+    },
+    {
+      "categoria": "Brands",
+      "pregunta": "How many Nintendo Switch consoles (the original model) had been sold by September 2026?",
+      "unidad": "consoles",
+      "respuesta": 157200000,
+      "pistas": [
+        "It came out in 2017 and has been on sale for almost ten years.",
+        "About 16 million a year on average."
+      ],
+      "explicacion": "9.5 years × 16.5 million a year ≈ 157 million. Nintendo's figure at 30 September 2026: 157.2 million.",
+      "curiosidad": "It has already passed the Nintendo DS (154 million), which was the company's best-selling console.",
+      "fuente": "Nintendo, cumulative console sales (30 September 2026)",
+      "simulacion": {
+        "mediana": 110000000,
+        "sigma": 0.9
+      },
+      "id": "e010"
+    },
+    {
+      "categoria": "Brands",
+      "pregunta": "How many Pokémon cards had been printed in all of history by March 2026?",
+      "unidad": "cards",
+      "respuesta": 85000000000,
+      "pistas": [
+        "Lately about 10 billion are printed a year.",
+        "The game has existed since 1996, but more than half of all cards are from the last six years."
+      ],
+      "explicacion": "The last six years at about 9 billion each make about 55 billion; the previous twenty-four years add another 30 billion. Total reported by The Pokémon Company: more than 85 billion.",
+      "curiosidad": "That is ten cards for every person on the planet.",
+      "fuente": "The Pokémon Company, trading card game figures as of 31 March 2026",
+      "simulacion": {
+        "mediana": 15000000000,
+        "sigma": 1.6
+      },
+      "id": "e011"
+    },
+    {
+      "categoria": "Brands",
+      "pregunta": "How many Harry Potter books have been sold worldwide?",
+      "unidad": "books",
+      "respuesta": 600000000,
+      "pistas": [
+        "There are seven books, translated into 85 languages.",
+        "That works out at one book for every 13 or 14 people on the planet."
+      ],
+      "explicacion": "8.1 billion people / 13.5 ≈ 600 million, the figure given by its publishers.",
+      "curiosidad": "When sales reached 500 million in 2018, the publisher estimated that one in 15 people in the world owned one.",
+      "fuente": "Scholastic and Bloomsbury, Harry Potter series sales figures (2023)",
+      "simulacion": {
+        "mediana": 400000000,
+        "sigma": 1.0
+      },
+      "id": "e012"
+    },
+    {
+      "categoria": "Brands",
+      "pregunta": "How many people did Amazon employ worldwide at the end of 2025?",
+      "unidad": "employees",
+      "respuesta": 1576000,
+      "pistas": [
+        "Most do not work in offices, but in warehouses and deliveries.",
+        "That is as many as the people living in a city like Philadelphia."
+      ],
+      "explicacion": "Philadelphia has just over 1.6 million inhabitants, and that is the scale: Amazon reported 1,576,000 employees on 31 December 2025.",
+      "curiosidad": "It is the second-largest private employer in the world.",
+      "fuente": "Amazon, 2025 annual report",
+      "simulacion": {
+        "mediana": 800000,
+        "sigma": 1.1
+      },
+      "id": "e013"
+    },
+    {
+      "categoria": "Internet",
+      "pregunta": "How many paid subscriptions did Netflix have at the end of 2025?",
+      "unidad": "subscriptions",
+      "respuesta": 325000000,
+      "pistas": [
+        "A subscription is usually for a whole household, not just one person.",
+        "Netflix estimates that almost a billion people watch it: about three per subscription."
+      ],
+      "explicacion": "1 billion viewers / 3 people per subscription ≈ 330 million. Netflix reported more than 325 million.",
+      "curiosidad": "A year earlier it was 301 million: it gained 24 million households in twelve months.",
+      "fuente": "Netflix, fourth-quarter 2025 shareholder letter",
+      "simulacion": {
+        "mediana": 250000000,
+        "sigma": 0.9
+      },
+      "id": "e014"
+    },
+    {
+      "categoria": "Internet",
+      "pregunta": "How many people used Spotify every month in autumn 2026?",
+      "unidad": "users",
+      "respuesta": 788000000,
+      "pistas": [
+        "306 million of them pay.",
+        "Fewer than four in ten pay; the rest listen for free with ads."
+      ],
+      "explicacion": "306 million subscribers / 0.39 ≈ 785 million. Spotify's third-quarter 2026 figure: 788 million monthly users.",
+      "curiosidad": "Almost one in ten people on the planet uses it.",
+      "fuente": "Spotify, third-quarter 2026 results",
+      "simulacion": {
+        "mediana": 500000000,
+        "sigma": 0.9
+      },
+      "id": "e015"
+    },
+    {
+      "categoria": "Internet",
+      "pregunta": "How many articles did English Wikipedia have in November 2026?",
+      "unidad": "articles",
+      "respuesta": 7263198,
+      "pistas": [
+        "Spanish Wikipedia has 2.1 million articles.",
+        "The English one is almost three and a half times bigger."
+      ],
+      "explicacion": "2.1 million × 3.4 ≈ 7.2 million. Official counter on 12 November 2026: 7,263,198 articles.",
+      "curiosidad": "Together they add up to more than 5 billion words: reading them non-stop would take about forty years.",
+      "fuente": "English Wikipedia, official statistics (12 November 2026)",
+      "simulacion": {
+        "mediana": 5000000,
+        "sigma": 1.3
+      },
+      "id": "e016"
+    },
+    {
+      "categoria": "Internet",
+      "pregunta": "How many people played Roblox every day in summer 2026?",
+      "unidad": "players",
+      "respuesta": 138000000,
+      "pistas": [
+        "Most of its players are children and teenagers.",
+        "Roughly one in every 60 people on the planet plays every day."
+      ],
+      "explicacion": "8.2 billion people / 60 ≈ 137 million. Roblox's third-quarter 2026 figure: 138 million daily players.",
+      "curiosidad": "Together they played almost 34 billion hours in just three months.",
+      "fuente": "Roblox Corporation, third-quarter 2026 results",
+      "simulacion": {
+        "mediana": 60000000,
+        "sigma": 1.2
+      },
+      "id": "e017"
+    },
+    {
+      "categoria": "Travel",
+      "pregunta": "How many visits did Disneyland Park in Paris receive in 2025 (not counting the resort's second park)?",
+      "unidad": "visits",
+      "respuesta": 10800000,
+      "pistas": [
+        "It is open 365 days a year.",
+        "On average about 30,000 people come in each day."
+      ],
+      "explicacion": "30,000 visitors a day × 365 days ≈ 10.9 million. Industry estimate for 2025: 10.8 million.",
+      "curiosidad": "It is the most visited theme park in Europe; the second, in Germany, receives a little over half as many.",
+      "fuente": "Themed Entertainment Association (TEA), Global Experience Index 2025",
+      "simulacion": {
+        "mediana": 8000000,
+        "sigma": 0.9
+      },
+      "id": "e018"
+    },
+    {
+      "categoria": "Sports",
+      "pregunta": "How many spectators went to the stadiums, adding up all the matches, at the 2026 FIFA World Cup?",
+      "unidad": "spectators",
+      "respuesta": 6810966,
+      "pistas": [
+        "104 matches were played in the United States, Mexico and Canada.",
+        "The stadiums were huge: the average was about 65,000 spectators per match."
+      ],
+      "explicacion": "104 matches × 65,000 spectators ≈ 6.8 million. Total recorded attendance: 6,810,966.",
+      "curiosidad": "That is double Qatar 2022, which drew 3.4 million spectators.",
+      "fuente": "Final statistics of the 2026 FIFA World Cup",
+      "simulacion": {
+        "mediana": 4500000,
+        "sigma": 0.8
+      },
+      "id": "e019"
+    },
+    {
+      "categoria": "Sports",
+      "pregunta": "How many athletes competed at the Paris 2024 Olympic Games?",
+      "unidad": "athletes",
+      "respuesta": 10500,
+      "pistas": [
+        "206 delegations took part.",
+        "There were 329 medal events; the average delegation brought about 50 athletes."
+      ],
+      "explicacion": "206 delegations × 51 athletes on average ≈ 10,500, which was the quota set by the International Olympic Committee.",
+      "curiosidad": "It was the first Games with the same number of places for women as for men.",
+      "fuente": "International Olympic Committee, Paris 2024 Games",
+      "simulacion": {
+        "mediana": 8000,
+        "sigma": 0.8
+      },
+      "id": "e020"
+    },
+    {
+      "categoria": "Food",
+      "pregunta": "How many gold bears does Haribo make every day worldwide?",
+      "unidad": "bears",
+      "respuesta": 160000000,
+      "pistas": [
+        "Each bear weighs a little over 2 grams: a 100-gram bag holds about 45.",
+        "Haribo sells in more than a hundred countries: think of several million bags a day."
+      ],
+      "explicacion": "If about 3.5 million 100-gram bags are filled each day with about 45 bears in each: 3.5 million × 45 ≈ 160 million. That is the figure Haribo itself gives.",
+      "curiosidad": "According to Haribo, the bears it makes in a year, lined up, would circle the Earth more than ten times.",
+      "fuente": "Haribo, corporate facts for the Goldbears centenary (2022)",
+      "simulacion": {
+        "mediana": 30000000,
+        "sigma": 1.4
+      },
+      "id": "e021"
+    },
+    {
+      "categoria": "Internet",
+      "pregunta": "How many trips and orders did Uber complete per day, on average, worldwide in summer 2026?",
+      "unidad": "trips",
+      "respuesta": 44000000,
+      "pistas": [
+        "About 215 million people use Uber or Uber Eats every month.",
+        "Each uses it about six times a month on average."
+      ],
+      "explicacion": "215 million users × 6 uses a month ≈ 1.3 billion a month, or about 44 million a day. Uber reported 4,061 million trips between July and September 2026: 4,061 / 92 days ≈ 44 million.",
+      "curiosidad": "Uber now moves almost as much money delivering food as carrying people.",
+      "fuente": "Uber, third-quarter 2026 results (calculation: trips in the quarter / 92 days)",
+      "simulacion": {
+        "mediana": 15000000,
+        "sigma": 1.3
+      },
+      "id": "e022"
+    },
+    {
+      "categoria": "Film & music",
+      "pregunta": "How many dollars has Avatar (2009), the highest-grossing film in history, earned at cinemas worldwide?",
+      "unidad": "dollars",
+      "respuesta": 2923710708,
+      "pistas": [
+        "A movie ticket, many of them for 3D, cost about $10.",
+        "Imagine that one in 25 people on the planet saw it in the cinema."
+      ],
+      "explicacion": "In 2009 there were about 7 billion people. If one in 25 went to see it, that is about 280 million tickets; at $10, about $2.8 billion. Actual total, including re-releases: $2,924 million.",
+      "curiosidad": "It cost $237 million to make: it earned more than twelve times its budget.",
+      "fuente": "Box Office Mojo, cumulative worldwide gross of Avatar (2009)",
+      "simulacion": {
+        "mediana": 1500000000,
+        "sigma": 1.1
+      },
+      "id": "e023"
+    },
+    {
+      "categoria": "Internet",
+      "pregunta": "How many views did \"Baby Shark Dance\", YouTube's most-viewed video, have in February 2026?",
+      "unidad": "views",
+      "respuesta": 16643177027,
+      "pistas": [
+        "It was the first YouTube video to pass 10 billion.",
+        "That works out at about two views for every person on the planet."
+      ],
+      "explicacion": "There are about 8.2 billion people in the world. Two views each: 16.4 billion. Guinness count on 4 February 2026: 16,643 million.",
+      "curiosidad": "The second most-viewed video, another children's song, does not reach 10 billion.",
+      "fuente": "Guinness World Records, most-viewed YouTube video (4 February 2026)",
+      "simulacion": {
+        "mediana": 6000000000,
+        "sigma": 1.3
+      },
+      "id": "e024"
+    },
+    {
+      "categoria": "Film & music",
+      "pregunta": "How many people watched the 2026 Eurovision Song Contest on television (adding the semi-finals and the final)?",
+      "unidad": "people",
+      "respuesta": 131000000,
+      "pistas": [
+        "Audiences are measured in 35 countries.",
+        "On average, about 4 million viewers per country."
+      ],
+      "explicacion": "35 countries × about 3.7 million viewers on average ≈ 130 million. Figure from the European Broadcasting Union for the Vienna edition: 131 million.",
+      "curiosidad": "In 2025 it had been watched by 166 million people: in one year it lost 35 million viewers.",
+      "fuente": "European Broadcasting Union (EBU), Eurovision 2026 audience report",
+      "simulacion": {
+        "mediana": 150000000,
+        "sigma": 1.0
+      },
+      "id": "e025"
+    },
+    {
+      "categoria": "Sports",
+      "pregunta": "How many people watched the 2026 Super Bowl in the United States?",
+      "unidad": "people",
+      "respuesta": 125600000,
+      "pistas": [
+        "About 340 million people live in the United States.",
+        "A little over one in three Americans watches it."
+      ],
+      "explicacion": "340 million inhabitants × 0.37 ≈ 126 million. Nielsen's final figure: 125.6 million viewers on average.",
+      "curiosidad": "The halftime show, with Bad Bunny, drew a bigger audience than the game itself: 128.2 million.",
+      "fuente": "Nielsen, final audience for Super Bowl LX (February 2026)",
+      "simulacion": {
+        "mediana": 110000000,
+        "sigma": 0.8
+      },
+      "id": "e026"
+    },
+    {
+      "categoria": "Film & music",
+      "pregunta": "How many episodes of The Simpsons existed at the end of season 37, in 2026?",
+      "unidad": "episodes",
+      "respuesta": 809,
+      "pistas": [
+        "The show began in 1989 and has had one season a year.",
+        "Each season has about 22 episodes."
+      ],
+      "explicacion": "37 seasons × 22 episodes ≈ 814. Actual count at the end of season 37: 809.",
+      "curiosidad": "Three different episodes can be counted as \"number 800\", depending on how you count.",
+      "fuente": "Official list of The Simpsons episodes (seasons 1 to 37)",
+      "simulacion": {
+        "mediana": 650,
+        "sigma": 0.7
+      },
+      "id": "e027"
+    },
+    {
+      "categoria": "Internet",
+      "pregunta": "How many Instagram followers did Cristiano Ronaldo have in November 2026?",
+      "unidad": "followers",
+      "respuesta": 681000000,
+      "pistas": [
+        "He is the person with the most followers on Instagram in the world.",
+        "Roughly one in twelve people on the planet follows him."
+      ],
+      "explicacion": "8.2 billion people / 12 ≈ 680 million. In November 2026 he had around 681 million followers.",
+      "curiosidad": "In May 2026 Instagram deleted fake accounts and Cristiano, Messi and Mbappé suddenly lost millions of followers.",
+      "fuente": "Instagram follower count published in November 2026 (Epidemic Sound)",
+      "simulacion": {
+        "mediana": 450000000,
+        "sigma": 0.9
+      },
+      "id": "e028"
+    },
+    {
+      "categoria": "Sports",
+      "pregunta": "How many runners finished the 2025 New York City Marathon?",
+      "unidad": "runners",
+      "respuesta": 59226,
+      "pistas": [
+        "It is one of the marathons with the most participants in the world.",
+        "Picture a big football (soccer) stadium, though not one of the biggest, filled with runners."
+      ],
+      "explicacion": "A big stadium holds around 60,000 seats, and that is the scale: in 2025, 59,226 runners crossed the finish line, a record for the race at the time.",
+      "curiosidad": "The record lasted a year: in 2026 more than 61,000 people finished.",
+      "fuente": "New York Road Runners, 2025 New York City Marathon results",
+      "simulacion": {
+        "mediana": 40000,
+        "sigma": 0.8
+      },
+      "id": "e029"
+    },
+    {
+      "categoria": "Sports",
+      "pregunta": "How many kilometers was the official route of the 2026 Tour de France, which started in Barcelona?",
+      "unidad": "km",
+      "respuesta": 3333,
+      "pistas": [
+        "The Tour has 21 stages.",
+        "A normal stage is around 160 kilometers; the time trials are much shorter."
+      ],
+      "explicacion": "21 stages × 160 kilometers on average ≈ 3,360. The route presented for 2026 added up to about 3,333 kilometers.",
+      "curiosidad": "In the end less was raced: two stages were shortened and the riders covered about 3,245 kilometers.",
+      "fuente": "Official 2026 Tour de France route presented by the organizers (ASO)",
+      "simulacion": {
+        "mediana": 3000,
+        "sigma": 0.6
+      },
+      "id": "e030"
+    },
+    {
+      "categoria": "Sports",
+      "pregunta": "How many goals were scored in total at the 2026 FIFA World Cup?",
+      "unidad": "goals",
+      "respuesta": 308,
+      "pistas": [
+        "It was the first World Cup with 48 teams: 104 matches were played.",
+        "In a World Cup match almost three goals are scored on average."
+      ],
+      "explicacion": "104 matches × 3 goals ≈ 312. Actual total: 308 goals, 2.96 per match.",
+      "curiosidad": "The previous record, the 172 goals of Qatar 2022, was equaled with 46 matches still to be played.",
+      "fuente": "Final statistics of the 2026 FIFA World Cup",
+      "simulacion": {
+        "mediana": 230,
+        "sigma": 0.6
+      },
+      "id": "e031"
+    },
+    {
+      "categoria": "World",
+      "pregunta": "How many different people had stood on the summit of Everest by the end of 2025?",
+      "unidad": "people",
+      "respuesta": 7563,
+      "pistas": [
+        "The first time was in 1953, and until the 1990s very few people climbed it.",
+        "In a good spring about 850 people reach the summit, but many are guides who repeat year after year."
+      ],
+      "explicacion": "About 600 summits a year over the last two decades make about 13,000 ascents; since almost half are by repeat climbers, that leaves about 7,500 people. Count: 7,563 people and 13,737 ascents.",
+      "curiosidad": "Kami Rita Sherpa has been on the summit 31 times.",
+      "fuente": "The Himalayan Database, count up to December 2025 (compiled by Alan Arnette)",
+      "simulacion": {
+        "mediana": 4000,
+        "sigma": 1.2
+      },
+      "id": "e032"
+    },
+    {
+      "categoria": "Sports",
+      "pregunta": "How many spectators attended the 2025 British Formula 1 Grand Prix, adding up all the days of the weekend?",
+      "unidad": "spectators",
+      "respuesta": 500000,
+      "pistas": [
+        "Attendance is counted for every day: practice, qualifying and the race.",
+        "It is the grand prix with the biggest crowd of the year; on race day there are well over 100,000 people."
+      ],
+      "explicacion": "About 125,000 people on average over four days of activity at the circuit gives 500,000. It is Silverstone's official figure for 2025.",
+      "curiosidad": "To bring so many people it took 600 buses, which carried more than 125,000 people.",
+      "fuente": "Silverstone Circuit, official 2025 British Grand Prix figures",
+      "simulacion": {
+        "mediana": 250000,
+        "sigma": 0.9
+      },
+      "id": "e033"
+    },
+    {
+      "categoria": "Sports",
+      "pregunta": "How many spectators fit in the world's largest cricket stadium, the Narendra Modi Stadium in Ahmedabad (India)?",
+      "unidad": "spectators",
+      "respuesta": 132000,
+      "pistas": [
+        "In India cricket is far more popular than football.",
+        "Melbourne's great stadium has about 100,000 seats, and this one is bigger."
+      ],
+      "explicacion": "Think of a 100,000-seat stadium and add a third more: its declared capacity is 132,000 spectators.",
+      "curiosidad": "It opened in 2020 on the site of another stadium, demolished five years earlier to build this one.",
+      "fuente": "International Cricket Council (ICC), Narendra Modi Stadium profile",
+      "simulacion": {
+        "mediana": 100000,
+        "sigma": 0.5
+      },
+      "id": "e034"
+    },
+    {
+      "categoria": "Travel",
+      "pregunta": "How many commercial flights took off around the world every day, on average, in 2025?",
+      "unidad": "flights",
+      "respuesta": 106600,
+      "pistas": [
+        "Boeing 737s alone made 10.8 million flights over the whole year.",
+        "In all of 2025 there were about 38.9 million flights."
+      ],
+      "explicacion": "38.9 million flights / 365 days ≈ 106,600 flights a day: more than one per second.",
+      "curiosidad": "In 2020, because of the pandemic, there were less than half as many: 16.9 million flights in the whole year.",
+      "fuente": "IATA, air transport outlook (December 2025); calculation: flights in the year / 365",
+      "simulacion": {
+        "mediana": 60000,
+        "sigma": 1.2
+      },
+      "id": "e035"
+    },
+    {
+      "categoria": "Cities",
+      "pregunta": "How many floors does the Burj Khalifa in Dubai, the world's tallest building, have?",
+      "unidad": "floors",
+      "respuesta": 163,
+      "pistas": [
+        "It is 828 meters tall, but the final spire has no floors.",
+        "The observation deck on floor 148 is 555 meters up."
+      ],
+      "explicacion": "555 meters / 148 floors ≈ 3.75 meters per floor. Above the observation deck there are about fifteen more floors, almost all technical: 163 in total.",
+      "curiosidad": "Climbing the stairs to floor 160 is 2,909 steps.",
+      "fuente": "Guinness World Records and the Burj Khalifa fact sheet (Emaar)",
+      "simulacion": {
+        "mediana": 180,
+        "sigma": 0.5
+      },
+      "id": "e036"
+    },
+    {
+      "categoria": "Travel",
+      "pregunta": "How many steps are there from the ground to the very top of the Eiffel Tower?",
+      "unidad": "steps",
+      "respuesta": 1665,
+      "pistas": [
+        "The staircase goes up to about 280 meters.",
+        "A normal step rises about 17 centimeters."
+      ],
+      "explicacion": "280 meters / 0.17 meters per step ≈ 1,650. Official figure: 1,665 steps.",
+      "curiosidad": "The public can only walk up to the second floor; from there to the top, it is by elevator.",
+      "fuente": "Société d'Exploitation de la Tour Eiffel, press kit (2024)",
+      "simulacion": {
+        "mediana": 1400,
+        "sigma": 0.7
+      },
+      "id": "e037"
+    },
+    {
+      "categoria": "Travel",
+      "pregunta": "How many ships crossed the Panama Canal in its 2025 fiscal year (October 2024 to September 2025)?",
+      "unidad": "ships",
+      "respuesta": 13404,
+      "pistas": [
+        "The canal works day and night, every day of the year.",
+        "Between 35 and 40 ships cross it every day."
+      ],
+      "explicacion": "37 ships a day × 365 days ≈ 13,500. Figure from the Canal Authority: 13,404 transits.",
+      "curiosidad": "The year before, because of drought, only 11,240 could pass: the canal needs fresh water to fill its locks.",
+      "fuente": "Panama Canal Authority, fiscal year 2025 results",
+      "simulacion": {
+        "mediana": 9000,
+        "sigma": 1.1
+      },
+      "id": "e038"
+    },
+    {
+      "categoria": "Travel",
+      "pregunta": "How many standard 6-meter containers fit on the world's largest container ship?",
+      "unidad": "containers",
+      "respuesta": 24346,
+      "pistas": [
+        "The ship is 400 meters long and about 60 wide.",
+        "The containers go in 24 rows across and are stacked about 20 high between the hold and the deck."
+      ],
+      "explicacion": "Along the length about 48 containers fit (the rest is engines and the bridge), across 24, and they are stacked about 21 high: 48 × 24 × 21 ≈ 24,000. Certified capacity: 24,346.",
+      "curiosidad": "It is not one ship but several sister ships of the shipping line MSC that share the record with exactly the same capacity.",
+      "fuente": "Register of the largest container ships (MSC Irina class, 24,346 TEU)",
+      "simulacion": {
+        "mediana": 10000,
+        "sigma": 1.2
+      },
+      "id": "e039"
+    },
+    {
+      "categoria": "Travel",
+      "pregunta": "How many passengers can the world's largest cruise ship carry at most?",
+      "unidad": "passengers",
+      "respuesta": 7600,
+      "pistas": [
+        "The crew alone is 2,350 people.",
+        "With two people per cabin it carries 5,610 passengers; the maximum capacity also counts sofa beds and bunks."
+      ],
+      "explicacion": "About 2,800 cabins × 2 people = 5,610. With the extra beds in family cabins, a third more: 7,600 passengers at most.",
+      "curiosidad": "With the crew included, nearly 10,000 people travel on board: more than the population of many towns.",
+      "fuente": "Royal Caribbean, maximum capacity of Icon of the Seas and Star of the Seas",
+      "simulacion": {
+        "mediana": 5000,
+        "sigma": 0.7
+      },
+      "id": "e040"
+    },
+    {
+      "categoria": "Cities",
+      "pregunta": "How many buses are in London's red bus network?",
+      "unidad": "buses",
+      "respuesta": 8797,
+      "pistas": [
+        "About 9 million people live in London.",
+        "That works out at roughly one bus for every thousand inhabitants."
+      ],
+      "explicacion": "9 million inhabitants / 1,000 ≈ 9,000. Fleet count at 31 March 2025: 8,797 buses.",
+      "curiosidad": "In 2016 only about 30 were electric; by 2026 there were 3,000, a third of the fleet.",
+      "fuente": "Transport for London, bus fleet audit (31 March 2025)",
+      "simulacion": {
+        "mediana": 5000,
+        "sigma": 1.0
+      },
+      "id": "e041"
+    },
+    {
+      "categoria": "Cities",
+      "pregunta": "How many drink vending machines were there in Japan at the end of 2023?",
+      "unidad": "machines",
+      "respuesta": 2218600,
+      "pistas": [
+        "About 124 million people live in Japan.",
+        "There is one drink machine for every 55 people or so."
+      ],
+      "explicacion": "124 million inhabitants / 55 ≈ 2.25 million. Count by the industry association: 2,218,600 drink machines.",
+      "curiosidad": "Counting those for food, tickets, cigarettes and so on as well, Japan has almost 4 million vending machines.",
+      "fuente": "Japan Vending Machine Manufacturers Association (JVMA), data from the end of 2023",
+      "simulacion": {
+        "mediana": 900000,
+        "sigma": 1.3
+      },
+      "id": "e042"
+    },
+    {
+      "categoria": "Travel",
+      "pregunta": "How many people visited the Louvre in Paris in 2025?",
+      "unidad": "visitors",
+      "respuesta": 9000000,
+      "pistas": [
+        "The museum is closed on Tuesdays.",
+        "It limits entry to about 30,000 people a day."
+      ],
+      "explicacion": "About 310 opening days × 29,000 visitors a day ≈ 9 million, which is the figure the museum gave for 2025.",
+      "curiosidad": "Almost half of the visitors, 44%, were under 26.",
+      "fuente": "Louvre Museum, 2025 visitor report",
+      "simulacion": {
+        "mediana": 6000000,
+        "sigma": 0.9
+      },
+      "id": "e043"
+    },
+    {
+      "categoria": "Cities",
+      "pregunta": "How many stations does the New York City subway have?",
+      "unidad": "stations",
+      "respuesta": 472,
+      "pistas": [
+        "The London Underground has about 270 stations.",
+        "New York's is the subway with the most stations in the world, but it does not reach 500."
+      ],
+      "explicacion": "The London Underground has 272 stations, and New York's network is larger: about 1.7 times as many is roughly 460. Official figure: 472.",
+      "curiosidad": "If stations linked by transfer passages are counted as one, it comes to 424.",
+      "fuente": "Metropolitan Transportation Authority (MTA), New York",
+      "simulacion": {
+        "mediana": 300,
+        "sigma": 0.8
+      },
+      "id": "e044"
+    },
+    {
+      "categoria": "Travel",
+      "pregunta": "How many people visited the Colosseum in Rome in 2024 (together with the Roman Forum and the Palatine Hill, which share a ticket)?",
+      "unidad": "visitors",
+      "respuesta": 14733395,
+      "pistas": [
+        "It is open almost every day of the year.",
+        "On average about 40,000 people come in each day."
+      ],
+      "explicacion": "40,000 visitors a day × 365 days ≈ 14.6 million. Official 2024 figure: 14,733,395.",
+      "curiosidad": "That year it took in more than 100 million euros in ticket sales for the first time.",
+      "fuente": "Italian Ministry of Culture, 2024 museum statistics",
+      "simulacion": {
+        "mediana": 7000000,
+        "sigma": 1.0
+      },
+      "id": "e045"
+    },
+    {
+      "categoria": "Cities",
+      "pregunta": "How many hotel rooms are there in Las Vegas?",
+      "unidad": "rooms",
+      "respuesta": 150300,
+      "pistas": [
+        "The city receives about 38.5 million visitors a year.",
+        "They stay two or three nights, almost always two people per room, and hotels are 80% full."
+      ],
+      "explicacion": "38.5 million visitors × 2.3 nights / 2 people per room ≈ 44 million room-nights. Divided over 365 days and with 80% occupancy: about 151,000 rooms. Official figure: 150,300.",
+      "curiosidad": "It is the city with the most hotel rooms in the United States and the second in the world.",
+      "fuente": "Las Vegas Convention and Visitors Authority (LVCVA), 2025 summary",
+      "simulacion": {
+        "mediana": 70000,
+        "sigma": 1.1
+      },
+      "id": "e046"
+    },
+    {
+      "categoria": "Cities",
+      "pregunta": "Roughly how many trees are there in Central Park (New York)?",
+      "unidad": "trees",
+      "respuesta": 18000,
+      "pistas": [
+        "The park covers 341 hectares: about 3.4 million square meters.",
+        "Between lawns, lakes and paths, that works out at one tree for every 190 square meters."
+      ],
+      "explicacion": "3.4 million square meters, at one tree for every 190: about 18,000, the figure given by the organization that looks after the park.",
+      "curiosidad": "It holds one of the largest groves of American elms left in the world.",
+      "fuente": "Central Park Conservancy, Central Park tree guide",
+      "simulacion": {
+        "mediana": 30000,
+        "sigma": 1.2
+      },
+      "id": "e047"
+    },
+    {
+      "categoria": "Food",
+      "pregunta": "How many eggs did each laying hen on US farms lay on average in 2025?",
+      "unidad": "eggs",
+      "respuesta": 288,
+      "pistas": [
+        "A hen cannot lay more than one egg a day.",
+        "At her best she lays about six a week, but she also has weeks off."
+      ],
+      "explicacion": "If she laid one a day it would be 365. With rest days, she lays on four out of five days: 365 × 0.8 ≈ 290. Official 2025 average: 288 eggs per hen.",
+      "curiosidad": "Together they laid about 105 billion eggs in a year: more than 300 for every American.",
+      "fuente": "US Department of Agriculture (USDA), 2025 annual chickens and eggs summary",
+      "simulacion": {
+        "mediana": 220,
+        "sigma": 0.6
+      },
+      "id": "e048"
+    },
+    {
+      "categoria": "Food",
+      "pregunta": "How many kilos of chocolate did the average person in Switzerland eat in 2025?",
+      "unidad": "kg",
+      "respuesta": 10.3,
+      "pistas": [
+        "A normal bar weighs 100 grams.",
+        "That works out at two bars a week."
+      ],
+      "explicacion": "2 bars a week × 52 weeks = 104 bars of 100 grams: 10.4 kilos. Swiss manufacturers' figure for 2025: 10.3 kilos per person.",
+      "curiosidad": "Almost half of that chocolate (4.2 kilos) is imported: even the Swiss do not eat only Swiss chocolate.",
+      "fuente": "Chocosuisse, 2025 annual report",
+      "simulacion": {
+        "mediana": 8,
+        "sigma": 0.8
+      },
+      "id": "e049"
+    },
+    {
+      "categoria": "Food",
+      "pregunta": "How many restaurants in the world had three Michelin stars in September 2026?",
+      "unidad": "restaurants",
+      "respuesta": 162,
+      "pistas": [
+        "France has 30 and Japan, 20.",
+        "Spain has 16, and there are three-star restaurants in 25 countries."
+      ],
+      "explicacion": "The five countries with the most (France, Japan, Spain, the United States and Italy) add up to 97. The other twenty countries have about three each on average: 65 more. In total, 162.",
+      "curiosidad": "That is less than 1% of the nearly 20,000 restaurants in the guide.",
+      "fuente": "Michelin Guide, count of three-star restaurants (24 September 2026)",
+      "simulacion": {
+        "mediana": 120,
+        "sigma": 1.0
+      },
+      "id": "e050"
+    },
+    {
+      "categoria": "Animals",
+      "pregunta": "According to China's latest official census, how many giant pandas live in the wild?",
+      "unidad": "pandas",
+      "respuesta": 1864,
+      "pistas": [
+        "They live only in the bamboo forests of the mountains of central China.",
+        "Their national park covers 22,000 square kilometers and almost three in four live there."
+      ],
+      "explicacion": "A panda needs a lot of forest: at one per 16 square kilometers, the park holds about 1,375, which is 72% of the total. 1,375 / 0.72 ≈ 1,900. Official census: 1,864.",
+      "curiosidad": "In captivity there are already 808 in China alone, almost double what there were ten years ago.",
+      "fuente": "Fourth National Giant Panda Survey (China), reported by WWF and the IUCN",
+      "simulacion": {
+        "mediana": 2500,
+        "sigma": 1.1
+      },
+      "id": "e051"
+    },
+    {
+      "categoria": "Animals",
+      "pregunta": "How many tigers live in the wild worldwide, according to the latest international estimate (2023)?",
+      "unidad": "tigers",
+      "respuesta": 5574,
+      "pistas": [
+        "In 2010 about 3,200 were left.",
+        "Two in three live in India, which counted 3,682 in its latest census."
+      ],
+      "explicacion": "If India's 3,682 tigers are two thirds of the total, the total is 3,682 × 1.5 ≈ 5,500. Global Tiger Forum estimate: 5,574.",
+      "curiosidad": "In 2010 the tiger countries set out to double their number in twelve years. They came close, but did not make it.",
+      "fuente": "Global Tiger Forum, 2023 global estimate (published by WWF)",
+      "simulacion": {
+        "mediana": 4000,
+        "sigma": 1.0
+      },
+      "id": "e052"
+    },
+    {
+      "categoria": "Animals",
+      "pregunta": "How many dog breeds does the Fédération Cynologique Internationale (FCI) recognize?",
+      "unidad": "breeds",
+      "respuesta": 364,
+      "pistas": [
+        "It divides them into 10 groups: sheepdogs, terriers, hounds, sighthounds, companion dogs…",
+        "Each group has about 36 breeds on average."
+      ],
+      "explicacion": "10 groups × 36 breeds on average ≈ 360. Official FCI count in 2026: 364 breeds.",
+      "curiosidad": "Each breed has an \"owner\" country, usually its country of origin, which decides what the perfect dog of that breed should be like.",
+      "fuente": "Fédération Cynologique Internationale (FCI), official nomenclature (2026)",
+      "simulacion": {
+        "mediana": 250,
+        "sigma": 0.8
+      },
+      "id": "e053"
+    },
+    {
+      "categoria": "Animals",
+      "pregunta": "How many sheep were there in New Zealand in 2025?",
+      "unidad": "sheep",
+      "respuesta": 23252463,
+      "pistas": [
+        "A little over 5 million people live in New Zealand.",
+        "There are more than four sheep for every inhabitant."
+      ],
+      "explicacion": "5.3 million inhabitants × 4.4 sheep per person ≈ 23 million. Official count in June 2025: 23,252,463.",
+      "curiosidad": "Every year there are fewer: in two years the flock lost more than a million sheep, mainly because pasture is being turned into forest.",
+      "fuente": "Stats NZ, 2025 agricultural production statistics",
+      "simulacion": {
+        "mediana": 30000000,
+        "sigma": 1.0
+      },
+      "id": "e054"
+    },
+    {
+      "categoria": "World",
+      "pregunta": "How many roller coasters are there in the world, according to the census kept by enthusiasts?",
+      "unidad": "roller coasters",
+      "respuesta": 6324,
+      "pistas": [
+        "More than half are in Asia.",
+        "Europe has about 1,600 and North America about 1,000."
+      ],
+      "explicacion": "Europe (1,600) and North America (1,000) add up to 2,600; the rest of the world without Asia, about 400. If Asia has a little over half of the total, that is about 3,300: about 6,300 in all. Census: 6,324.",
+      "curiosidad": "Only 170 are wooden; all the others are steel.",
+      "fuente": "Roller Coaster DataBase (RCDB), census consulted in November 2026",
+      "simulacion": {
+        "mediana": 3000,
+        "sigma": 1.2
+      },
+      "id": "e055"
+    },
+    {
+      "categoria": "Tech",
+      "pregunta": "How many working satellites were in orbit around the Earth in October 2026?",
+      "unidad": "satellites",
+      "respuesta": 16800,
+      "pistas": [
+        "Two in three belong to a single network: Starlink.",
+        "Starlink has about 11,000 satellites working."
+      ],
+      "explicacion": "If Starlink's 11,000 are two thirds of the total, the total is 11,000 × 1.5 ≈ 16,500. The October 2026 catalogs count about 16,800 active satellites.",
+      "curiosidad": "Only seven years ago, before Starlink, there were about 2,000 in total.",
+      "fuente": "KeepTrack and CelesTrak satellite catalogs (October 2026)",
+      "simulacion": {
+        "mediana": 8000,
+        "sigma": 1.3
+      },
+      "id": "e056"
+    },
+    {
+      "categoria": "Internet",
+      "pregunta": "How many emojis are there in total in the 2026 version of the Unicode standard, counting skin tone and gender variants?",
+      "unidad": "emojis",
+      "respuesta": 3972,
+      "pistas": [
+        "Without variants there are about 1,400 basic emojis.",
+        "There are 259 flags alone, and many emojis of people come in five skin tones."
+      ],
+      "explicacion": "To the 1,400 basic emojis you have to add the variants: about 500 emojis of people and hands × 5 skin tones is about 2,500 more. In total, 3,972.",
+      "curiosidad": "The 2026 version adds only nine new emojis, among them a pickle, a lighthouse and a meteorite.",
+      "fuente": "Unicode Consortium, Emoji 18.0 count (September 2026)",
+      "simulacion": {
+        "mediana": 2000,
+        "sigma": 0.9
+      },
+      "id": "e057"
+    },
+    {
+      "categoria": "World",
+      "pregunta": "How many living languages are there in the world, according to the 2026 Ethnologue catalog?",
+      "unidad": "languages",
+      "respuesta": 7170,
+      "pistas": [
+        "There are about 195 countries, but in many of them dozens or hundreds of languages are spoken.",
+        "That works out at about 37 languages per country on average."
+      ],
+      "explicacion": "195 countries × 37 languages on average ≈ 7,200. The 2026 edition of Ethnologue counts 7,170 living languages.",
+      "curiosidad": "The number changes with every edition: some languages die out and others are \"discovered\" when two dialects are judged to be different languages.",
+      "fuente": "Ethnologue, 29th edition (2026)",
+      "simulacion": {
+        "mediana": 4000,
+        "sigma": 1.1
+      },
+      "id": "e058"
+    },
+    {
+      "categoria": "Tech",
+      "pregunta": "How many undersea internet cables were in service in the world in 2026?",
+      "unidad": "cables",
+      "respuesta": 607,
+      "pistas": [
+        "Almost all internet traffic between continents travels along the seabed.",
+        "Together they total close to a million and a half kilometers; an average cable is about 2,500 long."
+      ],
+      "explicacion": "1.5 million kilometers / 2,500 kilometers per cable ≈ 600. Count in September 2026: 607 cables in service.",
+      "curiosidad": "Another 102 are already planned: a new cable is laid every few weeks.",
+      "fuente": "TeleGeography, submarine cable map (September 2026)",
+      "simulacion": {
+        "mediana": 300,
+        "sigma": 1.4
+      },
+      "id": "e059"
+    },
+    {
+      "categoria": "Tech",
+      "pregunta": "How many electric and plug-in hybrid cars were sold in the world in 2025?",
+      "unidad": "cars",
+      "respuesta": 20000000,
+      "pistas": [
+        "About 80 million new cars are sold in the world every year.",
+        "One in four new cars is now electric or plug-in."
+      ],
+      "explicacion": "80 million new cars / 4 = 20 million, the figure given by the International Energy Agency for 2025.",
+      "curiosidad": "In China they are already more than half of new cars: almost 55%.",
+      "fuente": "International Energy Agency (IEA), Global EV Outlook 2026",
+      "simulacion": {
+        "mediana": 12000000,
+        "sigma": 1.0
+      },
+      "id": "e060"
+    },
+    {
+      "categoria": "Internet",
+      "pregunta": "According to Apple, how many apps are available on the App Store?",
+      "unidad": "apps",
+      "respuesta": 2000000,
+      "pistas": [
+        "When it opened, in 2008, it had 500 apps.",
+        "Today it is about 4,000 times bigger."
+      ],
+      "explicacion": "500 apps × 4,000 = 2 million. Apple talks of \"almost two million\" apps.",
+      "curiosidad": "In the first half of 2026 alone about 560,000 new apps were published, almost as many as in all of 2025.",
+      "fuente": "Apple, official App Store data (2026)",
+      "simulacion": {
+        "mediana": 1500000,
+        "sigma": 1.3
+      },
+      "id": "e061"
+    },
+    {
+      "categoria": "World",
+      "pregunta": "How many euro banknotes were in circulation in 2026?",
+      "unidad": "banknotes",
+      "respuesta": 31300000000,
+      "pistas": [
+        "About 350 million people live in the euro countries.",
+        "That works out at about 90 banknotes per person: many are kept at home, in banks or outside Europe."
+      ],
+      "explicacion": "350 million people × 90 banknotes ≈ 31.5 billion. European Central Bank figure for April 2026: 31.3 billion banknotes.",
+      "curiosidad": "Together they are worth more than 1.6 trillion euros: the average banknote is about 50 euros.",
+      "fuente": "European Central Bank, banknotes in circulation (April 2026)",
+      "simulacion": {
+        "mediana": 10000000000,
+        "sigma": 1.5
+      },
+      "id": "e062"
+    },
+    {
+      "categoria": "World",
+      "pregunta": "How many different people received a Nobel Prize between 1901 and 2025?",
+      "unidad": "people",
+      "respuesta": 990,
+      "pistas": [
+        "In that time 633 prizes were awarded, adding up the six categories.",
+        "Many prizes are shared between two or three people."
+      ],
+      "explicacion": "633 prizes × 1.6 people per prize ≈ 1,000. Nobel Foundation count: 990 people, plus 28 organizations.",
+      "curiosidad": "With the 2026 prizes it is already 996: the thousandth laureate is just around the corner.",
+      "fuente": "Nobel Foundation (nobelprize.org), count of prizes and laureates 1901-2025",
+      "simulacion": {
+        "mediana": 700,
+        "sigma": 0.8
+      },
+      "id": "e063"
+    },
+    {
+      "categoria": "World",
+      "pregunta": "How many items (books, maps, photos, sheet music, manuscripts…) does the Library of Congress in the United States, the largest library in the world, hold?",
+      "unidad": "items",
+      "respuesta": 181000000,
+      "pistas": [
+        "Books are only part of it: it also holds photos, maps, records, films and manuscripts.",
+        "It was founded in 1800 and receives thousands of new items every day."
+      ],
+      "explicacion": "If since 1800 it had taken in about 2,200 items a day: 2,200 × 365 days × 225 years ≈ 181 million, which is what it reports today.",
+      "curiosidad": "It started with 740 books and three maps.",
+      "fuente": "Library of Congress, fiscal year 2025 report",
+      "simulacion": {
+        "mediana": 40000000,
+        "sigma": 1.5
+      },
+      "id": "e064"
+    },
+    {
+      "categoria": "History",
+      "pregunta": "How many pipes does the great organ of Notre-Dame Cathedral in Paris have?",
+      "unidad": "pipes",
+      "respuesta": 7952,
+      "pistas": [
+        "Each note of each different sound (each \"stop\") needs its own pipe.",
+        "It has 117 stops and keyboards of about 60 notes."
+      ],
+      "explicacion": "117 stops × 60 notes ≈ 7,000 pipes, and some stops use several pipes per note. Official cathedral figure: 7,952.",
+      "curiosidad": "It survived the 2019 fire, but it had to be taken apart completely to clean the lead dust off every pipe.",
+      "fuente": "Notre-Dame Cathedral of Paris, official data on the great organ",
+      "simulacion": {
+        "mediana": 3000,
+        "sigma": 1.2
+      },
+      "id": "e065"
+    },
+    {
+      "categoria": "History",
+      "pregunta": "How many stone blocks are estimated to make up the Great Pyramid of Giza?",
+      "unidad": "blocks",
+      "respuesta": 2300000,
+      "pistas": [
+        "The base is 230 meters on each side and the pyramid was 146 meters tall.",
+        "Each block takes up a little over a cubic meter."
+      ],
+      "explicacion": "Volume of a pyramid: base × height / 3 = 230 × 230 × 146 / 3 ≈ 2.6 million cubic meters. At 1.1 cubic meters per block, about 2.3 million, the usual estimate.",
+      "curiosidad": "An average block weighs two and a half tonnes, as much as two cars.",
+      "fuente": "Usual archaeological estimate (Encyclopaedia Britannica and other reference works)",
+      "simulacion": {
+        "mediana": 800000,
+        "sigma": 1.5
+      },
+      "id": "e066"
+    },
+    {
+      "categoria": "History",
+      "pregunta": "How many people were aboard the Titanic when it sank?",
+      "unidad": "people",
+      "respuesta": 2224,
+      "pistas": [
+        "The lifeboats had room for only 1,178.",
+        "About 705 people survived, fewer than a third."
+      ],
+      "explicacion": "If 705 survivors were a little under a third, there were 705 × 3.15 ≈ 2,220 aboard. The most quoted figure is 2,224 people, passengers and crew together.",
+      "curiosidad": "The boats were not even full: there was room for 1,178 people and about 705 were saved.",
+      "fuente": "Encyclopaedia Britannica (based on the 1912 US Senate inquiry)",
+      "simulacion": {
+        "mediana": 2000,
+        "sigma": 0.6
+      },
+      "id": "e067"
+    },
+    {
+      "categoria": "History",
+      "pregunta": "How many terracotta warriors are estimated to be buried in the mausoleum of China's first emperor, in Xi'an?",
+      "unidad": "warriors",
+      "respuesta": 8000,
+      "pistas": [
+        "It is a complete, life-size army to protect the emperor in the afterlife.",
+        "So far only a quarter has been unearthed: about 2,000 figures."
+      ],
+      "explicacion": "If the 2,000 excavated figures are a quarter, the total is around 2,000 × 4 = 8,000, which is the museum's estimate.",
+      "curiosidad": "No two faces are alike: each soldier has his own features.",
+      "fuente": "Museum of the Mausoleum of Emperor Qin Shi Huang (Xi'an), official estimate",
+      "simulacion": {
+        "mediana": 5000,
+        "sigma": 0.9
+      },
+      "id": "e068"
+    },
+    {
+      "categoria": "World",
+      "pregunta": "How many children write to Santa Claus each Christmas through the French postal service?",
+      "unidad": "children",
+      "respuesta": 1000000,
+      "pistas": [
+        "About 650,000 children are born in France every year.",
+        "Roughly the children aged 4 to 9 write, but only one in four."
+      ],
+      "explicacion": "Six age groups × 650,000 children ≈ 4 million children of writing age. One in four is a million, the figure the French post office gives every year.",
+      "curiosidad": "Every letter gets a reply: it is written by 60 postal \"elves\" in a village near Bordeaux.",
+      "fuente": "La Poste, Santa's secretariat (2025 campaign)",
+      "simulacion": {
+        "mediana": 500000,
+        "sigma": 1.2
+      },
+      "id": "e069"
+    },
+    {
+      "categoria": "Cities",
+      "pregunta": "How many lights does the Christmas tree at Rockefeller Center in New York have?",
+      "unidad": "lights",
+      "respuesta": 50000,
+      "pistas": [
+        "The tree is about 23 meters tall.",
+        "The lights run along about 8 kilometers of cable: one every 16 centimeters."
+      ],
+      "explicacion": "8 kilometers is 8,000 meters of cable. With one light every 16 centimeters: 8,000 / 0.16 = 50,000 lights.",
+      "curiosidad": "The star on top weighs about 400 kilos and has three million crystals.",
+      "fuente": "Rockefeller Center, official facts about the 2025 Christmas tree",
+      "simulacion": {
+        "mediana": 20000,
+        "sigma": 1.2
+      },
+      "id": "e070"
+    },
+    {
+      "categoria": "Sports",
+      "pregunta": "How many people watched the 2022 World Cup final between Argentina and France on television?",
+      "unidad": "people",
+      "respuesta": 1420000000,
+      "pistas": [
+        "There were about 8 billion people in the world.",
+        "More than one in six watched, at least for a while."
+      ],
+      "explicacion": "8 billion people / 5.6 ≈ 1.43 billion. FIFA's revised figure: 1.42 billion viewers.",
+      "curiosidad": "The 2026 final, which Spain won against Argentina in extra time, was the most-watched in United States history: 62.8 million.",
+      "fuente": "FIFA, global audience report (November 2024)",
+      "simulacion": {
+        "mediana": 1000000000,
+        "sigma": 1.0
+      },
+      "id": "e071"
+    },
+    {
+      "categoria": "Cities",
+      "pregunta": "How many stations does the London Underground have?",
+      "unidad": "stations",
+      "respuesta": 272,
+      "pistas": [
+        "The network has 11 lines.",
+        "Each line stops at about 35 stations, but many stations are shared by two or more lines."
+      ],
+      "explicacion": "11 lines × 35 stops ≈ 385. Take away the interchange stations that would be counted twice or more, and about 270 are left. Official count: 272.",
+      "curiosidad": "Despite the name, less than half of the Underground actually runs in tunnels.",
+      "fuente": "Transport for London, station count (2026)",
+      "simulacion": {
+        "mediana": 200,
+        "sigma": 0.8
+      },
+      "id": "e072"
+    },
+    {
+      "categoria": "Cities",
+      "pregunta": "How many yellow taxi licenses (medallions) are there in New York City?",
+      "unidad": "taxis",
+      "respuesta": 13587,
+      "pistas": [
+        "More than 8 million people live in New York City.",
+        "That works out at one yellow cab for roughly every 620 people."
+      ],
+      "explicacion": "8.4 million people / 620 ≈ 13,500. The number of medallions is capped by law at 13,587.",
+      "curiosidad": "Not all of them are on the road: in 2025 only about 10,400 yellow cabs were actually working.",
+      "fuente": "New York City Taxi and Limousine Commission, medallion cap",
+      "simulacion": {
+        "mediana": 20000,
+        "sigma": 1.0
+      },
+      "id": "e073"
+    },
+    {
+      "categoria": "Travel",
+      "pregunta": "How many passengers used London Heathrow Airport in 2025?",
+      "unidad": "passengers",
+      "respuesta": 84463000,
+      "pistas": [
+        "On its busiest day ever, just over 270,000 passengers passed through.",
+        "An average day sees about 230,000."
+      ],
+      "explicacion": "230,000 passengers a day × 365 days ≈ 84 million. Official total for 2025: 84.46 million.",
+      "curiosidad": "It stayed Europe's busiest airport by a hair: Istanbul finished the year with 84.44 million.",
+      "fuente": "Heathrow Airport, traffic figures for 2025",
+      "simulacion": {
+        "mediana": 50000000,
+        "sigma": 1.0
+      },
+      "id": "e074"
+    },
+    {
+      "categoria": "Brands",
+      "pregunta": "How many Costco warehouses were there worldwide in August 2026?",
+      "unidad": "warehouses",
+      "respuesta": 939,
+      "pistas": [
+        "Costco operates in 14 countries and territories.",
+        "The United States has 647 of them: a bit over two thirds."
+      ],
+      "explicacion": "If the 647 in the United States are a little over two thirds of the total, the total is 647 / 0.69 ≈ 940. Costco's annual report: 939.",
+      "curiosidad": "It grows slowly on purpose: only 28 warehouses opened in the whole year.",
+      "fuente": "Costco Wholesale, annual report for fiscal year 2026",
+      "simulacion": {
+        "mediana": 1500,
+        "sigma": 1.1
+      },
+      "id": "e075"
+    },
+    {
+      "categoria": "Brands",
+      "pregunta": "How many Walmart stores are there in the United States, not counting Sam's Club?",
+      "unidad": "stores",
+      "respuesta": 4615,
+      "pistas": [
+        "About 340 million people live in the United States.",
+        "There is roughly one Walmart for every 74,000 Americans."
+      ],
+      "explicacion": "340 million people / 74,000 ≈ 4,600. Walmart's own count in July 2026: 4,615 stores.",
+      "curiosidad": "More than three in four are Supercenters, the giant ones that also sell groceries.",
+      "fuente": "Walmart Inc., store counts (July 2026)",
+      "simulacion": {
+        "mediana": 6000,
+        "sigma": 1.0
+      },
+      "id": "e076"
+    },
+    {
+      "categoria": "Travel",
+      "pregunta": "How many visits did US national parks record in 2025?",
+      "unidad": "visits",
+      "respuesta": 323014305,
+      "pistas": [
+        "About 340 million people live in the United States.",
+        "It comes to almost one visit per American, although many people go several times and many visitors are tourists."
+      ],
+      "explicacion": "340 million people × a bit under one visit each ≈ 320 million. National Park Service count for 2025: 323 million visits.",
+      "curiosidad": "The most visited site is not a park but a road: the Blue Ridge Parkway, with 16.5 million visits.",
+      "fuente": "US National Park Service, annual visitation for 2025",
+      "simulacion": {
+        "mediana": 150000000,
+        "sigma": 1.1
+      },
+      "id": "e077"
+    },
+    {
+      "categoria": "Sports",
+      "pregunta": "How many goals were scored in the 2025-26 Premier League season?",
+      "unidad": "goals",
+      "respuesta": 1045,
+      "pistas": [
+        "Twenty teams each play 38 matches: 380 matches in all.",
+        "An average match has between two and three goals."
+      ],
+      "explicacion": "380 matches × 2.75 goals ≈ 1,045, which is exactly the season's total.",
+      "curiosidad": "The record is 1,084 goals, set in the 2022-23 season.",
+      "fuente": "Premier League, 2025-26 season statistics",
+      "simulacion": {
+        "mediana": 900,
+        "sigma": 0.6
+      },
+      "id": "e078"
+    },
+    {
+      "categoria": "Sports",
+      "pregunta": "How many runners finished the 2026 London Marathon?",
+      "unidad": "runners",
+      "respuesta": 59830,
+      "pistas": [
+        "It set a world record for the most finishers in a marathon.",
+        "Picture Wembley Stadium two thirds full of runners."
+      ],
+      "explicacion": "Wembley holds 90,000 people; two thirds of that is 60,000. Official count: 59,830 finishers.",
+      "curiosidad": "The record did not last the year: the New York City Marathon passed it that November.",
+      "fuente": "London Marathon Events and Guinness World Records (April 2026)",
+      "simulacion": {
+        "mediana": 40000,
+        "sigma": 0.8
+      },
+      "id": "e079"
+    },
+    {
+      "categoria": "Film & music",
+      "pregunta": "How many tickets were used to see Broadway shows in the 2025-26 season?",
+      "unidad": "tickets",
+      "respuesta": 14577322,
+      "pistas": [
+        "Broadway has 41 theaters.",
+        "A typical one has about 1,200 seats and plays eight shows a week, but not every theater is open all year."
+      ],
+      "explicacion": "41 theaters × 1,200 seats × 8 shows × 52 weeks ≈ 20 million seats if every theater were open all year. About three quarters of that were filled: 14.6 million.",
+      "curiosidad": "Those tickets brought in a record $1.91 billion: about $131 each.",
+      "fuente": "The Broadway League, 2025-26 season results",
+      "simulacion": {
+        "mediana": 8000000,
+        "sigma": 1.1
+      },
+      "id": "e080"
+    },
+    {
+      "categoria": "World",
+      "pregunta": "How many pubs were there in the United Kingdom in 2025?",
+      "unidad": "pubs",
+      "respuesta": 44656,
+      "pistas": [
+        "About 69 million people live in the United Kingdom.",
+        "That is one pub for roughly every 1,500 people."
+      ],
+      "explicacion": "69 million people / 1,500 ≈ 46,000. The industry's count for 2025: 44,656 pubs.",
+      "curiosidad": "There are fewer every year: in early 2026 nearly two pubs closed every day.",
+      "fuente": "British Beer and Pub Association (2025)",
+      "simulacion": {
+        "mediana": 30000,
+        "sigma": 1.0
+      },
+      "id": "e081"
+    },
+    {
+      "categoria": "Cities",
+      "pregunta": "How many steps are there from street level to the 102nd floor of the Empire State Building?",
+      "unidad": "steps",
+      "respuesta": 1860,
+      "pistas": [
+        "The climb covers 102 floors.",
+        "A typical floor needs about 18 steps."
+      ],
+      "explicacion": "102 floors × 18 steps ≈ 1,840. Official figure: 1,860 steps.",
+      "curiosidad": "Every year there is a race up the stairs to the 86th floor: 1,576 steps.",
+      "fuente": "Empire State Building, official facts and figures",
+      "simulacion": {
+        "mediana": 1500,
+        "sigma": 0.6
+      },
+      "id": "e082"
+    },
+    {
+      "categoria": "Cities",
+      "pregunta": "How many vehicles cross the Golden Gate Bridge on an average day?",
+      "unidad": "vehicles",
+      "respuesta": 94000,
+      "pistas": [
+        "It has six lanes and is open around the clock.",
+        "About 34 million vehicles cross it in a year."
+      ],
+      "explicacion": "34.3 million crossings in a year / 365 days ≈ 94,000 a day: more than one every second.",
+      "curiosidad": "Before the pandemic it carried about 40 million a year; traffic never fully came back.",
+      "fuente": "Golden Gate Bridge, Highway and Transportation District, crossings for fiscal year 2026 (yearly total / 365)",
+      "simulacion": {
+        "mediana": 60000,
+        "sigma": 1.0
+      },
+      "id": "e083"
+    },
+    {
+      "categoria": "Food",
+      "pregunta": "How many shops did Greggs, the British bakery chain, have at the end of 2025?",
+      "unidad": "shops",
+      "respuesta": 2739,
+      "pistas": [
+        "About 69 million people live in the United Kingdom.",
+        "There is one Greggs for roughly every 25,000 people."
+      ],
+      "explicacion": "69 million people / 25,000 ≈ 2,760. Greggs reported 2,739 shops at the end of 2025.",
+      "curiosidad": "It opened about four new shops every week of the year.",
+      "fuente": "Greggs plc, results for 2025",
+      "simulacion": {
+        "mediana": 1500,
+        "sigma": 1.0
+      },
+      "id": "e084"
+    },
+    {
+      "categoria": "Travel",
+      "pregunta": "How many passengers travel on India's railways on an average day?",
+      "unidad": "passengers",
+      "respuesta": 20000000,
+      "pistas": [
+        "More than 1.4 billion people live in India.",
+        "On a typical day about one person in 70 takes a train."
+      ],
+      "explicacion": "1.42 billion people / 70 ≈ 20 million. Indian Railways carried about 7,300 million passengers in a year: 20 million a day.",
+      "curiosidad": "Nearly nine in ten travel without a reserved seat.",
+      "fuente": "Indian Ministry of Railways, passengers in 2024-25 (yearly total / 365)",
+      "simulacion": {
+        "mediana": 12000000,
+        "sigma": 1.2
+      },
+      "id": "e085"
+    },
+    {
+      "categoria": "Food",
+      "pregunta": "How many Subway restaurants are there in the world?",
+      "unidad": "restaurants",
+      "respuesta": 37000,
+      "pistas": [
+        "Subway is in more than 100 countries.",
+        "About half are in the United States: 18,773."
+      ],
+      "explicacion": "If the 18,773 in the United States are about half, the total is roughly 37,500. Subway says it has nearly 37,000 restaurants.",
+      "curiosidad": "It has been shrinking at home for ten years in a row: 729 US restaurants closed in 2025 alone.",
+      "fuente": "Subway, company figures (2025)",
+      "simulacion": {
+        "mediana": 25000,
+        "sigma": 1.0
+      },
+      "id": "e086"
+    },
+    {
+      "categoria": "World",
+      "pregunta": "How many post offices does the US Postal Service run?",
+      "unidad": "post offices",
+      "respuesta": 31132,
+      "pistas": [
+        "About 340 million people live in the United States.",
+        "There is one post office for roughly every 11,000 people."
+      ],
+      "explicacion": "340 million people / 11,000 ≈ 31,000. The Postal Service counts 31,132 post offices of its own.",
+      "curiosidad": "The number has barely moved in more than a decade: in 2012 there were 31,509.",
+      "fuente": "US Postal Service, Postal Facts",
+      "simulacion": {
+        "mediana": 20000,
+        "sigma": 1.1
+      },
+      "id": "e087"
+    },
+    {
+      "categoria": "Sports",
+      "pregunta": "How many people attended Wimbledon in 2026, adding up all the days of the tournament?",
+      "unidad": "people",
+      "respuesta": 550151,
+      "pistas": [
+        "The tournament lasts 14 days.",
+        "About 39,000 people come through the gates each day."
+      ],
+      "explicacion": "14 days × 39,000 people ≈ 550,000. Official attendance: 550,151.",
+      "curiosidad": "It was the first Wimbledon without a single rain delay since 2019.",
+      "fuente": "All England Lawn Tennis Club, attendance for the 2026 Championships",
+      "simulacion": {
+        "mediana": 300000,
+        "sigma": 1.0
+      },
+      "id": "e088"
+    },
+    {
+      "categoria": "Travel",
+      "pregunta": "How many people visited the British Museum in London in 2025?",
+      "unidad": "visitors",
+      "respuesta": 6440120,
+      "pistas": [
+        "Entry is free and it opens almost every day of the year.",
+        "Close to 18,000 people walk in on an average day."
+      ],
+      "explicacion": "17,800 visitors a day × 362 open days ≈ 6.4 million. Official figure for 2025: 6,440,120.",
+      "curiosidad": "After years as the UK's most visited attraction, it lost the top spot in 2025 to the Natural History Museum.",
+      "fuente": "Association of Leading Visitor Attractions (ALVA), visitor figures for 2025",
+      "simulacion": {
+        "mediana": 4000000,
+        "sigma": 0.9
+      },
+      "id": "e089"
+    },
+    {
+      "categoria": "Sports",
+      "pregunta": "What was the average crowd at an NFL regular-season game in 2025?",
+      "unidad": "people",
+      "respuesta": 69055,
+      "pistas": [
+        "NFL stadiums hold between about 60,000 and 82,000 people.",
+        "Nearly every game sells out."
+      ],
+      "explicacion": "With stadiums between 60,000 and 82,000 seats and almost all of them full, the average lands near 70,000. Reported average for 2025: 69,055.",
+      "curiosidad": "Games played abroad drew almost exactly the same: 68,763 on average.",
+      "fuente": "Sports Business Journal, NFL attendance for the 2025 season",
+      "simulacion": {
+        "mediana": 60000,
+        "sigma": 0.5
+      },
+      "id": "e090"
+    }
+  ],
+  "retos": [
+    {
+      "numero": 1,
+      "preguntas": [
+        "e001",
+        "e002",
+        "e031"
+      ]
+    },
+    {
+      "numero": 2,
+      "preguntas": [
+        "e086",
+        "e011",
+        "e064"
+      ]
+    },
+    {
+      "numero": 3,
+      "preguntas": [
+        "e085",
+        "e069",
+        "e036"
+      ]
+    },
+    {
+      "numero": 4,
+      "preguntas": [
+        "e008",
+        "e061",
+        "e035"
+      ]
+    },
+    {
+      "numero": 5,
+      "preguntas": [
+        "e020",
+        "e006",
+        "e045"
+      ]
+    },
+    {
+      "numero": 6,
+      "preguntas": [
+        "e043",
+        "e065",
+        "e075"
+      ]
+    },
+    {
+      "numero": 7,
+      "preguntas": [
+        "e027",
+        "e013",
+        "e038"
+      ]
+    },
+    {
+      "numero": 8,
+      "preguntas": [
+        "e046",
+        "e076",
+        "e029"
+      ]
+    },
+    {
+      "numero": 9,
+      "preguntas": [
+        "e081",
+        "e059",
+        "e037"
+      ]
+    },
+    {
+      "numero": 10,
+      "preguntas": [
+        "e057",
+        "e023",
+        "e074"
+      ]
+    },
+    {
+      "numero": 11,
+      "preguntas": [
+        "e032",
+        "e068",
+        "e083"
+      ]
+    },
+    {
+      "numero": 12,
+      "preguntas": [
+        "e063",
+        "e072",
+        "e077"
+      ]
+    },
+    {
+      "numero": 13,
+      "preguntas": [
+        "e054",
+        "e055",
+        "e049"
+      ]
+    },
+    {
+      "numero": 14,
+      "preguntas": [
+        "e066",
+        "e012",
+        "e025"
+      ]
+    },
+    {
+      "numero": 15,
+      "preguntas": [
+        "e007",
+        "e017",
+        "e053"
+      ]
+    },
+    {
+      "numero": 16,
+      "preguntas": [
+        "e071",
+        "e058",
+        "e082"
+      ]
+    },
+    {
+      "numero": 17,
+      "preguntas": [
+        "e022",
+        "e047",
+        "e087"
+      ]
+    },
+    {
+      "numero": 18,
+      "preguntas": [
+        "e014",
+        "e004",
+        "e050"
+      ]
+    },
+    {
+      "numero": 19,
+      "preguntas": [
+        "e026",
+        "e039",
+        "e041"
+      ]
+    },
+    {
+      "numero": 20,
+      "preguntas": [
+        "e070",
+        "e078",
+        "e003"
+      ]
+    },
+    {
+      "numero": 21,
+      "preguntas": [
+        "e080",
+        "e084",
+        "e019"
+      ]
+    },
+    {
+      "numero": 22,
+      "preguntas": [
+        "e067",
+        "e005",
+        "e088"
+      ]
+    },
+    {
+      "numero": 23,
+      "preguntas": [
+        "e056",
+        "e044",
+        "e062"
+      ]
+    },
+    {
+      "numero": 24,
+      "preguntas": [
+        "e060",
+        "e079",
+        "e073"
+      ]
+    },
+    {
+      "numero": 25,
+      "preguntas": [
+        "e052",
+        "e028",
+        "e034"
+      ]
+    },
+    {
+      "numero": 26,
+      "preguntas": [
+        "e090",
+        "e016",
+        "e010"
+      ]
+    },
+    {
+      "numero": 27,
+      "preguntas": [
+        "e009",
+        "e040",
+        "e030"
+      ]
+    },
+    {
+      "numero": 28,
+      "preguntas": [
+        "e018",
+        "e021",
+        "e024"
+      ]
+    },
+    {
+      "numero": 29,
+      "preguntas": [
+        "e048",
+        "e089",
+        "e051"
+      ]
+    },
+    {
+      "numero": 30,
+      "preguntas": [
+        "e015",
+        "e033",
+        "e042"
+      ]
+    }
+  ]
+}

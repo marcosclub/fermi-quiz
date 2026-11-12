@@ -1,0 +1,12 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["CP5RWVD6PJ.visualizer.aojo.app"],
+        "components": [
+          { "/": "/reto/", "?": { "n": "?*" }, "comment": "Enlaces de reto con número: abren la app si está instalada" }
+        ]
+      }
+    ]
+  }
+}

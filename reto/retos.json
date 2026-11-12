@@ -1,0 +1,3731 @@
+{
+  "fechaInicio": "2026-10-05",
+  "preguntas": [
+    {
+      "categoria": "Comparaciones",
+      "pregunta": "¿Cuántas torres Eiffel, apiladas una encima de otra, harían falta para llegar a la cima del Everest?",
+      "unidad": "torres Eiffel",
+      "respuesta": 26.8,
+      "pistas": [
+        "La torre Eiffel mide unos 330 metros, antena incluida.",
+        "El Everest mide 8.849 metros: basta con dividir."
+      ],
+      "explicacion": "Everest ≈ 8.849 m y torre Eiffel ≈ 330 m. 8.849 / 330 ≈ 27 torres. Truco: 330 × 30 = 9.900, que se pasa un poco, así que la respuesta está algo por debajo de 30.",
+      "curiosidad": "Los aviones comerciales vuelan a unos 11.000 m: hasta su altura de crucero harían falta unas 33 torres Eiffel.",
+      "fuente": "Cálculo con datos de la Société d'Exploitation de la Tour Eiffel (330 m) y National Geographic (8.849 m)",
+      "simulacion": {
+        "mediana": 22,
+        "sigma": 0.6
+      },
+      "id": "q001"
+    },
+    {
+      "categoria": "Tierra",
+      "pregunta": "En temporada turística, ¿cuántas piscinas olímpicas de agua caen por las cataratas del Niágara cada minuto?",
+      "unidad": "piscinas",
+      "respuesta": 68,
+      "pistas": [
+        "Una piscina olímpica tiene unos 2.500 m³ (50 × 25 × 2 m).",
+        "De día, en verano, caen unos 2.800 m³ de agua por segundo."
+      ],
+      "explicacion": "Caudal ≈ 2.800 m³/s. En un minuto: 2.800 × 60 = 168.000 m³. Dividido entre 2.500 m³ por piscina ≈ 67-68 piscinas olímpicas cada minuto: más de una por segundo.",
+      "curiosidad": "Por la noche y fuera de temporada se desvía la mitad del agua a las centrales hidroeléctricas. Las cataratas, literalmente, se «bajan» cuando no hay turistas.",
+      "fuente": "Niagara Parks Commission (100.000 pies³/s de día en temporada turística)",
+      "simulacion": {
+        "mediana": 15,
+        "sigma": 1.3
+      },
+      "id": "q002"
+    },
+    {
+      "categoria": "Espacio",
+      "pregunta": "¿Cuántos segundos han pasado desde el Big Bang?",
+      "unidad": "segundos",
+      "respuesta": 435000000000000000,
+      "pistas": [
+        "El universo tiene unos 13.800 millones de años.",
+        "Un año tiene unos 31,5 millones de segundos (365 × 24 × 3.600)."
+      ],
+      "explicacion": "Un año ≈ 3,15 × 10⁷ s. Por 13.800 millones de años (1,38 × 10¹⁰): 3,15 × 1,38 ≈ 4,35, y 10⁷ × 10¹⁰ = 10¹⁷. Unos 4,35 × 10¹⁷ segundos: 435.000 billones.",
+      "curiosidad": "Si cada segundo desde el Big Bang fuera un grano de arena, no llenarías ni el 6 % de todas las playas de la Tierra.",
+      "fuente": "Cálculo con la edad del universo según la misión Planck (ESA): 13.800 millones de años",
+      "simulacion": {
+        "mediana": 1000000000000000,
+        "sigma": 2.5
+      },
+      "id": "q003"
+    },
+    {
+      "categoria": "Tierra",
+      "pregunta": "¿Cuántas toneladas pesa toda la atmósfera de la Tierra?",
+      "unidad": "toneladas",
+      "respuesta": 5150000000000000,
+      "pistas": [
+        "La presión atmosférica equivale a tener unos 10.000 kg de aire encima de cada metro cuadrado.",
+        "La superficie de la Tierra es de unos 510 millones de km², es decir, 5,1 × 10¹⁴ m²."
+      ],
+      "explicacion": "Cada m² soporta ≈ 10 toneladas de aire. Superficie terrestre ≈ 5,1 × 10¹⁴ m². 10 × 5,1 × 10¹⁴ ≈ 5 × 10¹⁵ toneladas: cinco mil billones.",
+      "curiosidad": "Es apenas una millonésima parte de la masa de la Tierra. Si la Tierra fuera una manzana, la atmósfera sería más fina que su piel.",
+      "fuente": "NASA / NOAA (masa de la atmósfera ≈ 5,15 × 10¹⁸ kg)",
+      "simulacion": {
+        "mediana": 10000000000000,
+        "sigma": 3.0
+      },
+      "id": "q004"
+    },
+    {
+      "categoria": "Física",
+      "pregunta": "¿Cuántos átomos hay en una lata de refresco de aluminio vacía (15 gramos)?",
+      "unidad": "átomos",
+      "respuesta": 335000000000000000000000,
+      "pistas": [
+        "Un mol de aluminio pesa 27 gramos.",
+        "Un mol son 6 × 10²³ átomos (el número de Avogadro)."
+      ],
+      "explicacion": "15 g / 27 g por mol ≈ 0,55 moles. 0,55 × 6 × 10²³ ≈ 3,3 × 10²³ átomos: 330.000 trillones.",
+      "curiosidad": "Una gota de agua tiene unos 1,7 × 10²¹ moléculas, del mismo orden que vasos de agua caben en todos los océanos de la Tierra.",
+      "fuente": "Cálculo con la masa atómica del aluminio (26,98 g/mol) y la constante de Avogadro",
+      "simulacion": {
+        "mediana": 1000000000000000000,
+        "sigma": 4.0
+      },
+      "id": "q005"
+    },
+    {
+      "categoria": "Espacio",
+      "pregunta": "En una noche perfectamente oscura y con muy buena vista, ¿cuántas estrellas se pueden ver a simple vista como máximo en todo el cielo, sumando los dos hemisferios?",
+      "unidad": "estrellas",
+      "respuesta": 9000,
+      "pistas": [
+        "El ojo humano ve estrellas hasta la magnitud 6 o 6,5, más o menos.",
+        "Desde un mismo punto solo ves medio cielo, y cerca del horizonte se pierden muchas estrellas."
+      ],
+      "explicacion": "Los catálogos de estrellas visibles a simple vista (hasta la magnitud 6,5) recogen unas 9.000. Desde un sitio concreto ves la mitad, unas 4.500, y en la práctica unas 2.500, porque el horizonte se come muchas.",
+      "curiosidad": "Desde el centro de una gran ciudad, con la contaminación lumínica, apenas se ven unas pocas decenas.",
+      "fuente": "Yale Bright Star Catalogue (≈ 9.100 estrellas hasta la magnitud 6,5)",
+      "simulacion": {
+        "mediana": 3000,
+        "sigma": 1.4
+      },
+      "id": "q006"
+    },
+    {
+      "categoria": "Espacio",
+      "pregunta": "¿Cuántos móviles, apilados uno encima de otro, harían falta para llegar a la Luna?",
+      "unidad": "móviles",
+      "respuesta": 48000000000,
+      "pistas": [
+        "Un móvil mide unos 8 mm de grosor.",
+        "La Luna está a unos 384.000 km de la Tierra."
+      ],
+      "explicacion": "384.000 km = 384.000.000 m = 3,84 × 10¹¹ mm. Dividido entre 8 mm: ≈ 4,8 × 10¹⁰. Unos 48.000 millones de móviles.",
+      "curiosidad": "En el mundo hay unos 7.000 millones de móviles en uso: apilados, solo llegarían a una séptima parte del camino.",
+      "fuente": "Cálculo con la distancia media Tierra-Luna (NASA: 384.400 km)",
+      "simulacion": {
+        "mediana": 1000000000,
+        "sigma": 2.0
+      },
+      "id": "q007"
+    },
+    {
+      "categoria": "Espacio",
+      "pregunta": "¿Cuántas personas, cada una de pie sobre los hombros de la anterior, harían falta para llegar a la Estación Espacial Internacional?",
+      "unidad": "personas",
+      "respuesta": 270000,
+      "pistas": [
+        "La Estación Espacial orbita a unos 400 km de altura.",
+        "Cada persona añade a la torre solo la altura hasta sus hombros, aproximadamente 1,5 m."
+      ],
+      "explicacion": "Unos 400.000 m de altura entre 1,5 m por persona ≈ 270.000 personas: casi todos los habitantes de Valladolid.",
+      "curiosidad": "La Estación Espacial da una vuelta a la Tierra cada 90 minutos, a unos 28.000 km/h.",
+      "fuente": "Cálculo con la altitud media de la ISS (NASA: ≈ 400-420 km)",
+      "simulacion": {
+        "mediana": 100000,
+        "sigma": 1.3
+      },
+      "id": "q008"
+    },
+    {
+      "categoria": "Absurdo",
+      "pregunta": "¿Cuántas pelotas de tenis caben en una piscina olímpica?",
+      "unidad": "pelotas",
+      "respuesta": 10000000,
+      "pistas": [
+        "Una piscina olímpica tiene unos 2.500 m³.",
+        "Una pelota de tenis mide unos 6,7 cm de diámetro, y al amontonar esferas, solo un 64 % del espacio queda ocupado."
+      ],
+      "explicacion": "Volumen de una pelota ≈ 4/3 × π × (3,35 cm)³ ≈ 157 cm³ = 1,57 × 10⁻⁴ m³. Espacio útil: 2.500 × 0,64 = 1.600 m³. 1.600 / 1,57 × 10⁻⁴ ≈ 10 millones de pelotas.",
+      "curiosidad": "En Wimbledon se usan unas 55.000 pelotas por torneo: no llenarían ni el 1 % de la piscina.",
+      "fuente": "Cálculo con las medidas de la ITF (pelota de 6,54-6,86 cm) y de World Aquatics (piscina de 50 × 25 × 2 m)",
+      "simulacion": {
+        "mediana": 1000000,
+        "sigma": 1.6
+      },
+      "id": "q009"
+    },
+    {
+      "categoria": "Cuerpo humano",
+      "pregunta": "¿Cuántas veces late el corazón de una persona a lo largo de 80 años de vida?",
+      "unidad": "latidos",
+      "respuesta": 2950000000,
+      "pistas": [
+        "En reposo, el corazón late unas 70 veces por minuto.",
+        "Un año tiene unos 525.000 minutos."
+      ],
+      "explicacion": "70 latidos/min × 525.600 min/año ≈ 36,8 millones de latidos al año. Por 80 años ≈ 2.950 millones de latidos.",
+      "curiosidad": "Muchos mamíferos viven, en total, del orden de mil millones de latidos, ya sean ratones o elefantes. Los humanos, con la medicina moderna, casi triplicamos esa cifra.",
+      "fuente": "Cálculo con la frecuencia cardiaca media en reposo (60-100 lpm, American Heart Association)",
+      "simulacion": {
+        "mediana": 500000000,
+        "sigma": 1.5
+      },
+      "id": "q010"
+    },
+    {
+      "categoria": "Vida diaria",
+      "pregunta": "¿Cuántos kilómetros rueda un neumático de coche normal antes de gastarse del todo?",
+      "unidad": "km",
+      "respuesta": 50000,
+      "pistas": [
+        "Un neumático nuevo tiene unos 8 mm de dibujo, y debe cambiarse con 1,6 mm.",
+        "En cada vuelta, la rueda, de unos 2 m de circunferencia, pierde una parte minúscula de goma."
+      ],
+      "explicacion": "Los fabricantes suelen garantizar entre 40.000 y 60.000 km. Otra forma de verlo: se gastan unos 6,4 mm en unos 25 millones de vueltas (50.000 km / 2 m), es decir, ¡una cuarta parte de un nanómetro por vuelta!",
+      "curiosidad": "Ese desgaste genera partículas de goma: el polvo de neumáticos es una de las mayores fuentes de microplásticos del mundo.",
+      "fuente": "Fabricantes de neumáticos (Michelin, Bridgestone): vida útil media de 40.000-60.000 km",
+      "simulacion": {
+        "mediana": 30000,
+        "sigma": 0.9
+      },
+      "id": "q011"
+    },
+    {
+      "categoria": "Tierra",
+      "pregunta": "¿Cuántos granos de arena hay en todas las playas de la Tierra?",
+      "unidad": "granos",
+      "respuesta": 7500000000000000000,
+      "pistas": [
+        "Un grano de arena mide alrededor de 1 mm: en un metro cúbico caben unos 1.000 millones.",
+        "Imagina que un tercio de los ~350.000 km de costa del mundo son playas de 50 m de ancho con algo más de un metro de arena."
+      ],
+      "explicacion": "117.000 km de playa × 50 m × 1,3 m ≈ 7,6 × 10⁹ m³ de arena. Por 10⁹ granos/m³ ≈ 7,5 × 10¹⁸ granos: siete trillones y medio. Con suposiciones algo distintas sale entre 10¹⁸ y 10²⁰: lo importante es acertar el orden de magnitud.",
+      "curiosidad": "Se calcula que hay más estrellas en el universo observable que granos de arena en todas las playas.",
+      "fuente": "Estimación clásica atribuida a investigadores de la Universidad de Hawái (difundida por NPR)",
+      "simulacion": {
+        "mediana": 1000000000000000,
+        "sigma": 4.0
+      },
+      "id": "q012"
+    },
+    {
+      "categoria": "Espacio",
+      "pregunta": "¿Cuántos kilómetros recorre la Tierra en su órbita alrededor del Sol cada día?",
+      "unidad": "km",
+      "respuesta": 2570000,
+      "pistas": [
+        "La Tierra está a unos 150 millones de km del Sol.",
+        "La órbita es casi un círculo, así que mide 2π × 150 millones de km, y se recorre en 365 días."
+      ],
+      "explicacion": "Perímetro de la órbita ≈ 2 × 3,14 × 150 M km ≈ 940 millones de km. Entre 365 días ≈ 2,6 millones de km al día. Unos 107.000 km/h.",
+      "curiosidad": "Mientras lees esta frase, has viajado unos 300 km por el espacio sin moverte de la silla.",
+      "fuente": "Cálculo con la distancia media Tierra-Sol (1 UA = 149,6 millones de km)",
+      "simulacion": {
+        "mediana": 100000,
+        "sigma": 2.0
+      },
+      "id": "q013"
+    },
+    {
+      "categoria": "Cuerpo humano",
+      "pregunta": "¿Cuántos litros de sangre bombea el corazón humano en un día?",
+      "unidad": "litros",
+      "respuesta": 7000,
+      "pistas": [
+        "En cada latido el corazón impulsa unos 70 ml de sangre.",
+        "Late unas 70 veces por minuto, y un día tiene 1.440 minutos."
+      ],
+      "explicacion": "70 ml × 70 latidos = 4,9 litros por minuto. 4,9 × 1.440 minutos ≈ 7.000 litros al día. Toda la sangre del cuerpo, unos 5 litros, da una vuelta completa cada minuto.",
+      "curiosidad": "En una vida de 80 años, el corazón bombea unos 200 millones de litros: suficiente para llenar 80 piscinas olímpicas.",
+      "fuente": "Cálculo con el gasto cardiaco medio en reposo (≈ 5 L/min)",
+      "simulacion": {
+        "mediana": 1000,
+        "sigma": 1.3
+      },
+      "id": "q014"
+    },
+    {
+      "categoria": "Vida diaria",
+      "pregunta": "Si cuentas en voz alta sin parar, a razón de un número por segundo, ¿cuántos días tardarías en llegar a un millón?",
+      "unidad": "días",
+      "respuesta": 11.6,
+      "pistas": [
+        "Un día tiene 86.400 segundos.",
+        "Un millón de segundos entre 86.400."
+      ],
+      "explicacion": "1.000.000 / 86.400 ≈ 11,6 días contando sin dormir. En realidad, decir «setecientos ochenta y cuatro mil trescientos noventa y dos» lleva varios segundos, y tardarías meses.",
+      "curiosidad": "Mil millones de segundos son casi 32 años. Esa es la diferencia entre un millón y mil millones.",
+      "fuente": "Cálculo directo",
+      "simulacion": {
+        "mediana": 30,
+        "sigma": 1.0
+      },
+      "id": "q015"
+    },
+    {
+      "categoria": "Física",
+      "pregunta": "¿Cuántas vueltas al ecuador de la Tierra podría dar la luz en un segundo?",
+      "unidad": "vueltas",
+      "respuesta": 7.5,
+      "pistas": [
+        "La luz viaja a unos 300.000 km por segundo.",
+        "El ecuador mide unos 40.000 km."
+      ],
+      "explicacion": "300.000 / 40.000 = 7,5 vueltas por segundo.",
+      "curiosidad": "La luz del Sol tarda unos 8 minutos y 20 segundos en llegar a la Tierra: la ves como era hace ese tiempo.",
+      "fuente": "Cálculo con la velocidad de la luz (299.792 km/s) y la circunferencia ecuatorial (40.075 km)",
+      "simulacion": {
+        "mediana": 5,
+        "sigma": 1.0
+      },
+      "id": "q016"
+    },
+    {
+      "categoria": "Espacio",
+      "pregunta": "¿Cuántas Tierras cabrían dentro del Sol?",
+      "unidad": "Tierras",
+      "respuesta": 1300000,
+      "pistas": [
+        "El diámetro del Sol es unas 109 veces el de la Tierra.",
+        "El volumen crece con el cubo del tamaño."
+      ],
+      "explicacion": "109³ = 109 × 109 × 109 ≈ 1,3 millones. Cabrían 1,3 millones de Tierras (sin dejar huecos).",
+      "curiosidad": "El Sol es más grande que la mayoría de estrellas, pero Betelgeuse, en Orión, es tan enorme que en su lugar se tragaría la órbita de Marte.",
+      "fuente": "NASA (radio solar 696.000 km; radio terrestre 6.371 km)",
+      "simulacion": {
+        "mediana": 10000,
+        "sigma": 2.0
+      },
+      "id": "q017"
+    },
+    {
+      "categoria": "España",
+      "pregunta": "¿Cuántas Giraldas de Sevilla, apiladas una encima de otra, harían falta para igualar la altura del Teide?",
+      "unidad": "Giraldas",
+      "respuesta": 35.7,
+      "pistas": [
+        "La Giralda mide unos 104 metros, Giraldillo incluido.",
+        "El Teide mide 3.715 m sobre el nivel del mar."
+      ],
+      "explicacion": "3.715 / 104 ≈ 36 Giraldas. Truco: 100 × 37 = 3.700, así que salen algo menos de 37.",
+      "curiosidad": "Medido desde el fondo del océano, el Teide supera los 7.000 m: harían falta más de 70 Giraldas.",
+      "fuente": "Cálculo con datos del Instituto Geográfico Nacional (3.715 m) y del Cabildo de la Catedral de Sevilla (≈ 104 m)",
+      "simulacion": {
+        "mediana": 30,
+        "sigma": 0.6
+      },
+      "id": "q018"
+    },
+    {
+      "categoria": "España",
+      "pregunta": "¿Cuántos bares hay en España?",
+      "unidad": "bares",
+      "respuesta": 163000,
+      "pistas": [
+        "España tiene unos 49 millones de habitantes.",
+        "Piensa en un pueblo de 1.000 habitantes: ¿cuántos bares tiene? Normalmente tres o cuatro."
+      ],
+      "explicacion": "Si hay un bar por cada 300 personas: 49.000.000 / 300 ≈ 163.000 bares. El recuento oficial da casi exactamente eso.",
+      "curiosidad": "En 2010 se superaban los 200.000. Aun así, España sigue teniendo una de las mayores densidades de bares del mundo.",
+      "fuente": "Anuario de la Hostelería de España 2024 (163.491 bares)",
+      "simulacion": {
+        "mediana": 80000,
+        "sigma": 1.1
+      },
+      "id": "q019"
+    },
+    {
+      "categoria": "España",
+      "pregunta": "¿Cuántas flores de azafrán hacen falta para obtener un kilo de azafrán?",
+      "unidad": "flores",
+      "respuesta": 200000,
+      "pistas": [
+        "Cada flor da solo tres hilitos rojos (los estigmas).",
+        "Los tres estigmas de una flor, secos, pesan unos 5 miligramos."
+      ],
+      "explicacion": "1 kg = 1.000.000 mg. Entre 5 mg por flor: 200.000 flores, todas recogidas y desbriznadas a mano.",
+      "curiosidad": "Por eso le llaman «oro rojo»: un kilo de azafrán de La Mancha puede costar varios miles de euros.",
+      "fuente": "MAPA / Consejo Regulador de la DOP Azafrán de La Mancha (entre 150.000 y 250.000 flores por kilo)",
+      "simulacion": {
+        "mediana": 10000,
+        "sigma": 1.4
+      },
+      "id": "q020"
+    },
+    {
+      "categoria": "España",
+      "pregunta": "¿Cuántas veces habría que llenar el estadio Santiago Bernabéu para que pasara por él toda la población de España?",
+      "unidad": "estadios",
+      "respuesta": 630,
+      "pistas": [
+        "En el Bernabéu caben unas 78.000 personas.",
+        "España tiene unos 49 millones de habitantes."
+      ],
+      "explicacion": "49.000.000 / 78.000 ≈ 630 llenos. Con un partido en casa cada dos semanas, harían falta unos 24 años.",
+      "curiosidad": "Toda la población mundial, unos 8.200 millones, necesitaría más de 100.000 llenos.",
+      "fuente": "Cálculo con datos del INE (49,4 M habitantes) y del Real Madrid (aforo 78.297)",
+      "simulacion": {
+        "mediana": 300,
+        "sigma": 0.9
+      },
+      "id": "q021"
+    },
+    {
+      "categoria": "Cuerpo humano",
+      "pregunta": "¿Cuántos pasos harían falta para dar la vuelta al mundo caminando por el ecuador?",
+      "unidad": "pasos",
+      "respuesta": 53000000,
+      "pistas": [
+        "El ecuador mide unos 40.000 km.",
+        "Un paso normal de adulto mide unos 75 cm."
+      ],
+      "explicacion": "40.000 km = 40.000.000 m. Entre 0,75 m por paso ≈ 53 millones de pasos. Andando 10.000 pasos al día, tardarías unos 15 años.",
+      "curiosidad": "Mucha gente da esos 53 millones de pasos a lo largo de su vida sin salir de su ciudad.",
+      "fuente": "Cálculo con la circunferencia ecuatorial (40.075 km)",
+      "simulacion": {
+        "mediana": 10000000,
+        "sigma": 1.4
+      },
+      "id": "q022"
+    },
+    {
+      "categoria": "Cuerpo humano",
+      "pregunta": "¿Cuántas veces respira una persona a lo largo de 80 años de vida?",
+      "unidad": "respiraciones",
+      "respuesta": 630000000,
+      "pistas": [
+        "En reposo, un adulto respira unas 15 veces por minuto.",
+        "Un año tiene unos 525.000 minutos."
+      ],
+      "explicacion": "15 × 525.600 ≈ 7,9 millones de respiraciones al año. Por 80 años ≈ 630 millones.",
+      "curiosidad": "En cada respiración mueves medio litro de aire: en una vida, unos 300 millones de litros.",
+      "fuente": "Cálculo con la frecuencia respiratoria adulta en reposo (12-20 por minuto)",
+      "simulacion": {
+        "mediana": 100000000,
+        "sigma": 1.4
+      },
+      "id": "q023"
+    },
+    {
+      "categoria": "Cuerpo humano",
+      "pregunta": "¿Cuántas palabras dice al día, de media, una persona adulta?",
+      "unidad": "palabras",
+      "respuesta": 16000,
+      "pistas": [
+        "Al hablar decimos unas 150 palabras por minuto.",
+        "Piensa cuánto tiempo hablas en total en un día: entre conversaciones, llamadas y comentarios sueltos, quizás menos de dos horas."
+      ],
+      "explicacion": "Unos 110 minutos de habla efectiva × 150 palabras por minuto ≈ 16.500. Un estudio que grabó a cientos de personas durante días obtuvo unas 16.000 palabras al día, casi igual en hombres que en mujeres.",
+      "curiosidad": "El estudio desmontó el mito de que las mujeres hablan el triple que los hombres: la diferencia fue mínima.",
+      "fuente": "Mehl et al., «Are Women Really More Talkative Than Men?», Science (2007)",
+      "simulacion": {
+        "mediana": 5000,
+        "sigma": 1.0
+      },
+      "id": "q024"
+    },
+    {
+      "categoria": "Vida diaria",
+      "pregunta": "¿Cuántas gotas de agua caben en una bañera llena?",
+      "unidad": "gotas",
+      "respuesta": 3000000,
+      "pistas": [
+        "Una bañera llena tiene unos 150 litros.",
+        "En un mililitro caben unas 20 gotas."
+      ],
+      "explicacion": "150 litros = 150.000 ml. A 20 gotas por ml: 3.000.000 de gotas.",
+      "curiosidad": "Un grifo que gotea una vez por segundo tardaría unos 35 días en llenarla.",
+      "fuente": "Cálculo con el volumen estándar de una gota (≈ 0,05 ml)",
+      "simulacion": {
+        "mediana": 500000,
+        "sigma": 1.5
+      },
+      "id": "q025"
+    },
+    {
+      "categoria": "Cuerpo humano",
+      "pregunta": "Según la estimación clásica de la fisiología, si se pusieran en fila todos los vasos sanguíneos de un adulto, ¿cuántos kilómetros medirían?",
+      "unidad": "km",
+      "respuesta": 100000,
+      "pistas": [
+        "La inmensa mayoría son capilares, más finos que un pelo, y están por todas partes.",
+        "Ninguna célula del cuerpo está a más de unas décimas de milímetro de un capilar."
+      ],
+      "explicacion": "Hay decenas de miles de millones de capilares, de alrededor de 1 mm de largo cada uno: 40.000 millones de mm ya son 40.000 km. La cifra clásica, contando arterias y venas y con supuestos generosos, es de unos 100.000 km. Las estimaciones recientes la rebajan algo.",
+      "curiosidad": "Son unas dos vueltas y media a la Tierra por el ecuador, metidas en un solo cuerpo.",
+      "fuente": "Estimación clásica de fisiología (Krogh); citada por el Franklin Institute",
+      "simulacion": {
+        "mediana": 1000,
+        "sigma": 1.8
+      },
+      "id": "q026"
+    },
+    {
+      "categoria": "Cuerpo humano",
+      "pregunta": "¿Cuántas células tiene el cuerpo de un adulto?",
+      "unidad": "células",
+      "respuesta": 30000000000000,
+      "pistas": [
+        "Un adulto tiene unos 5 litros de sangre, y en cada microlitro hay unos 5 millones de glóbulos rojos.",
+        "Los glóbulos rojos son, con diferencia, el tipo de célula más abundante: más de 8 de cada 10."
+      ],
+      "explicacion": "5 litros = 5.000.000 µl. Por 5 millones de glóbulos rojos/µl = 2,5 × 10¹³ glóbulos rojos. Si son el 84 % de todas las células: unos 3 × 10¹³, es decir, 30 billones de células.",
+      "curiosidad": "Además, llevas unas 38 billones de bacterias, más o menos tantas como células propias.",
+      "fuente": "Sender, Fuchs y Milo, PLoS Biology (2016)",
+      "simulacion": {
+        "mediana": 1000000000000,
+        "sigma": 2.5
+      },
+      "id": "q027"
+    },
+    {
+      "categoria": "Cuerpo humano",
+      "pregunta": "¿Cuántas veces parpadea una persona en un día?",
+      "unidad": "parpadeos",
+      "respuesta": 14400,
+      "pistas": [
+        "Parpadeamos unas 15 veces por minuto.",
+        "Estamos despiertos unas 16 horas al día."
+      ],
+      "explicacion": "15 × 60 = 900 parpadeos por hora. Por 16 horas = 14.400 al día.",
+      "curiosidad": "Cada parpadeo dura entre 0,1 y 0,4 s: en total pasas entre media hora y hora y media diaria con los ojos cerrados estando despierto.",
+      "fuente": "Cálculo con la frecuencia media de parpadeo (15-20 por minuto)",
+      "simulacion": {
+        "mediana": 5000,
+        "sigma": 1.0
+      },
+      "id": "q028"
+    },
+    {
+      "categoria": "Cuerpo humano",
+      "pregunta": "En una vida de 80 años, ¿cuántos años pasamos durmiendo?",
+      "unidad": "años",
+      "respuesta": 26.7,
+      "pistas": [
+        "Un adulto duerme unas 8 horas al día; los niños, bastante más.",
+        "8 horas son un tercio del día."
+      ],
+      "explicacion": "Un tercio de 80 años ≈ 26,7 años. Los bebés duermen 14-17 horas y los mayores, algo menos de 8, así que la cuenta se compensa.",
+      "curiosidad": "Pasamos unos 6 de esos años soñando, en la fase REM.",
+      "fuente": "Cálculo con las horas de sueño recomendadas (National Sleep Foundation)",
+      "simulacion": {
+        "mediana": 20,
+        "sigma": 0.5
+      },
+      "id": "q029"
+    },
+    {
+      "categoria": "Cuerpo humano",
+      "pregunta": "¿Cuántos kilómetros camina una persona a lo largo de 80 años de vida?",
+      "unidad": "km",
+      "respuesta": 164000,
+      "pistas": [
+        "Una persona media da unos 7.500 pasos al día.",
+        "Cada paso mide unos 75 cm."
+      ],
+      "explicacion": "7.500 × 0,75 m ≈ 5,6 km al día. Por 365 días y 80 años ≈ 164.000 km.",
+      "curiosidad": "Es como dar cuatro vueltas a la Tierra, o más del 40 % del camino a la Luna.",
+      "fuente": "Cálculo con la media de pasos diarios en adultos (estudios con podómetros: 5.000-10.000)",
+      "simulacion": {
+        "mediana": 50000,
+        "sigma": 1.2
+      },
+      "id": "q030"
+    },
+    {
+      "categoria": "Cuerpo humano",
+      "pregunta": "Si nunca te cortaras una uña de la mano, ¿cuántos metros llegaría a medir en 80 años?",
+      "unidad": "m",
+      "respuesta": 3.3,
+      "pistas": [
+        "Las uñas de las manos crecen unos 3,5 mm al mes.",
+        "80 años son 960 meses."
+      ],
+      "explicacion": "3,5 mm × 960 meses ≈ 3.360 mm ≈ 3,3 metros.",
+      "curiosidad": "Las uñas de los pies crecen a menos de la mitad de velocidad, y las de la mano dominante, algo más deprisa.",
+      "fuente": "Yaemsiri et al., Journal of the European Academy of Dermatology and Venereology (2010)",
+      "simulacion": {
+        "mediana": 1,
+        "sigma": 1.2
+      },
+      "id": "q031"
+    },
+    {
+      "categoria": "Cuerpo humano",
+      "pregunta": "Sumando todos los pelos de tu cabeza, ¿cuántos metros de pelo te crecen en un día?",
+      "unidad": "m",
+      "respuesta": 35,
+      "pistas": [
+        "En la cabeza tenemos unos 100.000 pelos.",
+        "Cada pelo crece aproximadamente un centímetro al mes, unos 0,35 mm al día."
+      ],
+      "explicacion": "100.000 pelos × 0,35 mm = 35.000 mm = 35 metros de pelo nuevo cada día.",
+      "curiosidad": "Al año son unos 13 km de pelo: la distancia entre el centro de Madrid y Barajas.",
+      "fuente": "Cálculo con datos de la Academia Americana de Dermatología (≈ 100.000 pelos; ≈ 1-1,25 cm al mes)",
+      "simulacion": {
+        "mediana": 1,
+        "sigma": 1.8
+      },
+      "id": "q032"
+    },
+    {
+      "categoria": "Tierra",
+      "pregunta": "¿Cuántos árboles hay en la Tierra?",
+      "unidad": "árboles",
+      "respuesta": 3000000000000,
+      "pistas": [
+        "Los bosques cubren unos 40 millones de km², casi un tercio de la tierra firme.",
+        "Un bosque tiene, de media, del orden de 50.000-100.000 árboles por km²."
+      ],
+      "explicacion": "40 millones de km² × 75.000 árboles/km² ≈ 3 × 10¹². Un estudio que combinó imágenes de satélite con mediciones sobre el terreno obtuvo unos 3,04 billones de árboles.",
+      "curiosidad": "Son unos 370 árboles por persona. Desde el inicio de la agricultura, la humanidad ha talado casi la mitad de los que había.",
+      "fuente": "Crowther et al., «Mapping tree density at a global scale», Nature (2015)",
+      "simulacion": {
+        "mediana": 100000000000,
+        "sigma": 2.3
+      },
+      "id": "q033"
+    },
+    {
+      "categoria": "Tierra",
+      "pregunta": "¿Cuántas hormigas hay en la Tierra?",
+      "unidad": "hormigas",
+      "respuesta": 20000000000000000,
+      "pistas": [
+        "En un metro cuadrado de suelo de un bosque o una pradera puede haber cientos de hormigas.",
+        "La superficie de tierra firme es de unos 150 millones de km², es decir, 1,5 × 10¹⁴ m²."
+      ],
+      "explicacion": "Unas 130 hormigas por m² × 1,5 × 10¹⁴ m² ≈ 2 × 10¹⁶. Un estudio que reunió casi 500 muestreos obtuvo unos 20.000 billones de hormigas.",
+      "curiosidad": "Juntas pesan unos 12 millones de toneladas de carbono: más que todas las aves y mamíferos salvajes juntos.",
+      "fuente": "Schultheiss et al., PNAS (2022)",
+      "simulacion": {
+        "mediana": 1000000000000,
+        "sigma": 3.0
+      },
+      "id": "q034"
+    },
+    {
+      "categoria": "Tierra",
+      "pregunta": "¿Cuántos rayos caen (o destellan) en la Tierra cada segundo?",
+      "unidad": "rayos",
+      "respuesta": 44,
+      "pistas": [
+        "En cada momento hay unas 2.000 tormentas activas en el planeta.",
+        "Una tormenta típica produce un rayo cada minuto, más o menos."
+      ],
+      "explicacion": "2.000 tormentas × 1 rayo/minuto = 2.000 rayos por minuto ≈ 33 por segundo. Los satélites de la NASA miden unos 44 por segundo: unos 1.400 millones al año.",
+      "curiosidad": "El lago de Maracaibo (Venezuela) es el lugar con más rayos del mundo: hay tormenta entre 260 y 300 noches al año.",
+      "fuente": "NASA, Lightning Imaging Sensor (44 ± 5 destellos por segundo)",
+      "simulacion": {
+        "mediana": 100,
+        "sigma": 1.5
+      },
+      "id": "q035"
+    },
+    {
+      "categoria": "Tierra",
+      "pregunta": "¿Cuántos litros de agua hay en todos los océanos?",
+      "unidad": "litros",
+      "respuesta": 1335000000000000000000,
+      "pistas": [
+        "Los océanos cubren el 71 % de la superficie terrestre, unos 360 millones de km².",
+        "Su profundidad media es de unos 3,7 km. Y 1 km³ son 10¹² litros."
+      ],
+      "explicacion": "360.000.000 km² × 3,7 km ≈ 1.330 millones de km³. Por 10¹² litros/km³ ≈ 1,3 × 10²¹ litros: 1.300 trillones.",
+      "curiosidad": "Si se repartiera, tocaríamos a unos 160.000 millones de litros por persona.",
+      "fuente": "NOAA / USGS (volumen de los océanos ≈ 1.335 millones de km³)",
+      "simulacion": {
+        "mediana": 10000000000000000,
+        "sigma": 3.0
+      },
+      "id": "q036"
+    },
+    {
+      "categoria": "Comparaciones",
+      "pregunta": "Si se fundiera todo el oro extraído en la historia en un solo cubo, ¿cuántos metros mediría cada lado?",
+      "unidad": "m",
+      "respuesta": 22,
+      "pistas": [
+        "En toda la historia se han extraído unas 216.000 toneladas de oro.",
+        "El oro es muy denso: un metro cúbico pesa unas 19 toneladas."
+      ],
+      "explicacion": "216.000 / 19,3 ≈ 11.200 m³. La raíz cúbica de 11.200 ≈ 22,4 m. Un cubo de la altura de un edificio de 7 plantas.",
+      "curiosidad": "Ocuparía menos de una décima parte de un campo de fútbol. Aun así, a precios actuales valdría más de 20 billones de euros.",
+      "fuente": "World Gold Council (≈ 216.265 t extraídas hasta 2024)",
+      "simulacion": {
+        "mediana": 200,
+        "sigma": 1.3
+      },
+      "id": "q037"
+    },
+    {
+      "categoria": "Espacio",
+      "pregunta": "Si pudieras ir en coche a la Luna a 100 km/h sin parar, ¿cuántos días tardarías?",
+      "unidad": "días",
+      "respuesta": 160,
+      "pistas": [
+        "La Luna está a unos 384.000 km.",
+        "A 100 km/h recorres 2.400 km al día."
+      ],
+      "explicacion": "384.000 / 100 = 3.840 horas. Entre 24 horas por día ≈ 160 días, más de cinco meses sin parar.",
+      "curiosidad": "Los astronautas del Apolo tardaron unos 3 días, a una media de unos 5.000 km/h.",
+      "fuente": "Cálculo con la distancia media Tierra-Luna (NASA: 384.400 km)",
+      "simulacion": {
+        "mediana": 60,
+        "sigma": 1.2
+      },
+      "id": "q038"
+    },
+    {
+      "categoria": "Vida diaria",
+      "pregunta": "¿Cuántos granos hay en un paquete de un kilo de arroz?",
+      "unidad": "granos",
+      "respuesta": 45000,
+      "pistas": [
+        "Un grano de arroz pesa algo más de 20 miligramos.",
+        "Un kilo son un millón de miligramos."
+      ],
+      "explicacion": "1.000.000 mg / 22 mg ≈ 45.000 granos. Con arroz redondo, que es más gordo, salen menos; con basmati, más.",
+      "curiosidad": "Una paella para cuatro lleva unos 400 g de arroz: unos 18.000 granos de arroz largo, algo menos si es bomba.",
+      "fuente": "Cálculo con el peso medio del grano de arroz (≈ 20-25 mg)",
+      "simulacion": {
+        "mediana": 10000,
+        "sigma": 1.2
+      },
+      "id": "q039"
+    },
+    {
+      "categoria": "Sociedad",
+      "pregunta": "¿Cuántos seres humanos han vivido en toda la historia, desde los primeros Homo sapiens?",
+      "unidad": "personas",
+      "respuesta": 117000000000,
+      "pistas": [
+        "Hoy vivimos unos 8.200 millones, pero durante casi toda la historia la población fue mucho menor.",
+        "Durante milenios la mortalidad infantil fue altísima: nacieron muchísimas más personas de las que llegaron a adultas."
+      ],
+      "explicacion": "Desde hace unos 190.000 años, con poblaciones pequeñas y vidas muy cortas, se acumulan miles de generaciones. Los demógrafos calculan unos 117.000 millones de nacimientos en total.",
+      "curiosidad": "Es decir, de cada 14 personas que han existido, una vive hoy.",
+      "fuente": "Population Reference Bureau, «How Many People Have Ever Lived on Earth?» (2022)",
+      "simulacion": {
+        "mediana": 50000000000,
+        "sigma": 1.5
+      },
+      "id": "q040"
+    },
+    {
+      "categoria": "Sociedad",
+      "pregunta": "¿Cuántos bebés nacen en el mundo cada minuto?",
+      "unidad": "bebés",
+      "respuesta": 250,
+      "pistas": [
+        "En el mundo nacen unos 130 millones de bebés al año.",
+        "Un año tiene unos 525.000 minutos."
+      ],
+      "explicacion": "132.000.000 / 525.600 ≈ 250 bebés por minuto, unos 4 cada segundo.",
+      "curiosidad": "En ese mismo minuto mueren unas 120 personas, así que la población mundial crece en unas 130 personas por minuto.",
+      "fuente": "Naciones Unidas, World Population Prospects 2024",
+      "simulacion": {
+        "mediana": 100,
+        "sigma": 1.2
+      },
+      "id": "q041"
+    },
+    {
+      "categoria": "Sociedad",
+      "pregunta": "¿Cuántas personas en el mundo celebran su cumpleaños hoy?",
+      "unidad": "personas",
+      "respuesta": 22500000,
+      "pistas": [
+        "Somos unos 8.200 millones de personas.",
+        "Los cumpleaños se reparten más o menos por igual entre los 365 días del año."
+      ],
+      "explicacion": "8.200.000.000 / 365 ≈ 22,5 millones de personas: más que toda la población de Rumanía.",
+      "curiosidad": "Los cumpleaños no se reparten del todo por igual: en muchos países el mes de septiembre es el de más nacimientos.",
+      "fuente": "Cálculo con la población mundial (ONU, 2025)",
+      "simulacion": {
+        "mediana": 5000000,
+        "sigma": 1.4
+      },
+      "id": "q042"
+    },
+    {
+      "categoria": "Sociedad",
+      "pregunta": "¿Cuántos vehículos (coches, furgonetas, autobuses y camiones) hay en circulación en el mundo?",
+      "unidad": "vehículos",
+      "respuesta": 1500000000,
+      "pistas": [
+        "En Europa y EE. UU. hay más de un coche por cada dos personas; en gran parte de África y Asia, muy pocos.",
+        "La población mundial es de unos 8.200 millones."
+      ],
+      "explicacion": "Si la media mundial es de un vehículo por cada 5-6 personas: 8.200 M / 5,5 ≈ 1.500 millones.",
+      "curiosidad": "China tiene ya más coches que Estados Unidos, unos 350 millones.",
+      "fuente": "OICA / estimaciones de la industria (≈ 1.500 millones de vehículos ligeros)",
+      "simulacion": {
+        "mediana": 800000000,
+        "sigma": 0.9
+      },
+      "id": "q043"
+    },
+    {
+      "categoria": "Sociedad",
+      "pregunta": "¿Cuántas tazas de café se beben en el mundo cada día?",
+      "unidad": "tazas",
+      "respuesta": 2250000000,
+      "pistas": [
+        "En el mundo se producen unos 10 millones de toneladas de café al año.",
+        "Para una taza hacen falta unos 10 gramos de café."
+      ],
+      "explicacion": "10.000.000 t = 10¹³ g. A 10 g por taza = 10¹² tazas al año, unas 2.700 millones diarias. Parte del café se pierde o se usa en la industria, y la cifra más citada ronda los 2.250 millones.",
+      "curiosidad": "Finlandia es el país que más café bebe por persona: casi 4 tazas al día.",
+      "fuente": "International Coffee Organization / British Coffee Association",
+      "simulacion": {
+        "mediana": 1000000000,
+        "sigma": 1.1
+      },
+      "id": "q044"
+    },
+    {
+      "categoria": "Sociedad",
+      "pregunta": "¿Cuántos correos electrónicos se envían en el mundo cada día?",
+      "unidad": "correos",
+      "respuesta": 360000000000,
+      "pistas": [
+        "Hay unos 4.500 millones de usuarios de correo electrónico.",
+        "Cuenta también la publicidad, las notificaciones automáticas y el spam."
+      ],
+      "explicacion": "Si cada usuario envía de media unos 80 correos al día, contando los automáticos y el spam que se generan en su nombre o hacia él: 4.500 M × 80 ≈ 360.000 millones.",
+      "curiosidad": "Casi la mitad del tráfico de correo es spam.",
+      "fuente": "The Radicati Group, Email Statistics Report 2024-2028",
+      "simulacion": {
+        "mediana": 50000000000,
+        "sigma": 1.5
+      },
+      "id": "q045"
+    },
+    {
+      "categoria": "Sociedad",
+      "pregunta": "¿Cuántas búsquedas se hacen en Google cada segundo?",
+      "unidad": "búsquedas",
+      "respuesta": 158000,
+      "pistas": [
+        "Google recibe más de 5 billones de búsquedas al año (5 × 10¹²).",
+        "Un año tiene unos 31,5 millones de segundos."
+      ],
+      "explicacion": "5 × 10¹² / 3,15 × 10⁷ ≈ 158.000 búsquedas por segundo: unos 13.700 millones al día.",
+      "curiosidad": "Alrededor del 15 % de las búsquedas diarias nunca se habían hecho antes.",
+      "fuente": "Google (2025: más de 5 billones de búsquedas al año)",
+      "simulacion": {
+        "mediana": 20000,
+        "sigma": 1.5
+      },
+      "id": "q046"
+    },
+    {
+      "categoria": "Sociedad",
+      "pregunta": "Según el recuento que hizo Google en 2010, ¿cuántos libros distintos se habían publicado en la historia desde la invención de la imprenta?",
+      "unidad": "libros",
+      "respuesta": 130000000,
+      "pistas": [
+        "Hoy se publican en el mundo unos 2-3 millones de títulos nuevos al año.",
+        "Hace 100 años se publicaban muchísimos menos, y hace 300, casi nada en comparación."
+      ],
+      "explicacion": "Si en el último siglo la producción creció hasta los 2 millones anuales, la media ronda el millón al año: 100 años × 1 M = 100 millones. Antes de 1900 la producción fue mucho menor. Google lo calculó cruzando catálogos de bibliotecas de todo el mundo.",
+      "curiosidad": "Google llegó a la cifra de 129.864.880 libros distintos, aunque reconoció que la cifra crecía cada día.",
+      "fuente": "Google Books (2010)",
+      "simulacion": {
+        "mediana": 20000000,
+        "sigma": 1.5
+      },
+      "id": "q047"
+    },
+    {
+      "categoria": "Física",
+      "pregunta": "¿A cuántos km/h cae una gota de lluvia grande cuando llega al suelo?",
+      "unidad": "km/h",
+      "respuesta": 32,
+      "pistas": [
+        "La resistencia del aire impide que la gota siga acelerando: llega a una velocidad máxima.",
+        "Una gota grande cae a unos 9 metros por segundo."
+      ],
+      "explicacion": "9 m/s × 3,6 ≈ 32 km/h. Sin aire, desde una nube a 2 km llegaría a más de 700 km/h.",
+      "curiosidad": "Las gotas no tienen forma de lágrima: las pequeñas son esferas y las grandes se aplastan como panecillos.",
+      "fuente": "USGS Water Science School / Gunn y Kinzer (1949)",
+      "simulacion": {
+        "mediana": 60,
+        "sigma": 1.0
+      },
+      "id": "q048"
+    },
+    {
+      "categoria": "Tierra",
+      "pregunta": "¿Cuántas toneladas de agua contiene una nube de algodón típica (un cúmulo de 1 km³)?",
+      "unidad": "toneladas",
+      "respuesta": 500,
+      "pistas": [
+        "Un kilómetro cúbico son 1.000 millones de metros cúbicos.",
+        "En cada metro cúbico de nube hay unos 0,5 gramos de agua en gotitas."
+      ],
+      "explicacion": "10⁹ m³ × 0,5 g = 5 × 10⁸ g = 500 toneladas: como 80 elefantes flotando en el aire.",
+      "curiosidad": "No se cae porque las gotitas son diminutas y caen tan despacio que las corrientes de aire ascendente las sostienen.",
+      "fuente": "USGS Water Science School",
+      "simulacion": {
+        "mediana": 5,
+        "sigma": 2.0
+      },
+      "id": "q049"
+    },
+    {
+      "categoria": "Física",
+      "pregunta": "Si un rayo cae a un kilómetro de ti, ¿cuántos segundos tarda en llegarte el trueno?",
+      "unidad": "segundos",
+      "respuesta": 2.9,
+      "pistas": [
+        "La luz te llega prácticamente al instante.",
+        "El sonido viaja a unos 343 metros por segundo."
+      ],
+      "explicacion": "1.000 m / 343 m/s ≈ 2,9 segundos. Regla práctica: cuenta los segundos entre relámpago y trueno y divide entre 3 para saber los km.",
+      "curiosidad": "Si no oyes el trueno, la tormenta está a más de unos 15-20 km.",
+      "fuente": "Cálculo con la velocidad del sonido en el aire a 20 °C (343 m/s)",
+      "simulacion": {
+        "mediana": 5,
+        "sigma": 0.8
+      },
+      "id": "q050"
+    },
+    {
+      "categoria": "Física",
+      "pregunta": "¿Cuántos kilos pesa el aire de un dormitorio de 4 × 5 metros y 2,5 de altura?",
+      "unidad": "kg",
+      "respuesta": 60,
+      "pistas": [
+        "El volumen de la habitación es 4 × 5 × 2,5 = 50 m³.",
+        "Un metro cúbico de aire pesa unos 1,2 kg."
+      ],
+      "explicacion": "50 m³ × 1,2 kg/m³ = 60 kg. ¡El aire de tu habitación pesa casi como una persona!",
+      "curiosidad": "No lo notas porque el aire te empuja por todos lados a la vez, y también por dentro.",
+      "fuente": "Cálculo con la densidad del aire al nivel del mar (≈ 1,2 kg/m³)",
+      "simulacion": {
+        "mediana": 1,
+        "sigma": 2.0
+      },
+      "id": "q051"
+    },
+    {
+      "categoria": "Tierra",
+      "pregunta": "¿Cuántos litros de agua hacen falta para producir un kilo de carne de ternera?",
+      "unidad": "litros",
+      "respuesta": 15400,
+      "pistas": [
+        "Una vaca necesita unos 3 años hasta el sacrificio y come más de una tonelada de pienso y forraje cada pocos meses.",
+        "Producir un kilo de cereal requiere unos 1.500 litros de agua."
+      ],
+      "explicacion": "Una vaca come a lo largo de su vida unas 1.300 kg de grano y 7.000 kg de forraje, y bebe unos 24.000 litros. Repartido entre los ~200 kg de carne que da, sale del orden de 15.000 litros por kilo.",
+      "curiosidad": "Un kilo de tomates necesita unos 200 litros, y una taza de café, unos 130.",
+      "fuente": "Water Footprint Network (Mekonnen y Hoekstra, 2012)",
+      "simulacion": {
+        "mediana": 1000,
+        "sigma": 1.5
+      },
+      "id": "q052"
+    },
+    {
+      "categoria": "Comparaciones",
+      "pregunta": "¿Cuántos campos de fútbol cabrían en Mónaco, el segundo país más pequeño del mundo?",
+      "unidad": "campos",
+      "respuesta": 285,
+      "pistas": [
+        "Mónaco tiene unos 2 km².",
+        "Un campo de fútbol mide unos 105 × 68 m: unos 7.000 m²."
+      ],
+      "explicacion": "Mónaco tiene unos 2.000.000 m². Entre 7.000 m² ≈ 285 campos de fútbol.",
+      "curiosidad": "El Vaticano, el más pequeño, tiene 0,44 km²: unos 60 campos.",
+      "fuente": "Cálculo con la superficie de Mónaco (2,08 km²) y las medidas FIFA de un campo",
+      "simulacion": {
+        "mediana": 100,
+        "sigma": 1.2
+      },
+      "id": "q053"
+    },
+    {
+      "categoria": "Espacio",
+      "pregunta": "¿Cuántas Lunas cabrían dentro de la Tierra?",
+      "unidad": "Lunas",
+      "respuesta": 49,
+      "pistas": [
+        "El radio de la Luna es algo más de una cuarta parte del de la Tierra (1.737 km frente a 6.371 km).",
+        "El volumen crece con el cubo del tamaño."
+      ],
+      "explicacion": "6.371 / 1.737 ≈ 3,67. Elevado al cubo: 3,67³ ≈ 49 Lunas.",
+      "curiosidad": "En masa, la Tierra pesa unas 81 veces lo que la Luna, porque la Luna es menos densa.",
+      "fuente": "NASA, fichas de la Tierra y de la Luna",
+      "simulacion": {
+        "mediana": 10,
+        "sigma": 1.1
+      },
+      "id": "q054"
+    },
+    {
+      "categoria": "Comparaciones",
+      "pregunta": "¿Cuántos elefantes africanos pesa una ballena azul adulta grande?",
+      "unidad": "elefantes",
+      "respuesta": 25,
+      "pistas": [
+        "Una ballena azul grande puede pesar unas 150 toneladas.",
+        "Un elefante africano adulto pesa unas 6 toneladas."
+      ],
+      "explicacion": "150 / 6 = 25 elefantes. Su lengua sola pesa unas 4 toneladas, y su corazón, unos 180 kg.",
+      "curiosidad": "Es el animal más grande que ha existido nunca, más que cualquier dinosaurio conocido.",
+      "fuente": "NOAA Fisheries (ballena azul hasta ~150 t) / WWF (elefante ~6 t)",
+      "simulacion": {
+        "mediana": 15,
+        "sigma": 0.8
+      },
+      "id": "q055"
+    },
+    {
+      "categoria": "Absurdo",
+      "pregunta": "¿Cuántos globos de helio de fiesta harían falta para levantar a una persona de 70 kg?",
+      "unidad": "globos",
+      "respuesta": 6000,
+      "pistas": [
+        "Un globo de fiesta inflado mide unos 30 cm de diámetro: tiene unos 14 litros de helio.",
+        "Cada litro de helio levanta aproximadamente 1 gramo."
+      ],
+      "explicacion": "14 litros × 1 g/l = 14 g por globo, pero el propio globo pesa unos 3 g: quedan unos 11 g netos. 70.000 g / 11 g ≈ 6.400 globos. Del orden de 5.000-6.000.",
+      "curiosidad": "En la película «Up» se ven unos 20.000 globos. Para levantar de verdad una casa harían falta millones.",
+      "fuente": "Cálculo con el empuje del helio en aire (≈ 1,0 g por litro)",
+      "simulacion": {
+        "mediana": 500,
+        "sigma": 1.4
+      },
+      "id": "q056"
+    },
+    {
+      "categoria": "Absurdo",
+      "pregunta": "¿Cuántas veces tendrías que doblar por la mitad una hoja de papel (0,1 mm) para que su grosor llegara a la Luna?",
+      "unidad": "dobleces",
+      "respuesta": 42,
+      "pistas": [
+        "Cada doblez duplica el grosor: tras 10 dobleces, el grosor es 1.024 veces el original.",
+        "La Luna está a 384.000 km, que son 3,84 × 10¹² décimas de milímetro."
+      ],
+      "explicacion": "2¹⁰ ≈ 1.000, 2²⁰ ≈ 1 millón, 2³⁰ ≈ mil millones, 2⁴⁰ ≈ un billón (10¹²). Hace falta 3,84 × 10¹², así que un par más: 2⁴² ≈ 4,4 × 10¹². 42 dobleces.",
+      "curiosidad": "En la práctica nadie ha pasado de 12 dobleces, y para eso se necesitó un papel de más de un kilómetro de largo.",
+      "fuente": "Cálculo (crecimiento exponencial: 0,1 mm × 2⁴²)",
+      "simulacion": {
+        "mediana": 1000,
+        "sigma": 2.5
+      },
+      "id": "q057"
+    },
+    {
+      "categoria": "Absurdo",
+      "pregunta": "Según la leyenda del ajedrez, el inventor pidió un grano de trigo por la primera casilla, dos por la segunda, cuatro por la tercera... ¿Cuántos granos son en total en las 64 casillas?",
+      "unidad": "granos",
+      "respuesta": 18400000000000000000,
+      "pistas": [
+        "La suma total es 2⁶⁴ − 1.",
+        "2¹⁰ ≈ 1.000, así que 2⁶⁴ = 2⁴ × (2¹⁰)⁶ ≈ 16 × 10¹⁸."
+      ],
+      "explicacion": "2⁶⁴ − 1 = 18.446.744.073.709.551.615 ≈ 1,8 × 10¹⁹ granos. Unos 18 trillones.",
+      "curiosidad": "Pesarían más de 1.000 veces la producción mundial anual de trigo.",
+      "fuente": "Cálculo (2⁶⁴ − 1)",
+      "simulacion": {
+        "mediana": 1000000000000,
+        "sigma": 4.0
+      },
+      "id": "q058"
+    },
+    {
+      "categoria": "Vida diaria",
+      "pregunta": "Si gastaras 1.000 euros cada día, ¿cuántos años tardarías en gastar 1.000 millones de euros?",
+      "unidad": "años",
+      "respuesta": 2740,
+      "pistas": [
+        "1.000 millones entre 1.000 son un millón de días.",
+        "Un año tiene 365 días."
+      ],
+      "explicacion": "1.000.000.000 / 1.000 = 1.000.000 de días. Entre 365 ≈ 2.740 años. Habrías tenido que empezar en tiempos de los fenicios.",
+      "curiosidad": "Gastando un millón al día, en cambio, te durarían menos de 3 años.",
+      "fuente": "Cálculo directo",
+      "simulacion": {
+        "mediana": 300,
+        "sigma": 1.4
+      },
+      "id": "q059"
+    },
+    {
+      "categoria": "Física",
+      "pregunta": "¿Cuántos segundos tarda la luz en llegar de la Luna a la Tierra?",
+      "unidad": "segundos",
+      "respuesta": 1.28,
+      "pistas": [
+        "La Luna está a unos 384.000 km.",
+        "La luz recorre unos 300.000 km por segundo."
+      ],
+      "explicacion": "384.000 / 300.000 ≈ 1,28 segundos. Las conversaciones con los astronautas del Apolo tenían una pausa de unos 2,5 s (ida y vuelta).",
+      "curiosidad": "La luz del Sol tarda unos 8 minutos y 20 segundos; la de la estrella más cercana, más de 4 años.",
+      "fuente": "Cálculo con la distancia Tierra-Luna (384.400 km) y la velocidad de la luz",
+      "simulacion": {
+        "mediana": 3,
+        "sigma": 1.3
+      },
+      "id": "q060"
+    },
+    {
+      "categoria": "Comparaciones",
+      "pregunta": "Si toda la humanidad se pusiera de pie, apretada, a 4 personas por metro cuadrado, ¿cuántos km² ocuparía?",
+      "unidad": "km²",
+      "respuesta": 2050,
+      "pistas": [
+        "Somos unos 8.200 millones de personas.",
+        "Un km² son 1.000.000 m²: caben 4 millones de personas."
+      ],
+      "explicacion": "8.200.000.000 / 4.000.000 ≈ 2.050 km².",
+      "curiosidad": "Es más o menos la superficie de la isla de Tenerife (2.034 km²): toda la humanidad cabría de pie en ella.",
+      "fuente": "Cálculo con la población mundial (ONU, 2025)",
+      "simulacion": {
+        "mediana": 100000,
+        "sigma": 2.0
+      },
+      "id": "q061"
+    },
+    {
+      "categoria": "Espacio",
+      "pregunta": "¿Cuántas vueltas a la Tierra da la Estación Espacial Internacional en un día?",
+      "unidad": "vueltas",
+      "respuesta": 15.5,
+      "pistas": [
+        "Va a unos 27.600 km/h, a 400 km de altura.",
+        "Su órbita mide unos 42.600 km (un poco más que el ecuador, porque va más alta)."
+      ],
+      "explicacion": "42.600 km / 27.600 km/h ≈ 1,54 horas por vuelta (unos 92 min). 24 h / 1,54 h ≈ 15,5 vueltas al día.",
+      "curiosidad": "Los astronautas ven unos 16 amaneceres y 16 atardeceres cada día.",
+      "fuente": "NASA, ISS Facts and Figures",
+      "simulacion": {
+        "mediana": 4,
+        "sigma": 1.2
+      },
+      "id": "q062"
+    },
+    {
+      "categoria": "Comparaciones",
+      "pregunta": "¿Cuántos días tardaría un tren a 300 km/h en dar la vuelta a la Tierra por el ecuador, sin parar?",
+      "unidad": "días",
+      "respuesta": 5.6,
+      "pistas": [
+        "El ecuador mide unos 40.000 km.",
+        "A 300 km/h recorres 7.200 km al día."
+      ],
+      "explicacion": "40.000 / 300 ≈ 133 horas. Entre 24 ≈ 5,6 días.",
+      "curiosidad": "Un avión a 900 km/h tardaría menos de 2 días. Phileas Fogg tardó 80, y le pareció una hazaña.",
+      "fuente": "Cálculo con la circunferencia ecuatorial (40.075 km)",
+      "simulacion": {
+        "mediana": 10,
+        "sigma": 0.9
+      },
+      "id": "q063"
+    },
+    {
+      "categoria": "Tierra",
+      "pregunta": "¿Cuántos Everest apilados harían falta para llegar desde el fondo de la fosa de las Marianas hasta el nivel del mar?",
+      "unidad": "Everest",
+      "respuesta": 1.24,
+      "pistas": [
+        "El Everest mide 8.849 m.",
+        "El punto más profundo de la fosa de las Marianas está a unos 10.900 m bajo el mar."
+      ],
+      "explicacion": "10.935 / 8.849 ≈ 1,24. Si pusieras el Everest en el fondo, su cima quedaría unos 2 km bajo el agua.",
+      "curiosidad": "Solo unas pocas personas han bajado hasta allí. La presión es de más de una tonelada por centímetro cuadrado.",
+      "fuente": "NOAA (fosa de las Marianas, ≈ 10.935 m) y National Geographic (Everest, 8.849 m)",
+      "simulacion": {
+        "mediana": 1,
+        "sigma": 0.6
+      },
+      "id": "q064"
+    },
+    {
+      "categoria": "Física",
+      "pregunta": "¿Cuántas pilas AA hacen falta para igualar la energía que contiene un litro de gasolina?",
+      "unidad": "pilas",
+      "respuesta": 3800,
+      "pistas": [
+        "Un litro de gasolina tiene unos 34 megajulios (34 millones de julios).",
+        "Una pila alcalina AA almacena unos 2,5 vatios-hora, que son unos 9.000 julios."
+      ],
+      "explicacion": "34.000.000 J / 9.000 J ≈ 3.800 pilas. Por eso los coches de gasolina llevan tanta energía en tan poco peso.",
+      "curiosidad": "Una batería de coche eléctrico de 60 kWh almacena tanta energía como unos 6 o 7 litros de gasolina, pero pesa unos 400 kg.",
+      "fuente": "Cálculo con la densidad energética de la gasolina (≈ 34 MJ/l) y la capacidad típica de una pila AA",
+      "simulacion": {
+        "mediana": 200,
+        "sigma": 1.5
+      },
+      "id": "q065"
+    },
+    {
+      "categoria": "Cuerpo humano",
+      "pregunta": "¿Cuántos kilómetros puedes recorrer en bicicleta con la energía de un plátano?",
+      "unidad": "km",
+      "respuesta": 4,
+      "pistas": [
+        "Un plátano mediano tiene unas 100 kilocalorías.",
+        "Pedaleando tranquilo a 20 km/h se gastan unas 500 kcal por hora."
+      ],
+      "explicacion": "100 kcal / 500 kcal/h = 0,2 horas = 12 minutos. A 20 km/h son unos 4 km.",
+      "curiosidad": "Con esa misma energía, un coche de gasolina recorrería unos 200 metros.",
+      "fuente": "Cálculo con tablas de gasto energético (Compendium of Physical Activities)",
+      "simulacion": {
+        "mediana": 10,
+        "sigma": 1.2
+      },
+      "id": "q066"
+    },
+    {
+      "categoria": "Sociedad",
+      "pregunta": "Si una persona viera sin parar todo lo que se sube a YouTube en un solo día, ¿cuántos años tardaría?",
+      "unidad": "años",
+      "respuesta": 82,
+      "pistas": [
+        "Cada minuto se suben a YouTube unas 500 horas de vídeo.",
+        "Un día tiene 1.440 minutos, y un año, 8.760 horas."
+      ],
+      "explicacion": "500 h × 1.440 min = 720.000 horas de vídeo al día. Entre 8.760 h/año ≈ 82 años. Una vida entera viendo vídeos, sin dormir, por cada día de subidas.",
+      "curiosidad": "Y mientras tanto se habrían subido unos 30.000 días más de vídeos.",
+      "fuente": "YouTube (500 horas por minuto)",
+      "simulacion": {
+        "mediana": 5,
+        "sigma": 1.6
+      },
+      "id": "q067"
+    },
+    {
+      "categoria": "Sociedad",
+      "pregunta": "¿Cuántas generaciones de personas nos separan de la época de Julio César?",
+      "unidad": "generaciones",
+      "respuesta": 83,
+      "pistas": [
+        "Julio César murió en el año 44 a. C.",
+        "Una generación son unos 25 años: la edad media a la que se tienen hijos."
+      ],
+      "explicacion": "Del 44 a. C. al 2026 hay unos 2.070 años. Entre 25 ≈ 83 generaciones: cabrían en un autobús y medio.",
+      "curiosidad": "Si cada generación fuera una persona de pie, la fila de tus antepasados hasta César mediría menos de 50 metros.",
+      "fuente": "Cálculo con una duración media de la generación de 25 años",
+      "simulacion": {
+        "mediana": 100,
+        "sigma": 0.8
+      },
+      "id": "q068"
+    },
+    {
+      "categoria": "Sociedad",
+      "pregunta": "¿Cuántos antepasados tienes exactamente 10 generaciones atrás (tus «tatara-tatara...» abuelos)?",
+      "unidad": "antepasados",
+      "respuesta": 1024,
+      "pistas": [
+        "Una generación atrás tienes 2 padres; dos generaciones atrás, 4 abuelos.",
+        "Cada generación se duplica: 2 × 2 × 2... diez veces."
+      ],
+      "explicacion": "2¹⁰ = 1.024 antepasados, que vivieron hace unos 250 años.",
+      "curiosidad": "30 generaciones atrás tendrías más de mil millones de antepasados... más gente de la que vivía entonces. Eso significa que muchos se repiten: todos somos parientes.",
+      "fuente": "Cálculo (2¹⁰)",
+      "simulacion": {
+        "mediana": 200,
+        "sigma": 1.2
+      },
+      "id": "q069"
+    },
+    {
+      "categoria": "Tierra",
+      "pregunta": "¿Cuántas toneladas de CO₂ emite al año un coche de gasolina normal?",
+      "unidad": "toneladas",
+      "respuesta": 1.8,
+      "pistas": [
+        "Un coche medio hace unos 15.000 km al año.",
+        "Un coche moderno emite unos 120 gramos de CO₂ por kilómetro."
+      ],
+      "explicacion": "15.000 × 120 g = 1.800.000 g = 1,8 toneladas de CO₂ al año. ¿Cómo puede pesar más que la gasolina? Porque cada átomo de carbono se une a dos de oxígeno del aire.",
+      "curiosidad": "Un árbol adulto absorbe unos 20-25 kg de CO₂ al año: harían falta unos 80 árboles para compensar un coche.",
+      "fuente": "Cálculo con los valores medios de emisión de la Agencia Europea de Medio Ambiente",
+      "simulacion": {
+        "mediana": 0.5,
+        "sigma": 1.4
+      },
+      "id": "q070"
+    },
+    {
+      "categoria": "Sociedad",
+      "pregunta": "¿Cuántas toneladas pesa toda la humanidad junta?",
+      "unidad": "toneladas",
+      "respuesta": 400000000,
+      "pistas": [
+        "Somos unos 8.200 millones de personas.",
+        "Un adulto pesa de media unos 62 kg, pero una cuarta parte de la población son niños."
+      ],
+      "explicacion": "Con una media de unos 50 kg por persona, contando niños: 8.200 millones × 50 kg ≈ 410.000 millones de kg = 400 millones de toneladas.",
+      "curiosidad": "Todo el ganado del mundo (vacas, cerdos, ovejas...) pesa casi el doble que todos los seres humanos juntos.",
+      "fuente": "Walpole et al., BMC Public Health (2012); Bar-On et al., PNAS (2018)",
+      "simulacion": {
+        "mediana": 100000000,
+        "sigma": 1.4
+      },
+      "id": "q071"
+    },
+    {
+      "categoria": "Tierra",
+      "pregunta": "Si se derritiera todo el hielo de la Antártida, ¿cuántos metros subiría el nivel del mar?",
+      "unidad": "m",
+      "respuesta": 58,
+      "pistas": [
+        "La Antártida tiene unos 26 millones de km³ de hielo.",
+        "Los océanos cubren unos 360 millones de km²."
+      ],
+      "explicacion": "26.500.000 km³ de hielo dan unos 24.000.000 km³ de agua. Repartidos sobre 360.000.000 km² ≈ 0,066 km ≈ 66 m. Descontando el hielo que ya está bajo el nivel del mar: unos 58 m.",
+      "curiosidad": "Con eso desaparecerían bajo el agua casi todas las ciudades costeras del mundo, Barcelona y Valencia incluidas.",
+      "fuente": "IPCC AR6 / Fretwell et al., Bedmap2 (2013)",
+      "simulacion": {
+        "mediana": 10,
+        "sigma": 1.4
+      },
+      "id": "q072"
+    },
+    {
+      "categoria": "Sociedad",
+      "pregunta": "¿Cuántas personas están volando en un avión en este preciso momento, en todo el mundo?",
+      "unidad": "personas",
+      "respuesta": 1100000,
+      "pistas": [
+        "Las aerolíneas transportan unos 5.000 millones de pasajeros al año.",
+        "Un vuelo medio dura unas 2 horas, y un año tiene 8.760 horas."
+      ],
+      "explicacion": "5.000 millones × 2 h = 10.000 millones de horas de vuelo al año. Entre 8.760 h ≈ 1,1 millones de personas en el aire en cada momento.",
+      "curiosidad": "Es como si toda la población de Valencia y Bilbao juntas estuviera siempre en el aire.",
+      "fuente": "Cálculo con datos de IATA (≈ 5.000 millones de pasajeros en 2024)",
+      "simulacion": {
+        "mediana": 200000,
+        "sigma": 1.4
+      },
+      "id": "q073"
+    },
+    {
+      "categoria": "Sociedad",
+      "pregunta": "¿Cuántas personas están durmiendo en el mundo en este preciso momento?",
+      "unidad": "personas",
+      "respuesta": 2700000000,
+      "pistas": [
+        "Somos unos 8.200 millones.",
+        "Dormimos unas 8 horas de cada 24, y en el mundo siempre es de noche en algún sitio."
+      ],
+      "explicacion": "Si dormimos un tercio del día y los horarios se reparten por todo el planeta: 8.200 M / 3 ≈ 2.700 millones de personas dormidas en cada momento.",
+      "curiosidad": "No es exactamente un tercio a todas horas: como la mitad de la humanidad vive en Asia, a las 22:00 de España duermen bastantes más.",
+      "fuente": "Cálculo con la población mundial (ONU, 2025)",
+      "simulacion": {
+        "mediana": 1500000000,
+        "sigma": 0.8
+      },
+      "id": "q074"
+    },
+    {
+      "categoria": "Tierra",
+      "pregunta": "¿Cuántas piscinas olímpicas de agua vierte el río Amazonas al océano cada segundo?",
+      "unidad": "piscinas",
+      "respuesta": 84,
+      "pistas": [
+        "El Amazonas vierte unos 209.000 m³ de agua por segundo.",
+        "Una piscina olímpica tiene unos 2.500 m³."
+      ],
+      "explicacion": "209.000 / 2.500 ≈ 84 piscinas olímpicas cada segundo: más de 70 veces el caudal de las cataratas del Niágara.",
+      "curiosidad": "El Amazonas aporta casi una quinta parte de toda el agua dulce que los ríos vierten al mar. El agua sigue siendo dulce a más de 100 km de la costa.",
+      "fuente": "Agencia Nacional de Aguas de Brasil / USGS (≈ 209.000 m³/s)",
+      "simulacion": {
+        "mediana": 10,
+        "sigma": 1.4
+      },
+      "id": "q075"
+    },
+    {
+      "categoria": "Vida diaria",
+      "pregunta": "¿Cuántas vueltas da cada rueda de un coche en un viaje de 600 km, como de Madrid a Barcelona?",
+      "unidad": "vueltas",
+      "respuesta": 300000,
+      "pistas": [
+        "Una rueda de coche mide unos 65 cm de diámetro.",
+        "La circunferencia es π × diámetro: unos 2 metros por vuelta."
+      ],
+      "explicacion": "600 km = 600.000 m. Entre 2 m por vuelta = 300.000 vueltas. A 120 km/h, unas 1.000 vueltas por minuto.",
+      "curiosidad": "A lo largo de su vida útil, un neumático da unos 25 millones de vueltas.",
+      "fuente": "Cálculo con el diámetro típico de una rueda de turismo (≈ 63-66 cm)",
+      "simulacion": {
+        "mediana": 50000,
+        "sigma": 1.3
+      },
+      "id": "q076"
+    },
+    {
+      "categoria": "España",
+      "pregunta": "¿Cuántas veces cabe la Comunidad de Madrid en el territorio de España?",
+      "unidad": "veces",
+      "respuesta": 63,
+      "pistas": [
+        "España tiene unos 506.000 km².",
+        "La Comunidad de Madrid mide unos 100 km de norte a sur y unos 80 de este a oeste: unos 8.000 km²."
+      ],
+      "explicacion": "506.000 / 8.028 ≈ 63 veces. Y eso que en ella vive el 14 % de la población española.",
+      "curiosidad": "Castilla y León, la comunidad más extensa, cabría unas 5,4 veces en España... y Madrid, más de 11 veces en Castilla y León.",
+      "fuente": "INE / IGN (España 505.990 km²; Comunidad de Madrid 8.028 km²)",
+      "simulacion": {
+        "mediana": 40,
+        "sigma": 0.8
+      },
+      "id": "q077"
+    },
+    {
+      "categoria": "España",
+      "pregunta": "¿Cuántas ventanas tiene el Monasterio de El Escorial?",
+      "unidad": "ventanas",
+      "respuesta": 2673,
+      "pistas": [
+        "La fachada principal mide más de 200 metros y el edificio es casi un cuadrado.",
+        "Hay ventanas cada 4-5 metros en varias plantas, y el interior tiene 16 patios, también con ventanas."
+      ],
+      "explicacion": "4 fachadas de unos 200 m con una ventana cada 5 m: 40 × 4 = 160 por planta. Con 4-5 plantas, unas 700 en el exterior. Los 16 patios interiores multiplican la cifra hasta unas 2.600. La cifra tradicional es 2.673.",
+      "curiosidad": "La tradición le atribuye también más de 1.200 puertas, algunas falsas, puestas solo para mantener la simetría.",
+      "fuente": "Cifra tradicional del Real Sitio (Patrimonio Nacional y guías históricas)",
+      "simulacion": {
+        "mediana": 700,
+        "sigma": 1.0
+      },
+      "id": "q078"
+    },
+    {
+      "categoria": "España",
+      "pregunta": "¿Cuántos kilos de tomates se lanzan en la Tomatina de Buñol?",
+      "unidad": "kg",
+      "respuesta": 120000,
+      "pistas": [
+        "Los tomates llegan a la plaza en unos 6-7 camiones volquete.",
+        "Cada camión carga entre 15 y 20 toneladas."
+      ],
+      "explicacion": "7 camiones × unos 17.000 kg ≈ 120.000 kg. Repartidos entre unos 22.000 participantes, más de 5 kilos por cabeza en una hora.",
+      "curiosidad": "Los tomates se cultivan expresamente para la fiesta y no sirven para comer. Algunos años se han superado los 160.000 kilos.",
+      "fuente": "Ayuntamiento de Buñol / crónicas de la Tomatina 2025",
+      "simulacion": {
+        "mediana": 20000,
+        "sigma": 1.3
+      },
+      "id": "q079"
+    },
+    {
+      "categoria": "España",
+      "pregunta": "¿Cuántos ascensores hay en España?",
+      "unidad": "ascensores",
+      "respuesta": 1000000,
+      "pistas": [
+        "En España hay unos 26 millones de viviendas, y la mayoría de la gente vive en pisos.",
+        "Un portal con ascensor tiene de media unas 20-25 viviendas."
+      ],
+      "explicacion": "Si dos tercios de las viviendas están en bloques con ascensor: 17 millones / 20 ≈ 850.000. Contando oficinas, hoteles y comercios, más de un millón.",
+      "curiosidad": "España es uno de los países con más ascensores por habitante del mundo, por delante de EE. UU. y Alemania.",
+      "fuente": "Federación Empresarial Española de Ascensores (FEEDA)",
+      "simulacion": {
+        "mediana": 300000,
+        "sigma": 1.0
+      },
+      "id": "q080"
+    },
+    {
+      "categoria": "España",
+      "pregunta": "¿Cuántas farmacias hay en España?",
+      "unidad": "farmacias",
+      "respuesta": 22200,
+      "pistas": [
+        "España tiene unos 49 millones de habitantes.",
+        "La ley planifica las farmacias según la población: en la práctica hay una por cada 2.000-2.500 habitantes."
+      ],
+      "explicacion": "49.000.000 / 2.200 ≈ 22.000 farmacias.",
+      "curiosidad": "Casi todos los españoles tienen una farmacia a pocos minutos de casa: es una de las redes más densas de Europa.",
+      "fuente": "Consejo General de Colegios Farmacéuticos (22.231 a finales de 2024)",
+      "simulacion": {
+        "mediana": 10000,
+        "sigma": 0.8
+      },
+      "id": "q081"
+    },
+    {
+      "categoria": "España",
+      "pregunta": "¿Cuántas Españas cabrían en la superficie total de la Tierra, contando los océanos?",
+      "unidad": "Españas",
+      "respuesta": 1008,
+      "pistas": [
+        "La superficie de la Tierra es de unos 510 millones de km².",
+        "España tiene unos 506.000 km²."
+      ],
+      "explicacion": "510.000.000 / 506.000 ≈ 1.008. ¡Casi exactamente mil Españas!",
+      "curiosidad": "Si solo se cuenta la tierra firme (unos 149 millones de km²), caben unas 295 Españas.",
+      "fuente": "NASA (superficie terrestre ≈ 510 M km²) / INE (España 505.990 km²)",
+      "simulacion": {
+        "mediana": 300,
+        "sigma": 1.0
+      },
+      "id": "q082"
+    },
+    {
+      "categoria": "España",
+      "pregunta": "Por la rotación de la Tierra, ¿a cuántos km/h se mueve Madrid alrededor del eje terrestre?",
+      "unidad": "km/h",
+      "respuesta": 1275,
+      "pistas": [
+        "En el ecuador, la Tierra gira a unos 40.000 km cada 24 h: unos 1.670 km/h.",
+        "Madrid está a 40° de latitud norte, y su círculo de giro es menor: hay que multiplicar por cos(40°) ≈ 0,76."
+      ],
+      "explicacion": "1.670 × 0,76 ≈ 1.270 km/h. Más rápido que el sonido (1.235 km/h), sin que te despeines.",
+      "curiosidad": "En el Polo Norte esa velocidad es cero: solo das una vuelta sobre ti mismo cada día.",
+      "fuente": "Cálculo con la circunferencia ecuatorial (40.075 km), el día sidéreo (23,93 h) y la latitud de Madrid (40,4° N)",
+      "simulacion": {
+        "mediana": 500,
+        "sigma": 1.2
+      },
+      "id": "q083"
+    },
+    {
+      "categoria": "España",
+      "pregunta": "En 1492 Colón cruzó el Atlántico desde La Gomera hasta las Bahamas. ¿Cuántos días duró la travesía?",
+      "unidad": "días",
+      "respuesta": 36,
+      "pistas": [
+        "La distancia navegada fue de unos 6.000 km.",
+        "Una carabela con buen viento avanzaba a unos 4 nudos, es decir, unos 7 km/h, día y noche."
+      ],
+      "explicacion": "7 km/h × 24 h ≈ 170 km al día. 6.000 / 170 ≈ 35 días. Colón zarpó el 6 de septiembre y avistó tierra el 12 de octubre: 36 días.",
+      "curiosidad": "Hoy un avión cubre esa distancia en unas 8 horas, y un velero de regata moderno en una semana.",
+      "fuente": "Diario de a bordo de Colón (transcripción de Bartolomé de las Casas)",
+      "simulacion": {
+        "mediana": 60,
+        "sigma": 0.8
+      },
+      "id": "q084"
+    },
+    {
+      "categoria": "España",
+      "pregunta": "Si compras un décimo para el Gordo de Navidad cada año, ¿cuántos años tendrías que jugar, de media, para que te tocara una vez?",
+      "unidad": "años",
+      "respuesta": 100000,
+      "pistas": [
+        "En el bombo hay 100.000 números, del 00000 al 99999.",
+        "Solo uno de ellos es el Gordo."
+      ],
+      "explicacion": "La probabilidad es 1 entre 100.000 cada año, así que, de media, harían falta 100.000 años. Tendrías que haber empezado a jugar cuando los neandertales todavía vivían en la península.",
+      "curiosidad": "La probabilidad de que te toque algún premio (sin contar el reintegro) es mucho mayor, de alrededor de 1 entre 20... aunque casi siempre es la pedrea.",
+      "fuente": "Loterías y Apuestas del Estado",
+      "simulacion": {
+        "mediana": 5000,
+        "sigma": 1.8
+      },
+      "id": "q085"
+    },
+    {
+      "categoria": "España",
+      "pregunta": "¿Cuántas barras de pan se compran cada día en los hogares españoles?",
+      "unidad": "barras",
+      "respuesta": 16000000,
+      "pistas": [
+        "Cada español consume en casa unos 30 kg de pan al año.",
+        "Una barra pesa unos 250 g."
+      ],
+      "explicacion": "49 millones × 30 kg / 365 días ≈ 4 millones de kg de pan al día. Entre 0,25 kg ≈ 16 millones de barras diarias (o su equivalente en hogazas y pan de molde).",
+      "curiosidad": "Puestas en fila, medirían unos 6.000 km: más o menos la distancia de Madrid a Nueva York.",
+      "fuente": "Cálculo con el Informe del Consumo Alimentario en España (MAPA)",
+      "simulacion": {
+        "mediana": 5000000,
+        "sigma": 1.0
+      },
+      "id": "q086"
+    },
+    {
+      "categoria": "España",
+      "pregunta": "¿Cuántas personas cabrían de pie, apretadas, en la Plaza Mayor de Madrid?",
+      "unidad": "personas",
+      "respuesta": 48500,
+      "pistas": [
+        "La plaza mide unos 129 × 94 metros.",
+        "Apretados, como en un concierto, caben unas 4 personas por metro cuadrado."
+      ],
+      "explicacion": "129 × 94 ≈ 12.100 m². Por 4 personas/m² ≈ 48.500 personas: casi toda la población de Ávila en una sola plaza.",
+      "curiosidad": "Antiguamente se celebraban allí corridas de toros, autos de fe y coronaciones, con el público en los balcones.",
+      "fuente": "Cálculo con las dimensiones de la plaza (Ayuntamiento de Madrid)",
+      "simulacion": {
+        "mediana": 15000,
+        "sigma": 0.9
+      },
+      "id": "q087"
+    },
+    {
+      "categoria": "España",
+      "pregunta": "¿Cuántas Españas cabrían dentro de Rusia?",
+      "unidad": "Españas",
+      "respuesta": 34,
+      "pistas": [
+        "Rusia tiene unos 17 millones de km².",
+        "España tiene unos 506.000 km²."
+      ],
+      "explicacion": "17.100.000 / 506.000 ≈ 34 Españas.",
+      "curiosidad": "Rusia abarca 11 husos horarios: cuando en Kaliningrado amanece, en Kamchatka ya es media tarde.",
+      "fuente": "Cálculo con datos del Banco Mundial (Rusia 17,1 M km²) y el INE",
+      "simulacion": {
+        "mediana": 25,
+        "sigma": 0.7
+      },
+      "id": "q088"
+    },
+    {
+      "categoria": "España",
+      "pregunta": "¿Cuántos litros de agua de lluvia caen sobre España en un año?",
+      "unidad": "litros",
+      "respuesta": 320000000000000,
+      "pistas": [
+        "En España llueven de media unos 640 litros por metro cuadrado al año.",
+        "España tiene unos 506.000 km², es decir, 5 × 10¹¹ m²."
+      ],
+      "explicacion": "5,06 × 10¹¹ m² × 640 l/m² ≈ 3,2 × 10¹⁴ litros: 320 billones de litros, o unos 320 km³.",
+      "curiosidad": "En Grazalema (Cádiz) llueven más de 2.000 l/m² al año, y en Cabo de Gata (Almería), menos de 200.",
+      "fuente": "AEMET (precipitación media en España ≈ 640 mm/año)",
+      "simulacion": {
+        "mediana": 10000000000000,
+        "sigma": 2.0
+      },
+      "id": "q089"
+    },
+    {
+      "categoria": "España",
+      "pregunta": "¿Cuántos litros de agua gasta en casa, de media, cada español al día?",
+      "unidad": "litros",
+      "respuesta": 128,
+      "pistas": [
+        "Una ducha de 5 minutos gasta unos 50 litros, y cada cisterna, entre 6 y 9.",
+        "Suma también lavadora, lavavajillas, cocinar, lavarse los dientes, regar..."
+      ],
+      "explicacion": "Ducha 50 + 5 cisternas × 7 = 35 + lavadora y lavavajillas repartidos (unos 20) + cocina y grifos (unos 20) ≈ 125 litros por persona y día.",
+      "curiosidad": "Un madrileño del siglo XVIII se apañaba con unos pocos litros al día, que acarreaban los aguadores desde las fuentes.",
+      "fuente": "INE, Estadística sobre el Suministro y Saneamiento del Agua",
+      "simulacion": {
+        "mediana": 80,
+        "sigma": 0.8
+      },
+      "id": "q090"
+    },
+    {
+      "categoria": "Cine y música",
+      "pregunta": "¿Cuántas personas asistieron en total a los 149 conciertos de la gira «The Eras Tour» de Taylor Swift?",
+      "unidad": "personas",
+      "respuesta": 10168008,
+      "pistas": [
+        "Tocó casi siempre en estadios de fútbol.",
+        "En un estadio grande caben entre 60.000 y 70.000 personas por concierto."
+      ],
+      "explicacion": "149 conciertos × unas 68.000 personas por noche ≈ 10 millones. Cifra oficial: 10.168.008 entradas.",
+      "curiosidad": "Fue la primera gira de la historia en superar los 2.000 millones de dólares en entradas: unos 204 dólares de media por persona.",
+      "fuente": "Taylor Swift Touring, cifras oficiales publicadas por The New York Times (diciembre de 2024)",
+      "simulacion": {
+        "mediana": 7000000,
+        "sigma": 0.9
+      },
+      "id": "q091"
+    },
+    {
+      "categoria": "España",
+      "pregunta": "¿Cuántos supermercados Mercadona hay en España?",
+      "unidad": "supermercados",
+      "respuesta": 1603,
+      "pistas": [
+        "Piensa en tu ciudad: ¿cada cuánta gente hay un Mercadona?",
+        "España tiene casi 50 millones de habitantes y sale a un Mercadona por cada 30.000 personas, más o menos."
+      ],
+      "explicacion": "En una ciudad de 200.000 habitantes suele haber seis o siete: uno por cada 30.000 personas. 49 millones / 30.000 ≈ 1.600. Cifra oficial a 31 de diciembre de 2025: 1.603.",
+      "curiosidad": "En 2025 Mercadona cerró más tiendas de las que abrió (45 frente a 34): prefiere menos locales, pero más grandes.",
+      "fuente": "Mercadona, Memoria Anual 2025",
+      "simulacion": {
+        "mediana": 1900,
+        "sigma": 0.8
+      },
+      "id": "q092"
+    },
+    {
+      "categoria": "Marcas",
+      "pregunta": "¿Cuántas copias de Minecraft se habían vendido en todo el mundo hasta abril de 2025?",
+      "unidad": "copias",
+      "respuesta": 350000000,
+      "pistas": [
+        "Es el videojuego más vendido de la historia.",
+        "En el mundo hay unos 8.000 millones de personas. ¿Una de cada cuántas lo ha comprado?"
+      ],
+      "explicacion": "Si lo ha comprado una de cada 23 personas del planeta: 8.000 millones / 23 ≈ 350 millones. Es la cifra que confirmó Mojang en abril de 2025.",
+      "curiosidad": "En octubre de 2023 eran 300 millones: en año y medio se vendieron otros 50 millones de copias de un juego de 2011.",
+      "fuente": "Mojang Studios (abril de 2025)",
+      "simulacion": {
+        "mediana": 200000000,
+        "sigma": 1.1
+      },
+      "id": "q093"
+    },
+    {
+      "categoria": "España",
+      "pregunta": "¿Cuántos peregrinos recogieron la Compostela en Santiago en 2025?",
+      "unidad": "peregrinos",
+      "respuesta": 530987,
+      "pistas": [
+        "En pleno verano llegan a Santiago varios miles de peregrinos al día; en invierno, muy pocos.",
+        "La media del año ronda los 1.500 diarios."
+      ],
+      "explicacion": "Unas 1.500 personas al día de media × 365 días ≈ 550.000. Cifra oficial de la Oficina del Peregrino: 530.987, récord histórico.",
+      "curiosidad": "El peregrino número 500.000 del año llegó el 19 de octubre: era un colombiano que hizo el Camino con su hijo.",
+      "fuente": "Oficina del Peregrino de la Catedral de Santiago, balance de 2025",
+      "simulacion": {
+        "mediana": 300000,
+        "sigma": 1.0
+      },
+      "id": "q094"
+    },
+    {
+      "categoria": "España",
+      "pregunta": "¿Cuántos viajes se hicieron en el Metro de Madrid en todo 2025?",
+      "unidad": "viajes",
+      "respuesta": 736874012,
+      "pistas": [
+        "En la región de Madrid viven unos 7 millones de personas.",
+        "De media se hacen unos 2 millones de viajes en metro al día."
+      ],
+      "explicacion": "2 millones de viajes al día × 365 ≈ 730 millones. Cifra oficial: 736.874.012, el máximo de su historia.",
+      "curiosidad": "El récord de un solo día es del 28 de noviembre de 2025, viernes de Black Friday: 2,82 millones de viajes.",
+      "fuente": "Comunidad de Madrid, balance de Metro de Madrid de 2025",
+      "simulacion": {
+        "mediana": 400000000,
+        "sigma": 1.2
+      },
+      "id": "q095"
+    },
+    {
+      "categoria": "España",
+      "pregunta": "¿Cuántos taxis había en la ciudad de Madrid a finales de 2025?",
+      "unidad": "taxis",
+      "respuesta": 15571,
+      "pistas": [
+        "En Madrid capital viven unos 3,4 millones de personas.",
+        "Sale a un taxi por cada 220 habitantes, más o menos."
+      ],
+      "explicacion": "3,4 millones de habitantes / 220 ≈ 15.500. Dato del Ayuntamiento a finales de 2025: 15.571 taxis.",
+      "curiosidad": "Todos son blancos con una franja roja en diagonal en las puertas delanteras.",
+      "fuente": "Ayuntamiento de Madrid (diciembre de 2025)",
+      "simulacion": {
+        "mediana": 9000,
+        "sigma": 1.0
+      },
+      "id": "q096"
+    },
+    {
+      "categoria": "España",
+      "pregunta": "¿Cuántos pasajeros pasaron por el aeropuerto de Madrid-Barajas en 2025?",
+      "unidad": "pasajeros",
+      "respuesta": 68179054,
+      "pistas": [
+        "Es el aeropuerto con más pasajeros de España.",
+        "Cada día pasan por él unas 185.000 personas."
+      ],
+      "explicacion": "185.000 pasajeros al día × 365 días ≈ 67,5 millones. Cifra de Aena: 68.179.054, récord del aeropuerto.",
+      "curiosidad": "Tres de cada cuatro pasajeros iban o venían de otro país.",
+      "fuente": "Aena, estadísticas de tráfico de 2025",
+      "simulacion": {
+        "mediana": 40000000,
+        "sigma": 1.0
+      },
+      "id": "q097"
+    },
+    {
+      "categoria": "Marcas",
+      "pregunta": "¿Cuántas tiendas tiene en todo el mundo el grupo Inditex (Zara, Bershka, Pull&Bear, Stradivarius…)?",
+      "unidad": "tiendas",
+      "respuesta": 5460,
+      "pistas": [
+        "Está en casi 100 países.",
+        "En la mayoría de los países tiene pocas decenas de tiendas; en unos pocos, cientos."
+      ],
+      "explicacion": "Unos 95 países × unas 55 tiendas de media ≈ 5.200. Cifra oficial al cierre del ejercicio 2025: 5.460.",
+      "curiosidad": "Cada año tiene menos tiendas (103 menos que el anterior) y vende más: cierra las pequeñas y abre locales enormes.",
+      "fuente": "Inditex, resultados del ejercicio 2025 (31 de enero de 2026)",
+      "simulacion": {
+        "mediana": 9000,
+        "sigma": 1.0
+      },
+      "id": "q098"
+    },
+    {
+      "categoria": "España",
+      "pregunta": "¿Cuántos turistas internacionales llegaron a España en 2025?",
+      "unidad": "turistas",
+      "respuesta": 96770515,
+      "pistas": [
+        "España tiene casi 50 millones de habitantes.",
+        "Llegan casi dos turistas extranjeros por cada habitante."
+      ],
+      "explicacion": "50 millones de habitantes × 2 ≈ 100 millones. Dato del INE para 2025: 96.770.515 turistas, récord histórico.",
+      "curiosidad": "Los que más vienen son, por este orden, británicos, franceses y alemanes.",
+      "fuente": "INE, estadística Frontur de 2025 (dato provisional)",
+      "simulacion": {
+        "mediana": 70000000,
+        "sigma": 0.9
+      },
+      "id": "q099"
+    },
+    {
+      "categoria": "España",
+      "pregunta": "¿Cuántos municipios hay en España?",
+      "unidad": "municipios",
+      "respuesta": 8132,
+      "pistas": [
+        "Hay 50 provincias.",
+        "Burgos tiene 371 municipios y otras provincias no llegan a 100; la media ronda los 160."
+      ],
+      "explicacion": "50 provincias × 160 municipios de media ≈ 8.000. Recuento del INE: 8.132, contando Ceuta y Melilla.",
+      "curiosidad": "A pesar de la fama de la España vaciada, más de la mitad de los municipios ganaron o mantuvieron población en 2024.",
+      "fuente": "INE, censo anual de población de 2025",
+      "simulacion": {
+        "mediana": 5000,
+        "sigma": 1.0
+      },
+      "id": "q100"
+    },
+    {
+      "categoria": "España",
+      "pregunta": "¿Cuántos euros repartió en premios el sorteo de la Lotería de Navidad de 2025?",
+      "unidad": "euros",
+      "respuesta": 2772000000,
+      "pistas": [
+        "Se pusieron a la venta 198 millones de décimos, a 20 euros cada uno.",
+        "Se destina a premios el 70 % del valor de todos los décimos."
+      ],
+      "explicacion": "198 millones de décimos × 20 euros = 3.960 millones de euros. El 70 % son 2.772 millones en premios.",
+      "curiosidad": "El Gordo son 400.000 euros por décimo, pero solo es una pequeña parte: hay miles de premios menores.",
+      "fuente": "Loterías y Apuestas del Estado, Sorteo Extraordinario de Navidad de 2025",
+      "simulacion": {
+        "mediana": 1000000000,
+        "sigma": 1.4
+      },
+      "id": "q101"
+    },
+    {
+      "categoria": "España",
+      "pregunta": "¿Cuántos kilómetros de vías de tren de alta velocidad hay en servicio en España?",
+      "unidad": "km",
+      "respuesta": 3993,
+      "pistas": [
+        "La red tiene forma de estrella con centro en Madrid: a Barcelona, Sevilla, Valencia, Galicia, León, Málaga…",
+        "De Madrid a Barcelona hay unos 620 kilómetros de vía, y hay seis o siete grandes líneas parecidas."
+      ],
+      "explicacion": "6,5 líneas × 620 kilómetros ≈ 4.000. Recuento del Atlas de Alta Velocidad de 2025: 3.993 kilómetros.",
+      "curiosidad": "Es la segunda red del mundo. Solo la supera China, que tiene más de diez veces más.",
+      "fuente": "Fundación de los Ferrocarriles Españoles y UIC, Atlas de Alta Velocidad 2025",
+      "simulacion": {
+        "mediana": 3000,
+        "sigma": 0.8
+      },
+      "id": "q102"
+    },
+    {
+      "categoria": "España",
+      "pregunta": "¿Cuántas gasolineras había en España a finales de 2025?",
+      "unidad": "gasolineras",
+      "respuesta": 12746,
+      "pistas": [
+        "Hay unos 8.100 municipios, pero muchos pueblos pequeños no tienen ninguna y las ciudades tienen decenas.",
+        "Sale a una gasolinera por cada 3.900 habitantes."
+      ],
+      "explicacion": "49,7 millones de habitantes / 3.900 ≈ 12.700. Recuento del sector a cierre de 2025: 12.746 estaciones de servicio.",
+      "curiosidad": "Las que más crecen son las de supermercados e hipermercados; las grandes marcas de siempre tienen cada año menos.",
+      "fuente": "Asociación de la Industria del Combustible de España (AICE), memoria de 2025",
+      "simulacion": {
+        "mediana": 9000,
+        "sigma": 0.9
+      },
+      "id": "q103"
+    },
+    {
+      "categoria": "España",
+      "pregunta": "¿Cuántas playas españolas recibieron la Bandera Azul en 2026?",
+      "unidad": "playas",
+      "respuesta": 677,
+      "pistas": [
+        "España es el país del mundo con más playas con Bandera Azul.",
+        "La Comunitat Valenciana, que es la que más tiene, suma 151."
+      ],
+      "explicacion": "Las 151 valencianas son algo más de una quinta parte del total: 151 × 4,5 ≈ 680. Cifra oficial de 2026: 677 playas.",
+      "curiosidad": "Una de cada siete playas con Bandera Azul del mundo está en España.",
+      "fuente": "ADEAC, programa Bandera Azul, balance de 2026",
+      "simulacion": {
+        "mediana": 450,
+        "sigma": 1.0
+      },
+      "id": "q104"
+    },
+    {
+      "categoria": "España",
+      "pregunta": "¿Cuántos bebés nacieron en España en 2025?",
+      "unidad": "bebés",
+      "respuesta": 321164,
+      "pistas": [
+        "Si la población se renovara sola, nacerían unos 600.000 al año: 50 millones de personas entre 83 años de vida.",
+        "En realidad nace poco más de la mitad de eso."
+      ],
+      "explicacion": "50 millones / 83 años ≈ 600.000 nacimientos para mantener la población. Con poco más de la mitad: unos 320.000. Estimación del INE para 2025: 321.164.",
+      "curiosidad": "Aun así fue una buena noticia: es la primera vez en diez años que nacen más niños que el año anterior.",
+      "fuente": "INE, estimación mensual de nacimientos de 2025 (dato provisional)",
+      "simulacion": {
+        "mediana": 400000,
+        "sigma": 0.7
+      },
+      "id": "q105"
+    },
+    {
+      "categoria": "España",
+      "pregunta": "¿Cuántas personas visitaron el Museo del Prado, en Madrid, en 2025?",
+      "unidad": "visitantes",
+      "respuesta": 3513402,
+      "pistas": [
+        "Abre casi todos los días del año.",
+        "De media entran algo menos de 10.000 personas al día."
+      ],
+      "explicacion": "9.700 visitantes al día × 362 días de apertura ≈ 3,5 millones. Dato oficial: 3.513.402, récord del museo.",
+      "curiosidad": "Dos de cada tres visitantes viven en otro país.",
+      "fuente": "Ministerio de Cultura, visitantes de los museos estatales en 2025",
+      "simulacion": {
+        "mediana": 2500000,
+        "sigma": 0.9
+      },
+      "id": "q106"
+    },
+    {
+      "categoria": "España",
+      "pregunta": "¿Cuántos corredores tomaron parte en la San Silvestre Vallecana de 2025?",
+      "unidad": "corredores",
+      "respuesta": 42000,
+      "pistas": [
+        "Se corre el 31 de diciembre por las calles de Madrid: 10 kilómetros hasta Vallecas.",
+        "Los corredores llenarían medio estadio Santiago Bernabéu."
+      ],
+      "explicacion": "Medio Bernabéu son unas 40.000 personas. En 2025 participaron unos 42.000 corredores: 40.000 en la carrera popular y unos 2.000 en la internacional.",
+      "curiosidad": "Hay tanta gente que la salida se hace por oleadas y dura varias horas.",
+      "fuente": "Ayuntamiento de Madrid y organización de la San Silvestre Vallecana (edición de 2025)",
+      "simulacion": {
+        "mediana": 25000,
+        "sigma": 0.9
+      },
+      "id": "q107"
+    },
+    {
+      "categoria": "España",
+      "pregunta": "¿Cuántos alumnos hay en España entre infantil, primaria, ESO, bachillerato y FP (curso 2025-2026)?",
+      "unidad": "alumnos",
+      "respuesta": 8249174,
+      "pistas": [
+        "Son unos 18 cursos, contando la educación infantil y la FP.",
+        "En cada año de edad hay entre 350.000 y 500.000 niños y jóvenes."
+      ],
+      "explicacion": "18 cursos × 450.000 alumnos ≈ 8,1 millones. Dato del Ministerio de Educación: 8.249.174 alumnos.",
+      "curiosidad": "La FP bate su récord: por primera vez tiene más de 1,2 millones de estudiantes.",
+      "fuente": "Ministerio de Educación, Formación Profesional y Deportes, datos avance del curso 2025-2026",
+      "simulacion": {
+        "mediana": 6000000,
+        "sigma": 0.8
+      },
+      "id": "q108"
+    },
+    {
+      "categoria": "España",
+      "pregunta": "¿Cuántos profesores dan clase en los colegios e institutos de España (curso 2025-2026)?",
+      "unidad": "profesores",
+      "respuesta": 806178,
+      "pistas": [
+        "Hay unos 8,2 millones de alumnos.",
+        "Sale a un profesor por cada diez alumnos."
+      ],
+      "explicacion": "8,2 millones de alumnos / 10 ≈ 820.000. Dato del Ministerio de Educación: 806.178 docentes.",
+      "curiosidad": "Trabajan en 28.633 centros: dos de cada tres son públicos.",
+      "fuente": "Ministerio de Educación, Formación Profesional y Deportes, datos avance del curso 2025-2026",
+      "simulacion": {
+        "mediana": 500000,
+        "sigma": 0.9
+      },
+      "id": "q109"
+    },
+    {
+      "categoria": "España",
+      "pregunta": "¿Cuántos viajes se hicieron en 2025 con bicimad, las bicicletas públicas de Madrid?",
+      "unidad": "viajes",
+      "respuesta": 13738810,
+      "pistas": [
+        "Hay unas 7.800 bicicletas repartidas por toda la ciudad.",
+        "Cada bicicleta hace casi cinco viajes al día."
+      ],
+      "explicacion": "7.800 bicicletas × 4,8 viajes al día × 365 días ≈ 13,7 millones. Dato de la EMT: 13.738.810 viajes.",
+      "curiosidad": "Fueron casi un 40 % más que el año anterior. El día récord, el 8 de septiembre, hubo 66.605 viajes.",
+      "fuente": "EMT Madrid, balance de 2025",
+      "simulacion": {
+        "mediana": 6000000,
+        "sigma": 1.2
+      },
+      "id": "q110"
+    },
+    {
+      "categoria": "España",
+      "pregunta": "¿Cuántas personas en España tienen García como primer apellido?",
+      "unidad": "personas",
+      "respuesta": 1446937,
+      "pistas": [
+        "En España viven unos 49 millones de personas.",
+        "Lo llevan casi 3 de cada 100."
+      ],
+      "explicacion": "49 millones × 0,03 ≈ 1,47 millones. Recuento del INE: 1.446.937 personas.",
+      "curiosidad": "Le saca medio millón al segundo, Rodríguez (939.214), que casi empata con González (930.137).",
+      "fuente": "INE, apellidos más frecuentes (publicado en abril de 2026)",
+      "simulacion": {
+        "mediana": 1000000,
+        "sigma": 0.9
+      },
+      "id": "q111"
+    },
+    {
+      "categoria": "España",
+      "pregunta": "¿Cuántas comisiones falleras había en la ciudad de València en las Fallas de 2026?",
+      "unidad": "comisiones",
+      "respuesta": 382,
+      "pistas": [
+        "Cada comisión es la falla de una calle, plaza o cruce, y planta sus propios monumentos.",
+        "Hay 128.675 falleros censados, y una comisión tiene de media unos 340."
+      ],
+      "explicacion": "128.675 falleros / 340 por comisión ≈ 380. Censo de la Junta Central Fallera para 2026: 382 comisiones.",
+      "curiosidad": "Entre todas se gastaron casi 10 millones de euros en monumentos que acabaron ardiendo.",
+      "fuente": "Junta Central Fallera, censo fallero de 2026",
+      "simulacion": {
+        "mediana": 250,
+        "sigma": 0.9
+      },
+      "id": "q112"
+    },
+    {
+      "categoria": "Marcas",
+      "pregunta": "¿Cuántos restaurantes McDonald's había en el mundo a finales de 2025?",
+      "unidad": "restaurantes",
+      "respuesta": 45356,
+      "pistas": [
+        "Está en más de 100 países.",
+        "Solo en Estados Unidos hay 13.706: casi uno de cada tres."
+      ],
+      "explicacion": "Si los 13.706 de Estados Unidos son algo menos de un tercio: 13.706 × 3,3 ≈ 45.000. Cifra oficial a 31 de diciembre de 2025: 45.356.",
+      "curiosidad": "Solo en 2025 abrió unos 2.300: más de seis restaurantes nuevos cada día.",
+      "fuente": "McDonald's Corporation, resultados anuales de 2025",
+      "simulacion": {
+        "mediana": 35000,
+        "sigma": 0.9
+      },
+      "id": "q113"
+    },
+    {
+      "categoria": "Marcas",
+      "pregunta": "¿Cuántas cafeterías Starbucks había en el mundo en otoño de 2025?",
+      "unidad": "cafeterías",
+      "respuesta": 40990,
+      "pistas": [
+        "Está en 89 países.",
+        "Estados Unidos y China tienen, entre los dos, unas 25.000: seis de cada diez."
+      ],
+      "explicacion": "25.000 cafeterías / 0,6 ≈ 41.000. Cifra oficial al cierre de su ejercicio 2025: 40.990.",
+      "curiosidad": "Algo menos de la mitad no son de Starbucks: las llevan otras empresas con licencia de la marca.",
+      "fuente": "Starbucks Corporation, informe anual del ejercicio fiscal 2025",
+      "simulacion": {
+        "mediana": 25000,
+        "sigma": 1.0
+      },
+      "id": "q114"
+    },
+    {
+      "categoria": "Marcas",
+      "pregunta": "¿Cuántas visitas recibieron las tiendas IKEA de todo el mundo en un año (ejercicio 2025)?",
+      "unidad": "visitas",
+      "respuesta": 915000000,
+      "pistas": [
+        "Hay unas 500 tiendas IKEA en el mundo.",
+        "Por cada tienda pasan unas 5.000 personas al día."
+      ],
+      "explicacion": "500 tiendas × 5.000 visitas al día × 365 días ≈ 912 millones. IKEA declaró 915 millones de visitas.",
+      "curiosidad": "Es como si una de cada nueve personas del planeta hubiera ido a un IKEA ese año.",
+      "fuente": "IKEA (Inter IKEA Group), balance del ejercicio 2025",
+      "simulacion": {
+        "mediana": 400000000,
+        "sigma": 1.3
+      },
+      "id": "q115"
+    },
+    {
+      "categoria": "Comida",
+      "pregunta": "¿Cuántas bebidas de las marcas de The Coca-Cola Company se toman en el mundo cada día?",
+      "unidad": "bebidas",
+      "respuesta": 2200000000,
+      "pistas": [
+        "En el mundo se toman cada día unos 65.000 millones de bebidas de todo tipo.",
+        "Algo más de 3 de cada 100 son de alguna marca de Coca-Cola (Fanta, Sprite, Aquarius…)."
+      ],
+      "explicacion": "65.000 millones de bebidas × 0,034 ≈ 2.200 millones al día, la cifra que da la propia compañía.",
+      "curiosidad": "Sale a una bebida de la compañía por cada cuatro habitantes del planeta, todos los días.",
+      "fuente": "The Coca-Cola Company, informe anual de 2025",
+      "simulacion": {
+        "mediana": 800000000,
+        "sigma": 1.3
+      },
+      "id": "q116"
+    },
+    {
+      "categoria": "Marcas",
+      "pregunta": "¿Cuántos coches entregó Tesla en todo el mundo en 2025?",
+      "unidad": "coches",
+      "respuesta": 1636129,
+      "pistas": [
+        "En el mundo se venden unos 80 millones de coches nuevos al año.",
+        "Dos de cada cien son un Tesla."
+      ],
+      "explicacion": "80 millones de coches × 0,02 = 1,6 millones. Cifra oficial de Tesla: 1.636.129 entregas.",
+      "curiosidad": "Fue su segundo año seguido de caída, y la china BYD la adelantó como mayor vendedora de coches eléctricos.",
+      "fuente": "Tesla, comunicado de producción y entregas de 2025",
+      "simulacion": {
+        "mediana": 1200000,
+        "sigma": 1.1
+      },
+      "id": "q117"
+    },
+    {
+      "categoria": "Marcas",
+      "pregunta": "¿Cuántas tiendas Apple Store había en el mundo a mediados de 2026?",
+      "unidad": "tiendas",
+      "respuesta": 537,
+      "pistas": [
+        "Hay tiendas en 27 países; en España son 12.",
+        "La mitad están en Estados Unidos: 269."
+      ],
+      "explicacion": "Si las 269 de Estados Unidos son la mitad, el total es 269 × 2 ≈ 540. Recuento de julio de 2026: 537 tiendas.",
+      "curiosidad": "Francia tiene 20, Italia 17 y Alemania 16: en toda Europa hay muchas menos que en Estados Unidos.",
+      "fuente": "Recuento a partir del directorio de tiendas de Apple (julio de 2026)",
+      "simulacion": {
+        "mediana": 900,
+        "sigma": 1.1
+      },
+      "id": "q118"
+    },
+    {
+      "categoria": "Marcas",
+      "pregunta": "¿Cuántas consolas Nintendo Switch (el primer modelo) se habían vendido hasta septiembre de 2026?",
+      "unidad": "consolas",
+      "respuesta": 157200000,
+      "pistas": [
+        "Salió en 2017 y se ha vendido durante casi diez años.",
+        "De media, unos 16 millones al año."
+      ],
+      "explicacion": "9,5 años × 16,5 millones al año ≈ 157 millones. Dato de Nintendo a 30 de septiembre de 2026: 157,2 millones.",
+      "curiosidad": "Ya ha superado a la Nintendo DS (154 millones), que era la consola más vendida de la casa.",
+      "fuente": "Nintendo, ventas acumuladas de consolas (30 de septiembre de 2026)",
+      "simulacion": {
+        "mediana": 110000000,
+        "sigma": 0.9
+      },
+      "id": "q119"
+    },
+    {
+      "categoria": "Marcas",
+      "pregunta": "¿Cuántas cartas Pokémon se habían impreso en toda la historia hasta marzo de 2026?",
+      "unidad": "cartas",
+      "respuesta": 85000000000,
+      "pistas": [
+        "Últimamente se imprimen unos 10.000 millones al año.",
+        "El juego existe desde 1996, pero más de la mitad de las cartas son de los últimos seis años."
+      ],
+      "explicacion": "Seis años recientes a unos 9.000 millones son unos 55.000 millones; los veinticuatro años anteriores suman otros 30.000. Total declarado por The Pokémon Company: más de 85.000 millones.",
+      "curiosidad": "Tocan a diez cartas por cada habitante del planeta.",
+      "fuente": "The Pokémon Company, cifras del juego de cartas a 31 de marzo de 2026",
+      "simulacion": {
+        "mediana": 15000000000,
+        "sigma": 1.6
+      },
+      "id": "q120"
+    },
+    {
+      "categoria": "Marcas",
+      "pregunta": "¿Cuántos libros de Harry Potter se han vendido en el mundo?",
+      "unidad": "libros",
+      "respuesta": 600000000,
+      "pistas": [
+        "Son siete libros, traducidos a 85 idiomas.",
+        "Sale a un libro por cada 13 o 14 personas del planeta."
+      ],
+      "explicacion": "8.100 millones de personas / 13,5 ≈ 600 millones, la cifra que dan sus editoriales.",
+      "curiosidad": "Cuando llegaron a los 500 millones, en 2018, la editorial calculó que una de cada 15 personas del mundo tenía uno.",
+      "fuente": "Scholastic y Bloomsbury, cifras de ventas de la serie Harry Potter (2023)",
+      "simulacion": {
+        "mediana": 400000000,
+        "sigma": 1.0
+      },
+      "id": "q121"
+    },
+    {
+      "categoria": "Marcas",
+      "pregunta": "¿Cuántos empleados tenía Amazon en todo el mundo a finales de 2025?",
+      "unidad": "empleados",
+      "respuesta": 1576000,
+      "pistas": [
+        "La mayoría no trabaja en oficinas, sino en almacenes y en reparto.",
+        "Son tantos como los habitantes de una ciudad como Barcelona."
+      ],
+      "explicacion": "Barcelona tiene algo más de 1,6 millones de habitantes, y esa es la escala: Amazon declaró 1.576.000 empleados a 31 de diciembre de 2025.",
+      "curiosidad": "Es la segunda empresa privada con más empleados del mundo.",
+      "fuente": "Amazon, informe anual de 2025",
+      "simulacion": {
+        "mediana": 800000,
+        "sigma": 1.1
+      },
+      "id": "q122"
+    },
+    {
+      "categoria": "Internet",
+      "pregunta": "¿Cuántas suscripciones de pago tenía Netflix a finales de 2025?",
+      "unidad": "suscripciones",
+      "respuesta": 325000000,
+      "pistas": [
+        "Una suscripción suele ser de un hogar entero, no de una sola persona.",
+        "Netflix calcula que la ven casi mil millones de personas: unas tres por suscripción."
+      ],
+      "explicacion": "1.000 millones de espectadores / 3 personas por suscripción ≈ 330 millones. Netflix declaró más de 325 millones.",
+      "curiosidad": "Un año antes eran 301 millones: ganó 24 millones de hogares en doce meses.",
+      "fuente": "Netflix, carta a los accionistas del cuarto trimestre de 2025",
+      "simulacion": {
+        "mediana": 250000000,
+        "sigma": 0.9
+      },
+      "id": "q123"
+    },
+    {
+      "categoria": "Internet",
+      "pregunta": "¿Cuántas personas usaban Spotify cada mes en otoño de 2026?",
+      "unidad": "usuarios",
+      "respuesta": 788000000,
+      "pistas": [
+        "De pago son 306 millones.",
+        "Los que pagan son menos de cuatro de cada diez; el resto lo escucha gratis con anuncios."
+      ],
+      "explicacion": "306 millones de suscriptores / 0,39 ≈ 785 millones. Dato de Spotify del tercer trimestre de 2026: 788 millones de usuarios al mes.",
+      "curiosidad": "Lo usa casi una de cada diez personas del planeta.",
+      "fuente": "Spotify, resultados del tercer trimestre de 2026",
+      "simulacion": {
+        "mediana": 500000000,
+        "sigma": 0.9
+      },
+      "id": "q124"
+    },
+    {
+      "categoria": "Internet",
+      "pregunta": "¿Cuántos artículos tenía la Wikipedia en inglés en noviembre de 2026?",
+      "unidad": "artículos",
+      "respuesta": 7263198,
+      "pistas": [
+        "La Wikipedia en español tiene 2,1 millones de artículos.",
+        "La inglesa es casi tres veces y media más grande."
+      ],
+      "explicacion": "2,1 millones × 3,4 ≈ 7,2 millones. Contador oficial el 12 de noviembre de 2026: 7.263.198 artículos.",
+      "curiosidad": "Entre todos suman más de 5.000 millones de palabras: leerlos de un tirón llevaría unos cuarenta años.",
+      "fuente": "Wikipedia en inglés, estadísticas oficiales (12 de noviembre de 2026)",
+      "simulacion": {
+        "mediana": 5000000,
+        "sigma": 1.3
+      },
+      "id": "q125"
+    },
+    {
+      "categoria": "Internet",
+      "pregunta": "¿Cuántas personas jugaban a Roblox cada día en el verano de 2026?",
+      "unidad": "jugadores",
+      "respuesta": 138000000,
+      "pistas": [
+        "La mayoría de sus jugadores son niños y adolescentes.",
+        "Juega cada día, más o menos, una de cada 60 personas del planeta."
+      ],
+      "explicacion": "8.200 millones de personas / 60 ≈ 137 millones. Dato de Roblox para el tercer trimestre de 2026: 138 millones de jugadores diarios.",
+      "curiosidad": "Entre todos jugaron casi 34.000 millones de horas en solo tres meses.",
+      "fuente": "Roblox Corporation, resultados del tercer trimestre de 2026",
+      "simulacion": {
+        "mediana": 60000000,
+        "sigma": 1.2
+      },
+      "id": "q126"
+    },
+    {
+      "categoria": "Viajes",
+      "pregunta": "¿Cuántas visitas recibió en 2025 el parque Disneyland de París (sin contar el segundo parque del complejo)?",
+      "unidad": "visitas",
+      "respuesta": 10800000,
+      "pistas": [
+        "Abre los 365 días del año.",
+        "De media entran unas 30.000 personas al día."
+      ],
+      "explicacion": "30.000 visitantes al día × 365 días ≈ 10,9 millones. Estimación del sector para 2025: 10,8 millones.",
+      "curiosidad": "Es el parque temático más visitado de Europa; el segundo, en Alemania, recibe poco más de la mitad.",
+      "fuente": "Themed Entertainment Association (TEA), Global Experience Index 2025",
+      "simulacion": {
+        "mediana": 8000000,
+        "sigma": 0.9
+      },
+      "id": "q127"
+    },
+    {
+      "categoria": "Deporte",
+      "pregunta": "¿Cuántos espectadores fueron a los estadios, sumando todos los partidos, en el Mundial de fútbol de 2026?",
+      "unidad": "espectadores",
+      "respuesta": 6810966,
+      "pistas": [
+        "Se jugaron 104 partidos en Estados Unidos, México y Canadá.",
+        "Los estadios eran enormes: la media fue de unos 65.000 espectadores por partido."
+      ],
+      "explicacion": "104 partidos × 65.000 espectadores ≈ 6,8 millones. Asistencia total registrada: 6.810.966.",
+      "curiosidad": "Es el doble que en Qatar 2022: allí fueron 3,4 millones de espectadores.",
+      "fuente": "Estadísticas finales de la Copa Mundial de la FIFA 2026",
+      "simulacion": {
+        "mediana": 4500000,
+        "sigma": 0.8
+      },
+      "id": "q128"
+    },
+    {
+      "categoria": "Deporte",
+      "pregunta": "¿Cuántos deportistas compitieron en los Juegos Olímpicos de París 2024?",
+      "unidad": "deportistas",
+      "respuesta": 10500,
+      "pistas": [
+        "Participaron 206 delegaciones.",
+        "Hubo 329 pruebas con medalla; la delegación media llevó unos 50 deportistas."
+      ],
+      "explicacion": "206 delegaciones × 51 deportistas de media ≈ 10.500, que era el cupo fijado por el Comité Olímpico Internacional.",
+      "curiosidad": "Fueron los primeros Juegos con el mismo número de plazas para mujeres que para hombres.",
+      "fuente": "Comité Olímpico Internacional, Juegos de París 2024",
+      "simulacion": {
+        "mediana": 8000,
+        "sigma": 0.8
+      },
+      "id": "q129"
+    },
+    {
+      "categoria": "Comida",
+      "pregunta": "¿Cuántos ositos de oro fabrica Haribo cada día en todo el mundo?",
+      "unidad": "ositos",
+      "respuesta": 160000000,
+      "pistas": [
+        "Cada osito pesa poco más de 2 gramos: en una bolsa de 100 gramos vienen unos 45.",
+        "Haribo vende en más de cien países: piensa en varios millones de bolsas al día."
+      ],
+      "explicacion": "Si cada día se llenan unos 3,5 millones de bolsas de 100 gramos y en cada una vienen unos 45 ositos: 3,5 millones × 45 ≈ 160 millones. Es la cifra que da la propia Haribo.",
+      "curiosidad": "Según Haribo, los ositos que fabrica en un año, puestos en fila, darían más de diez vueltas a la Tierra.",
+      "fuente": "Haribo, datos corporativos del centenario de los Goldbären (2022)",
+      "simulacion": {
+        "mediana": 30000000,
+        "sigma": 1.4
+      },
+      "id": "q130"
+    },
+    {
+      "categoria": "Internet",
+      "pregunta": "¿Cuántos viajes y pedidos hizo Uber cada día, de media, en el verano de 2026 en todo el mundo?",
+      "unidad": "viajes",
+      "respuesta": 44000000,
+      "pistas": [
+        "Unos 215 millones de personas usan Uber o Uber Eats cada mes.",
+        "Cada una lo usa, de media, unas seis veces al mes."
+      ],
+      "explicacion": "215 millones de usuarios × 6 usos al mes ≈ 1.300 millones al mes, es decir, unos 44 millones al día. Uber declaró 4.061 millones de viajes entre julio y septiembre de 2026: 4.061 / 92 días ≈ 44 millones.",
+      "curiosidad": "Uber ya mueve casi tanto dinero repartiendo comida como llevando personas.",
+      "fuente": "Uber, resultados del tercer trimestre de 2026 (cálculo: viajes del trimestre / 92 días)",
+      "simulacion": {
+        "mediana": 15000000,
+        "sigma": 1.3
+      },
+      "id": "q131"
+    },
+    {
+      "categoria": "Cine y música",
+      "pregunta": "¿Cuántos dólares ha recaudado en los cines de todo el mundo «Avatar» (2009), la película más taquillera de la historia?",
+      "unidad": "dólares",
+      "respuesta": 2923710708,
+      "pistas": [
+        "Una entrada de cine, muchas de ellas en 3D, costaba unos 10 dólares.",
+        "Imagina que la vio en el cine una de cada 25 personas del planeta."
+      ],
+      "explicacion": "En 2009 había unos 7.000 millones de personas. Si una de cada 25 fue a verla, son unos 280 millones de entradas; a 10 dólares, unos 2.800 millones. Total real, con reestrenos: 2.924 millones de dólares.",
+      "curiosidad": "Hacerla costó 237 millones de dólares: recaudó más de doce veces su presupuesto.",
+      "fuente": "Box Office Mojo, recaudación mundial acumulada de Avatar (2009)",
+      "simulacion": {
+        "mediana": 1500000000,
+        "sigma": 1.1
+      },
+      "id": "q132"
+    },
+    {
+      "categoria": "Internet",
+      "pregunta": "¿Cuántas visualizaciones tenía «Baby Shark Dance», el vídeo más visto de YouTube, en febrero de 2026?",
+      "unidad": "visualizaciones",
+      "respuesta": 16643177027,
+      "pistas": [
+        "Fue el primer vídeo de YouTube que superó los 10.000 millones.",
+        "Sale a unas dos reproducciones por cada habitante del planeta."
+      ],
+      "explicacion": "En el mundo hay unos 8.200 millones de personas. Dos reproducciones por cabeza: 16.400 millones. Recuento de Guinness a 4 de febrero de 2026: 16.643 millones.",
+      "curiosidad": "El segundo vídeo más visto, otra canción infantil, no llega a los 10.000 millones.",
+      "fuente": "Guinness World Records, vídeo más visto de YouTube (4 de febrero de 2026)",
+      "simulacion": {
+        "mediana": 6000000000,
+        "sigma": 1.3
+      },
+      "id": "q133"
+    },
+    {
+      "categoria": "Cine y música",
+      "pregunta": "¿Cuántas personas vieron por televisión el Festival de Eurovisión de 2026 (sumando semifinales y final)?",
+      "unidad": "personas",
+      "respuesta": 131000000,
+      "pistas": [
+        "Se mide la audiencia en 35 países.",
+        "De media, unos 4 millones de espectadores por país."
+      ],
+      "explicacion": "35 países × unos 3,7 millones de espectadores de media ≈ 130 millones. Cifra de la Unión Europea de Radiodifusión para la edición de Viena: 131 millones.",
+      "curiosidad": "En 2025 lo habían visto 166 millones de personas: en un año perdió 35 millones de espectadores.",
+      "fuente": "Unión Europea de Radiodifusión (UER), balance de audiencia de Eurovisión 2026",
+      "simulacion": {
+        "mediana": 150000000,
+        "sigma": 1.0
+      },
+      "id": "q134"
+    },
+    {
+      "categoria": "Deporte",
+      "pregunta": "¿Cuántas personas vieron la Super Bowl de 2026 en Estados Unidos?",
+      "unidad": "personas",
+      "respuesta": 125600000,
+      "pistas": [
+        "En Estados Unidos viven unos 340 millones de personas.",
+        "La ve algo más de uno de cada tres estadounidenses."
+      ],
+      "explicacion": "340 millones de habitantes × 0,37 ≈ 126 millones. Cifra final de Nielsen: 125,6 millones de espectadores de media.",
+      "curiosidad": "El concierto del descanso, con Bad Bunny, tuvo más audiencia que el propio partido: 128,2 millones.",
+      "fuente": "Nielsen, audiencia final de la Super Bowl LX (febrero de 2026)",
+      "simulacion": {
+        "mediana": 110000000,
+        "sigma": 0.8
+      },
+      "id": "q135"
+    },
+    {
+      "categoria": "Cine y música",
+      "pregunta": "¿Cuántos episodios de «Los Simpson» existían al terminar su temporada 37, en 2026?",
+      "unidad": "episodios",
+      "respuesta": 809,
+      "pistas": [
+        "La serie empezó en 1989 y ha tenido una temporada por año.",
+        "Cada temporada tiene unos 22 episodios."
+      ],
+      "explicacion": "37 temporadas × 22 episodios ≈ 814. Recuento real al acabar la temporada 37: 809.",
+      "curiosidad": "Hay tres episodios distintos que se pueden considerar «el número 800», según cómo se cuente.",
+      "fuente": "Lista oficial de episodios de Los Simpson (temporadas 1 a 37)",
+      "simulacion": {
+        "mediana": 650,
+        "sigma": 0.7
+      },
+      "id": "q136"
+    },
+    {
+      "categoria": "Internet",
+      "pregunta": "¿Cuántos seguidores tenía Cristiano Ronaldo en Instagram en noviembre de 2026?",
+      "unidad": "seguidores",
+      "respuesta": 681000000,
+      "pistas": [
+        "Es la persona con más seguidores del mundo en Instagram.",
+        "Le sigue, más o menos, una de cada doce personas del planeta."
+      ],
+      "explicacion": "8.200 millones de personas / 12 ≈ 680 millones. En noviembre de 2026 rondaba los 681 millones de seguidores.",
+      "curiosidad": "En mayo de 2026 Instagram borró cuentas falsas y Cristiano, Messi y Mbappé perdieron millones de seguidores de golpe.",
+      "fuente": "Recuento de seguidores de Instagram publicado en noviembre de 2026 (Epidemic Sound)",
+      "simulacion": {
+        "mediana": 450000000,
+        "sigma": 0.9
+      },
+      "id": "q137"
+    },
+    {
+      "categoria": "Deporte",
+      "pregunta": "¿Cuántos corredores terminaron el maratón de Nueva York de 2025?",
+      "unidad": "corredores",
+      "respuesta": 59226,
+      "pistas": [
+        "Es uno de los maratones con más participantes del mundo.",
+        "Piensa en un estadio de fútbol grande, pero no de los más grandes, lleno de corredores."
+      ],
+      "explicacion": "Un estadio grande ronda los 60.000 asientos, y esa es la escala: en 2025 cruzaron la meta 59.226 corredores, récord de la carrera hasta entonces.",
+      "curiosidad": "El récord duró un año: en 2026 lo terminaron más de 61.000 personas.",
+      "fuente": "New York Road Runners, resultados del maratón de Nueva York de 2025",
+      "simulacion": {
+        "mediana": 40000,
+        "sigma": 0.8
+      },
+      "id": "q138"
+    },
+    {
+      "categoria": "Deporte",
+      "pregunta": "¿Cuántos kilómetros tenía el recorrido oficial del Tour de Francia de 2026, que salió de Barcelona?",
+      "unidad": "km",
+      "respuesta": 3333,
+      "pistas": [
+        "El Tour tiene 21 etapas.",
+        "Una etapa normal ronda los 160 kilómetros; las contrarrelojes son mucho más cortas."
+      ],
+      "explicacion": "21 etapas × 160 kilómetros de media ≈ 3.360. El recorrido presentado para 2026 sumaba unos 3.333 kilómetros.",
+      "curiosidad": "Al final se corrieron menos: dos etapas se acortaron y los ciclistas hicieron unos 3.245 kilómetros.",
+      "fuente": "Recorrido oficial del Tour de Francia 2026 presentado por la organización (ASO)",
+      "simulacion": {
+        "mediana": 3000,
+        "sigma": 0.6
+      },
+      "id": "q139"
+    },
+    {
+      "categoria": "Deporte",
+      "pregunta": "¿Cuántos goles se marcaron en total en el Mundial de fútbol de 2026?",
+      "unidad": "goles",
+      "respuesta": 308,
+      "pistas": [
+        "Fue el primer Mundial con 48 selecciones: se jugaron 104 partidos.",
+        "En un partido de Mundial se marcan casi tres goles de media."
+      ],
+      "explicacion": "104 partidos × 3 goles ≈ 312. Total real: 308 goles, 2,96 por partido.",
+      "curiosidad": "El récord anterior, los 172 goles de Qatar 2022, se igualó cuando todavía quedaban 46 partidos por jugar.",
+      "fuente": "Estadísticas finales de la Copa Mundial de la FIFA 2026",
+      "simulacion": {
+        "mediana": 230,
+        "sigma": 0.6
+      },
+      "id": "q140"
+    },
+    {
+      "categoria": "Mundo",
+      "pregunta": "¿Cuántas personas distintas habían pisado la cima del Everest hasta finales de 2025?",
+      "unidad": "personas",
+      "respuesta": 7563,
+      "pistas": [
+        "La primera vez fue en 1953, y hasta los años noventa subía muy poca gente.",
+        "En una buena primavera hacen cumbre unas 850 personas, pero muchas son guías que repiten año tras año."
+      ],
+      "explicacion": "Unas 600 cumbres al año durante las últimas dos décadas son unas 13.000 ascensiones; como casi la mitad son de gente que repite, quedan unas 7.500 personas. Recuento: 7.563 personas y 13.737 ascensiones.",
+      "curiosidad": "Kami Rita Sherpa ha estado en la cima 31 veces.",
+      "fuente": "The Himalayan Database, recuento hasta diciembre de 2025 (recopilado por Alan Arnette)",
+      "simulacion": {
+        "mediana": 4000,
+        "sigma": 1.2
+      },
+      "id": "q141"
+    },
+    {
+      "categoria": "Deporte",
+      "pregunta": "¿Cuántos espectadores fueron al Gran Premio de Gran Bretaña de Fórmula 1 de 2025, sumando todos los días del fin de semana?",
+      "unidad": "espectadores",
+      "respuesta": 500000,
+      "pistas": [
+        "Se cuenta la asistencia de todos los días: entrenamientos, clasificación y carrera.",
+        "Es el gran premio con más público del año; el día de la carrera hay bastante más de 100.000 personas."
+      ],
+      "explicacion": "Unas 125.000 personas de media durante cuatro días de actividad en el circuito dan 500.000. Es la cifra oficial de Silverstone para 2025.",
+      "curiosidad": "Para llevar a tanta gente hicieron falta 600 autobuses, que trasladaron a más de 125.000 personas.",
+      "fuente": "Circuito de Silverstone, cifras oficiales del Gran Premio de Gran Bretaña 2025",
+      "simulacion": {
+        "mediana": 250000,
+        "sigma": 0.9
+      },
+      "id": "q142"
+    },
+    {
+      "categoria": "Deporte",
+      "pregunta": "¿Cuántos espectadores caben en el estadio de críquet más grande del mundo, el Narendra Modi de Ahmedabad (India)?",
+      "unidad": "espectadores",
+      "respuesta": 132000,
+      "pistas": [
+        "En la India el críquet es mucho más popular que el fútbol.",
+        "El gran estadio de Melbourne tiene unos 100.000 asientos, y este es mayor."
+      ],
+      "explicacion": "Hay que pensar en un estadio de 100.000 asientos y añadirle un tercio más: su aforo declarado es de 132.000 espectadores.",
+      "curiosidad": "Se inauguró en 2020 sobre el solar de otro estadio, demolido cinco años antes para construir este.",
+      "fuente": "Consejo Internacional de Críquet (ICC), ficha del Narendra Modi Stadium",
+      "simulacion": {
+        "mediana": 100000,
+        "sigma": 0.5
+      },
+      "id": "q143"
+    },
+    {
+      "categoria": "Viajes",
+      "pregunta": "¿Cuántos vuelos comerciales despegaron en el mundo cada día, de media, en 2025?",
+      "unidad": "vuelos",
+      "respuesta": 106600,
+      "pistas": [
+        "Solo los Boeing 737 hicieron 10,8 millones de vuelos en todo el año.",
+        "En todo 2025 hubo unos 38,9 millones de vuelos."
+      ],
+      "explicacion": "38,9 millones de vuelos / 365 días ≈ 106.600 vuelos al día: más de uno por segundo.",
+      "curiosidad": "En 2020, con la pandemia, hubo menos de la mitad: 16,9 millones de vuelos en todo el año.",
+      "fuente": "IATA, perspectivas del transporte aéreo (diciembre de 2025); cálculo: vuelos del año / 365",
+      "simulacion": {
+        "mediana": 60000,
+        "sigma": 1.2
+      },
+      "id": "q144"
+    },
+    {
+      "categoria": "Ciudades",
+      "pregunta": "¿Cuántas plantas tiene el Burj Khalifa de Dubái, el edificio más alto del mundo?",
+      "unidad": "plantas",
+      "respuesta": 163,
+      "pistas": [
+        "Mide 828 metros, pero la aguja final no tiene plantas.",
+        "El mirador de la planta 148 está a 555 metros de altura."
+      ],
+      "explicacion": "555 metros / 148 plantas ≈ 3,75 metros por planta. Por encima del mirador quedan unas quince plantas más, casi todas técnicas: 163 en total.",
+      "curiosidad": "Subir por la escalera hasta la planta 160 son 2.909 escalones.",
+      "fuente": "Guinness World Records y ficha técnica del Burj Khalifa (Emaar)",
+      "simulacion": {
+        "mediana": 180,
+        "sigma": 0.5
+      },
+      "id": "q145"
+    },
+    {
+      "categoria": "Viajes",
+      "pregunta": "¿Cuántos escalones hay desde el suelo hasta lo más alto de la torre Eiffel?",
+      "unidad": "escalones",
+      "respuesta": 1665,
+      "pistas": [
+        "La escalera llega hasta unos 280 metros de altura.",
+        "Un escalón normal sube unos 17 centímetros."
+      ],
+      "explicacion": "280 metros / 0,17 metros por escalón ≈ 1.650. Cifra oficial: 1.665 escalones.",
+      "curiosidad": "El público solo puede subir a pie hasta la segunda planta; de ahí a la cima, en ascensor.",
+      "fuente": "Société d'Exploitation de la Tour Eiffel, dossier de prensa (2024)",
+      "simulacion": {
+        "mediana": 1400,
+        "sigma": 0.7
+      },
+      "id": "q146"
+    },
+    {
+      "categoria": "Viajes",
+      "pregunta": "¿Cuántos barcos cruzaron el canal de Panamá en su año fiscal 2025 (de octubre de 2024 a septiembre de 2025)?",
+      "unidad": "barcos",
+      "respuesta": 13404,
+      "pistas": [
+        "El canal funciona día y noche, todos los días del año.",
+        "Cada día lo cruzan entre 35 y 40 barcos."
+      ],
+      "explicacion": "37 barcos al día × 365 días ≈ 13.500. Cifra de la Autoridad del Canal: 13.404 tránsitos.",
+      "curiosidad": "El año anterior, por la sequía, solo pudieron pasar 11.240: el canal necesita agua dulce para llenar las esclusas.",
+      "fuente": "Autoridad del Canal de Panamá, resultados del año fiscal 2025",
+      "simulacion": {
+        "mediana": 9000,
+        "sigma": 1.1
+      },
+      "id": "q147"
+    },
+    {
+      "categoria": "Viajes",
+      "pregunta": "¿Cuántos contenedores estándar de 6 metros caben en el mayor barco portacontenedores del mundo?",
+      "unidad": "contenedores",
+      "respuesta": 24346,
+      "pistas": [
+        "El barco mide 400 metros de largo y unos 60 de ancho.",
+        "Los contenedores van en 24 filas a lo ancho y se apilan unas 20 alturas entre la bodega y la cubierta."
+      ],
+      "explicacion": "A lo largo caben unos 48 contenedores (el resto son máquinas y puente), a lo ancho 24, y se apilan unas 21 alturas: 48 × 24 × 21 ≈ 24.000. Capacidad homologada: 24.346.",
+      "curiosidad": "No es un barco, sino varios gemelos de la naviera MSC que comparten el récord con la misma capacidad exacta.",
+      "fuente": "Registro de los mayores portacontenedores (clase MSC Irina, 24.346 TEU)",
+      "simulacion": {
+        "mediana": 10000,
+        "sigma": 1.2
+      },
+      "id": "q148"
+    },
+    {
+      "categoria": "Viajes",
+      "pregunta": "¿Cuántos pasajeros caben, como máximo, en el crucero más grande del mundo?",
+      "unidad": "pasajeros",
+      "respuesta": 7600,
+      "pistas": [
+        "Solo la tripulación son 2.350 personas.",
+        "Con dos personas por camarote lleva 5.610 pasajeros; la capacidad máxima cuenta también sofás cama y literas."
+      ],
+      "explicacion": "Unos 2.800 camarotes × 2 personas = 5.610. Con las camas extra de los camarotes familiares, un tercio más: 7.600 pasajeros como máximo.",
+      "curiosidad": "Con tripulación incluida viajan casi 10.000 personas: más que los habitantes de muchos pueblos.",
+      "fuente": "Royal Caribbean, capacidad máxima de Icon of the Seas y Star of the Seas",
+      "simulacion": {
+        "mediana": 5000,
+        "sigma": 0.7
+      },
+      "id": "q149"
+    },
+    {
+      "categoria": "Ciudades",
+      "pregunta": "¿Cuántos autobuses tiene la red de autobuses rojos de Londres?",
+      "unidad": "autobuses",
+      "respuesta": 8797,
+      "pistas": [
+        "En Londres viven unos 9 millones de personas.",
+        "Sale, más o menos, a un autobús por cada mil habitantes."
+      ],
+      "explicacion": "9 millones de habitantes / 1.000 ≈ 9.000. Recuento de la flota a 31 de marzo de 2025: 8.797 autobuses.",
+      "curiosidad": "En 2016 solo unos 30 eran eléctricos; en 2026 ya eran 3.000, un tercio de la flota.",
+      "fuente": "Transport for London, auditoría de la flota de autobuses (31 de marzo de 2025)",
+      "simulacion": {
+        "mediana": 5000,
+        "sigma": 1.0
+      },
+      "id": "q150"
+    },
+    {
+      "categoria": "Ciudades",
+      "pregunta": "¿Cuántas máquinas expendedoras de bebidas había en Japón a finales de 2023?",
+      "unidad": "máquinas",
+      "respuesta": 2218600,
+      "pistas": [
+        "En Japón viven unos 124 millones de personas.",
+        "Hay una máquina de bebidas por cada 55 personas, más o menos."
+      ],
+      "explicacion": "124 millones de habitantes / 55 ≈ 2,25 millones. Recuento de la asociación del sector: 2.218.600 máquinas de bebidas.",
+      "curiosidad": "Contando también las de comida, billetes, tabaco y demás, Japón tiene casi 4 millones de máquinas automáticas.",
+      "fuente": "Asociación japonesa de fabricantes de máquinas expendedoras (JVMA), datos de finales de 2023",
+      "simulacion": {
+        "mediana": 900000,
+        "sigma": 1.3
+      },
+      "id": "q151"
+    },
+    {
+      "categoria": "Viajes",
+      "pregunta": "¿Cuántas personas visitaron el Museo del Louvre de París en 2025?",
+      "unidad": "visitantes",
+      "respuesta": 9000000,
+      "pistas": [
+        "El museo cierra los martes.",
+        "Limita la entrada a unas 30.000 personas al día."
+      ],
+      "explicacion": "Unos 310 días de apertura × 29.000 visitantes al día ≈ 9 millones, que es el balance que dio el museo para 2025.",
+      "curiosidad": "Casi la mitad de los visitantes, el 44 %, tenía menos de 26 años.",
+      "fuente": "Museo del Louvre, balance de visitantes de 2025",
+      "simulacion": {
+        "mediana": 6000000,
+        "sigma": 0.9
+      },
+      "id": "q152"
+    },
+    {
+      "categoria": "Ciudades",
+      "pregunta": "¿Cuántas estaciones tiene el metro de Nueva York?",
+      "unidad": "estaciones",
+      "respuesta": 472,
+      "pistas": [
+        "El Metro de Madrid tiene unas 300 estaciones.",
+        "El de Nueva York es el metro con más estaciones del mundo, pero no llega a las 500."
+      ],
+      "explicacion": "Nueva York tiene más del doble de habitantes que Madrid y una red más densa: una vez y media las estaciones de Madrid son unas 450. Cifra oficial: 472.",
+      "curiosidad": "Si las estaciones unidas por pasillos de transbordo se cuentan como una sola, quedan 424.",
+      "fuente": "Metropolitan Transportation Authority (MTA) de Nueva York",
+      "simulacion": {
+        "mediana": 300,
+        "sigma": 0.8
+      },
+      "id": "q153"
+    },
+    {
+      "categoria": "Viajes",
+      "pregunta": "¿Cuántas personas visitaron en 2024 el Coliseo de Roma (con el Foro y el Palatino, que comparten entrada)?",
+      "unidad": "visitantes",
+      "respuesta": 14733395,
+      "pistas": [
+        "Abre casi todos los días del año.",
+        "De media entran unas 40.000 personas al día."
+      ],
+      "explicacion": "40.000 visitantes al día × 365 días ≈ 14,6 millones. Dato oficial de 2024: 14.733.395.",
+      "curiosidad": "Ese año ingresó más de 100 millones de euros en entradas por primera vez.",
+      "fuente": "Ministerio de Cultura de Italia, estadística de museos de 2024",
+      "simulacion": {
+        "mediana": 7000000,
+        "sigma": 1.0
+      },
+      "id": "q154"
+    },
+    {
+      "categoria": "Ciudades",
+      "pregunta": "¿Cuántas habitaciones de hotel hay en Las Vegas?",
+      "unidad": "habitaciones",
+      "respuesta": 150300,
+      "pistas": [
+        "La ciudad recibe unos 38,5 millones de visitantes al año.",
+        "Se quedan dos o tres noches, casi siempre dos personas por habitación, y los hoteles están al 80 %."
+      ],
+      "explicacion": "38,5 millones de visitantes × 2,3 noches / 2 personas por habitación ≈ 44 millones de noches. Entre 365 días y con el 80 % de ocupación: unas 151.000 habitaciones. Dato oficial: 150.300.",
+      "curiosidad": "Es la ciudad con más habitaciones de hotel de Estados Unidos y la segunda del mundo.",
+      "fuente": "Autoridad de Convenciones y Visitantes de Las Vegas (LVCVA), balance de 2025",
+      "simulacion": {
+        "mediana": 70000,
+        "sigma": 1.1
+      },
+      "id": "q155"
+    },
+    {
+      "categoria": "Ciudades",
+      "pregunta": "¿Cuántos árboles hay, aproximadamente, en Central Park (Nueva York)?",
+      "unidad": "árboles",
+      "respuesta": 18000,
+      "pistas": [
+        "El parque ocupa 341 hectáreas: unos 3,4 millones de metros cuadrados.",
+        "Entre praderas, lagos y caminos, sale a un árbol por cada 190 metros cuadrados."
+      ],
+      "explicacion": "3,4 millones de metros cuadrados, a un árbol por cada 190: unos 18.000, la cifra que da la organización que cuida el parque.",
+      "curiosidad": "Guarda una de las mayores arboledas de olmos americanos que quedan en el mundo.",
+      "fuente": "Central Park Conservancy, guía de árboles de Central Park",
+      "simulacion": {
+        "mediana": 30000,
+        "sigma": 1.2
+      },
+      "id": "q156"
+    },
+    {
+      "categoria": "Comida",
+      "pregunta": "¿Cuántos huevos puso de media en 2025 cada gallina ponedora de las granjas de Estados Unidos?",
+      "unidad": "huevos",
+      "respuesta": 288,
+      "pistas": [
+        "Una gallina no puede poner más de un huevo al día.",
+        "En su mejor época pone unos seis a la semana, pero también tiene semanas de descanso."
+      ],
+      "explicacion": "Si pusiera uno al día serían 365. Con los descansos se queda en cuatro de cada cinco días: 365 × 0,8 ≈ 290. Media oficial de 2025: 288 huevos por gallina.",
+      "curiosidad": "Entre todas pusieron unos 105.000 millones de huevos en un año: más de 300 por cada estadounidense.",
+      "fuente": "Departamento de Agricultura de EE. UU. (USDA), resumen anual de gallinas y huevos de 2025",
+      "simulacion": {
+        "mediana": 220,
+        "sigma": 0.6
+      },
+      "id": "q157"
+    },
+    {
+      "categoria": "Comida",
+      "pregunta": "¿Cuántos kilos de chocolate comió de media cada persona en Suiza en 2025?",
+      "unidad": "kg",
+      "respuesta": 10.3,
+      "pistas": [
+        "Una tableta normal pesa 100 gramos.",
+        "Sale a dos tabletas por semana."
+      ],
+      "explicacion": "2 tabletas a la semana × 52 semanas = 104 tabletas de 100 gramos: 10,4 kilos. Dato de los fabricantes suizos para 2025: 10,3 kilos por persona.",
+      "curiosidad": "Casi la mitad de ese chocolate (4,2 kilos) es importado: ni los suizos comen solo chocolate suizo.",
+      "fuente": "Chocosuisse, memoria anual de 2025",
+      "simulacion": {
+        "mediana": 8,
+        "sigma": 0.8
+      },
+      "id": "q158"
+    },
+    {
+      "categoria": "Comida",
+      "pregunta": "¿Cuántos restaurantes del mundo tenían tres estrellas Michelin en septiembre de 2026?",
+      "unidad": "restaurantes",
+      "respuesta": 162,
+      "pistas": [
+        "Francia tiene 30 y Japón, 20.",
+        "España tiene 16, y hay restaurantes con tres estrellas en 25 países."
+      ],
+      "explicacion": "Los cinco países con más (Francia, Japón, España, Estados Unidos e Italia) suman 97. Los otros veinte países tienen unos tres de media: 65 más. En total, 162.",
+      "curiosidad": "Son menos del 1 % de los casi 20.000 restaurantes que aparecen en la guía.",
+      "fuente": "Guía Michelin, recuento de restaurantes con tres estrellas (24 de septiembre de 2026)",
+      "simulacion": {
+        "mediana": 120,
+        "sigma": 1.0
+      },
+      "id": "q159"
+    },
+    {
+      "categoria": "Animales",
+      "pregunta": "Según el último censo oficial de China, ¿cuántos pandas gigantes viven en libertad?",
+      "unidad": "pandas",
+      "respuesta": 1864,
+      "pistas": [
+        "Solo viven en los bosques de bambú de las montañas del centro de China.",
+        "Su parque nacional mide 22.000 kilómetros cuadrados y allí viven casi tres de cada cuatro."
+      ],
+      "explicacion": "Un panda necesita mucho bosque: si hay uno por cada 16 kilómetros cuadrados, en el parque caben unos 1.375, que son el 72 % del total. 1.375 / 0,72 ≈ 1.900. Censo oficial: 1.864.",
+      "curiosidad": "En cautividad ya hay 808 solo en China, casi el doble que hace diez años.",
+      "fuente": "IV Censo Nacional del Panda Gigante (China), recogido por WWF y la UICN",
+      "simulacion": {
+        "mediana": 2500,
+        "sigma": 1.1
+      },
+      "id": "q160"
+    },
+    {
+      "categoria": "Animales",
+      "pregunta": "¿Cuántos tigres viven en libertad en todo el mundo, según la última estimación internacional (2023)?",
+      "unidad": "tigres",
+      "respuesta": 5574,
+      "pistas": [
+        "En 2010 quedaban unos 3.200.",
+        "Dos de cada tres viven en la India, que contó 3.682 en su último censo."
+      ],
+      "explicacion": "Si los 3.682 tigres de la India son dos tercios del total, el total es 3.682 × 1,5 ≈ 5.500. Estimación del Foro Global del Tigre: 5.574.",
+      "curiosidad": "Los países con tigres se propusieron en 2010 doblar su número en doce años. Se quedaron cerca, pero no llegaron.",
+      "fuente": "Global Tiger Forum, estimación mundial de 2023 (difundida por WWF)",
+      "simulacion": {
+        "mediana": 4000,
+        "sigma": 1.0
+      },
+      "id": "q161"
+    },
+    {
+      "categoria": "Animales",
+      "pregunta": "¿Cuántas razas de perro reconoce la Federación Cinológica Internacional (FCI)?",
+      "unidad": "razas",
+      "respuesta": 364,
+      "pistas": [
+        "Las reparte en 10 grupos: pastores, terriers, sabuesos, galgos, perros de compañía…",
+        "En cada grupo hay, de media, unas 36 razas."
+      ],
+      "explicacion": "10 grupos × 36 razas de media ≈ 360. Recuento oficial de la FCI en 2026: 364 razas.",
+      "curiosidad": "Cada raza tiene un país «dueño», normalmente el de origen, que es quien decide cómo debe ser el perro perfecto de esa raza.",
+      "fuente": "Fédération Cynologique Internationale (FCI), nomenclatura oficial (2026)",
+      "simulacion": {
+        "mediana": 250,
+        "sigma": 0.8
+      },
+      "id": "q162"
+    },
+    {
+      "categoria": "Animales",
+      "pregunta": "¿Cuántas ovejas había en Nueva Zelanda en 2025?",
+      "unidad": "ovejas",
+      "respuesta": 23252463,
+      "pistas": [
+        "En Nueva Zelanda viven algo más de 5 millones de personas.",
+        "Hay más de cuatro ovejas por cada habitante."
+      ],
+      "explicacion": "5,3 millones de habitantes × 4,4 ovejas por persona ≈ 23 millones. Recuento oficial de junio de 2025: 23.252.463.",
+      "curiosidad": "Cada año hay menos: en dos años el rebaño perdió más de un millón de ovejas, sobre todo porque los pastos se están convirtiendo en bosque.",
+      "fuente": "Stats NZ, estadísticas de producción agraria de 2025",
+      "simulacion": {
+        "mediana": 30000000,
+        "sigma": 1.0
+      },
+      "id": "q163"
+    },
+    {
+      "categoria": "Mundo",
+      "pregunta": "¿Cuántas montañas rusas hay en el mundo, según el censo que llevan los aficionados?",
+      "unidad": "montañas rusas",
+      "respuesta": 6324,
+      "pistas": [
+        "Más de la mitad están en Asia.",
+        "En Europa hay unas 1.600 y en Norteamérica, unas 1.000."
+      ],
+      "explicacion": "Europa (1.600) y Norteamérica (1.000) suman 2.600; el resto del mundo sin Asia, unas 400. Si Asia tiene algo más de la mitad del total, son unas 3.300: en total, unas 6.300. Censo: 6.324.",
+      "curiosidad": "Solo 170 son de madera; todas las demás son de acero.",
+      "fuente": "Roller Coaster DataBase (RCDB), censo consultado en noviembre de 2026",
+      "simulacion": {
+        "mediana": 3000,
+        "sigma": 1.2
+      },
+      "id": "q164"
+    },
+    {
+      "categoria": "Tecnología",
+      "pregunta": "¿Cuántos satélites en funcionamiento había en órbita alrededor de la Tierra en octubre de 2026?",
+      "unidad": "satélites",
+      "respuesta": 16800,
+      "pistas": [
+        "Dos de cada tres son de una sola red: Starlink.",
+        "Starlink tiene unos 11.000 satélites funcionando."
+      ],
+      "explicacion": "Si los 11.000 de Starlink son dos tercios del total, el total es 11.000 × 1,5 ≈ 16.500. Los catálogos de octubre de 2026 cuentan unos 16.800 satélites activos.",
+      "curiosidad": "Hace solo siete años, antes de Starlink, había unos 2.000 en total.",
+      "fuente": "Catálogos de satélites KeepTrack y CelesTrak (octubre de 2026)",
+      "simulacion": {
+        "mediana": 8000,
+        "sigma": 1.3
+      },
+      "id": "q165"
+    },
+    {
+      "categoria": "Internet",
+      "pregunta": "¿Cuántos emojis hay en total en la versión de 2026 del estándar Unicode, contando las variantes de tono de piel y de género?",
+      "unidad": "emojis",
+      "respuesta": 3972,
+      "pistas": [
+        "Sin contar variantes hay unos 1.400 emojis básicos.",
+        "Solo banderas hay 259, y muchos emojis de personas tienen cinco tonos de piel."
+      ],
+      "explicacion": "A los 1.400 emojis básicos hay que sumar las variantes: unos 500 emojis de personas y manos × 5 tonos de piel son unas 2.500 más. En total, 3.972.",
+      "curiosidad": "La versión de 2026 solo añade nueve emojis nuevos; entre ellos, un pepinillo, un faro y un meteorito.",
+      "fuente": "Consorcio Unicode, recuento de Emoji 18.0 (septiembre de 2026)",
+      "simulacion": {
+        "mediana": 2000,
+        "sigma": 0.9
+      },
+      "id": "q166"
+    },
+    {
+      "categoria": "Mundo",
+      "pregunta": "¿Cuántas lenguas vivas hay en el mundo, según el catálogo Ethnologue de 2026?",
+      "unidad": "lenguas",
+      "respuesta": 7170,
+      "pistas": [
+        "Hay unos 195 países, pero en muchos se hablan decenas o cientos de lenguas.",
+        "De media salen unas 37 lenguas por país."
+      ],
+      "explicacion": "195 países × 37 lenguas de media ≈ 7.200. La edición de 2026 de Ethnologue cuenta 7.170 lenguas vivas.",
+      "curiosidad": "El número cambia en cada edición: unas lenguas se extinguen y otras se «descubren» al decidir que dos dialectos son idiomas distintos.",
+      "fuente": "Ethnologue, 29.ª edición (2026)",
+      "simulacion": {
+        "mediana": 4000,
+        "sigma": 1.1
+      },
+      "id": "q167"
+    },
+    {
+      "categoria": "Tecnología",
+      "pregunta": "¿Cuántos cables submarinos de internet había en servicio en el mundo en 2026?",
+      "unidad": "cables",
+      "respuesta": 607,
+      "pistas": [
+        "Casi todo el tráfico de internet entre continentes viaja por el fondo del mar.",
+        "Entre todos suman cerca de un millón y medio de kilómetros; un cable medio mide unos 2.500."
+      ],
+      "explicacion": "1,5 millones de kilómetros / 2.500 kilómetros por cable ≈ 600. Recuento de septiembre de 2026: 607 cables en servicio.",
+      "curiosidad": "Hay otros 102 ya planificados: se tiende un cable nuevo cada pocas semanas.",
+      "fuente": "TeleGeography, mapa de cables submarinos (septiembre de 2026)",
+      "simulacion": {
+        "mediana": 300,
+        "sigma": 1.4
+      },
+      "id": "q168"
+    },
+    {
+      "categoria": "Tecnología",
+      "pregunta": "¿Cuántos coches eléctricos e híbridos enchufables se vendieron en el mundo en 2025?",
+      "unidad": "coches",
+      "respuesta": 20000000,
+      "pistas": [
+        "En el mundo se venden unos 80 millones de coches nuevos al año.",
+        "Uno de cada cuatro coches nuevos ya es eléctrico o enchufable."
+      ],
+      "explicacion": "80 millones de coches nuevos / 4 = 20 millones, la cifra que da la Agencia Internacional de la Energía para 2025.",
+      "curiosidad": "En China ya son más de la mitad de los coches nuevos: casi el 55 %.",
+      "fuente": "Agencia Internacional de la Energía (AIE), Global EV Outlook 2026",
+      "simulacion": {
+        "mediana": 12000000,
+        "sigma": 1.0
+      },
+      "id": "q169"
+    },
+    {
+      "categoria": "Internet",
+      "pregunta": "Según Apple, ¿cuántas aplicaciones hay disponibles en el App Store?",
+      "unidad": "aplicaciones",
+      "respuesta": 2000000,
+      "pistas": [
+        "Cuando abrió, en 2008, tenía 500 aplicaciones.",
+        "Hoy es unas 4.000 veces más grande."
+      ],
+      "explicacion": "500 aplicaciones × 4.000 = 2 millones. Apple habla de «casi dos millones» de aplicaciones.",
+      "curiosidad": "Solo en la primera mitad de 2026 se publicaron unas 560.000 aplicaciones nuevas, casi tantas como en todo 2025.",
+      "fuente": "Apple, datos oficiales del App Store (2026)",
+      "simulacion": {
+        "mediana": 1500000,
+        "sigma": 1.3
+      },
+      "id": "q170"
+    },
+    {
+      "categoria": "Mundo",
+      "pregunta": "¿Cuántos billetes de euro había en circulación en 2026?",
+      "unidad": "billetes",
+      "respuesta": 31300000000,
+      "pistas": [
+        "En los países del euro viven unos 350 millones de personas.",
+        "Tocan a unos 90 billetes por persona: muchos están guardados en casa, en bancos o fuera de Europa."
+      ],
+      "explicacion": "350 millones de personas × 90 billetes ≈ 31.500 millones. Dato del Banco Central Europeo en abril de 2026: 31.300 millones de billetes.",
+      "curiosidad": "Juntos valen más de 1,6 billones de euros: el billete medio es de unos 50 euros.",
+      "fuente": "Banco Central Europeo, billetes en circulación (abril de 2026)",
+      "simulacion": {
+        "mediana": 10000000000,
+        "sigma": 1.5
+      },
+      "id": "q171"
+    },
+    {
+      "categoria": "Mundo",
+      "pregunta": "¿Cuántas personas distintas recibieron un premio Nobel entre 1901 y 2025?",
+      "unidad": "personas",
+      "respuesta": 990,
+      "pistas": [
+        "En ese tiempo se entregaron 633 premios, sumando las seis categorías.",
+        "Muchos premios se reparten entre dos o tres personas."
+      ],
+      "explicacion": "633 premios × 1,6 personas por premio ≈ 1.000. Recuento de la Fundación Nobel: 990 personas, además de 28 organizaciones.",
+      "curiosidad": "Con los premios de 2026 ya son 996: el laureado número mil está al caer.",
+      "fuente": "Fundación Nobel (nobelprize.org), recuento de premios y laureados 1901-2025",
+      "simulacion": {
+        "mediana": 700,
+        "sigma": 0.8
+      },
+      "id": "q172"
+    },
+    {
+      "categoria": "Mundo",
+      "pregunta": "¿Cuántos objetos (libros, mapas, fotos, partituras, manuscritos…) guarda la Biblioteca del Congreso de Estados Unidos, la mayor del mundo?",
+      "unidad": "objetos",
+      "respuesta": 181000000,
+      "pistas": [
+        "Los libros son solo una parte: también guarda fotos, mapas, discos, películas y manuscritos.",
+        "Se fundó en 1800 y cada día recibe miles de objetos nuevos."
+      ],
+      "explicacion": "Si desde 1800 hubiera incorporado unos 2.200 objetos al día: 2.200 × 365 días × 225 años ≈ 181 millones, que es lo que declara hoy.",
+      "curiosidad": "Empezó con 740 libros y tres mapas.",
+      "fuente": "Biblioteca del Congreso de EE. UU., informe del año fiscal 2025",
+      "simulacion": {
+        "mediana": 40000000,
+        "sigma": 1.5
+      },
+      "id": "q173"
+    },
+    {
+      "categoria": "Historia",
+      "pregunta": "¿Cuántos tubos tiene el gran órgano de la catedral de Notre-Dame de París?",
+      "unidad": "tubos",
+      "respuesta": 7952,
+      "pistas": [
+        "Cada nota de cada sonido distinto (cada «registro») necesita su propio tubo.",
+        "Tiene 117 registros y teclados de unas 60 notas."
+      ],
+      "explicacion": "117 registros × 60 notas ≈ 7.000 tubos, y algunos registros usan varios tubos por nota. Cifra oficial de la catedral: 7.952.",
+      "curiosidad": "Sobrevivió al incendio de 2019, pero hubo que desmontarlo entero para limpiar el polvo de plomo de cada tubo.",
+      "fuente": "Catedral de Notre-Dame de París, datos oficiales del gran órgano",
+      "simulacion": {
+        "mediana": 3000,
+        "sigma": 1.2
+      },
+      "id": "q174"
+    },
+    {
+      "categoria": "Historia",
+      "pregunta": "¿Cuántos bloques de piedra se calcula que forman la Gran Pirámide de Guiza?",
+      "unidad": "bloques",
+      "respuesta": 2300000,
+      "pistas": [
+        "La base mide 230 metros de lado y la pirámide medía 146 metros de alto.",
+        "Cada bloque ocupa algo más de un metro cúbico."
+      ],
+      "explicacion": "Volumen de una pirámide: base × altura / 3 = 230 × 230 × 146 / 3 ≈ 2,6 millones de metros cúbicos. A 1,1 metros cúbicos por bloque, unos 2,3 millones, la estimación habitual.",
+      "curiosidad": "Un bloque medio pesa dos toneladas y media, como dos coches.",
+      "fuente": "Estimación arqueológica habitual (Encyclopaedia Britannica y otras obras de referencia)",
+      "simulacion": {
+        "mediana": 800000,
+        "sigma": 1.5
+      },
+      "id": "q175"
+    },
+    {
+      "categoria": "Historia",
+      "pregunta": "¿Cuántas personas iban a bordo del Titanic cuando se hundió?",
+      "unidad": "personas",
+      "respuesta": 2224,
+      "pistas": [
+        "En los botes salvavidas solo había 1.178 plazas.",
+        "Sobrevivieron unas 705 personas, menos de un tercio."
+      ],
+      "explicacion": "Si 705 supervivientes fueron algo menos de un tercio, a bordo iban 705 × 3,15 ≈ 2.220. La cifra más citada es 2.224 personas entre pasajeros y tripulación.",
+      "curiosidad": "Los botes ni siquiera se llenaron: había sitio para 1.178 personas y se salvaron unas 705.",
+      "fuente": "Encyclopaedia Britannica (a partir de la investigación del Senado de EE. UU. de 1912)",
+      "simulacion": {
+        "mediana": 2000,
+        "sigma": 0.6
+      },
+      "id": "q176"
+    },
+    {
+      "categoria": "Historia",
+      "pregunta": "¿Cuántos guerreros de terracota se calcula que hay enterrados en el mausoleo del primer emperador de China, en Xi'an?",
+      "unidad": "guerreros",
+      "respuesta": 8000,
+      "pistas": [
+        "Es un ejército completo, a tamaño natural, para proteger al emperador en la otra vida.",
+        "Hasta ahora solo se ha desenterrado una cuarta parte: unas 2.000 figuras."
+      ],
+      "explicacion": "Si las 2.000 figuras excavadas son una cuarta parte, el total ronda las 2.000 × 4 = 8.000, que es la estimación del museo.",
+      "curiosidad": "No hay dos caras iguales: cada soldado tiene sus propios rasgos.",
+      "fuente": "Museo del Mausoleo del Emperador Qin Shi Huang (Xi'an), estimación oficial",
+      "simulacion": {
+        "mediana": 5000,
+        "sigma": 0.9
+      },
+      "id": "q177"
+    },
+    {
+      "categoria": "Mundo",
+      "pregunta": "¿Cuántos niños escriben cada Navidad a Papá Noel a través del servicio de correos de Francia?",
+      "unidad": "niños",
+      "respuesta": 1000000,
+      "pistas": [
+        "En Francia nacen unos 650.000 niños al año.",
+        "Escriben, más o menos, los niños de entre 4 y 9 años, pero solo uno de cada cuatro."
+      ],
+      "explicacion": "Seis años de edades × 650.000 niños ≈ 4 millones de niños en edad de escribir. Uno de cada cuatro es un millón, la cifra que da el correo francés cada año.",
+      "curiosidad": "Todas las cartas reciben respuesta: la escriben 60 «duendes» de correos en un pueblo cerca de Burdeos.",
+      "fuente": "La Poste, secretaría de Papá Noel (campaña de 2025)",
+      "simulacion": {
+        "mediana": 500000,
+        "sigma": 1.2
+      },
+      "id": "q178"
+    },
+    {
+      "categoria": "Ciudades",
+      "pregunta": "¿Cuántas luces lleva el árbol de Navidad del Rockefeller Center de Nueva York?",
+      "unidad": "luces",
+      "respuesta": 50000,
+      "pistas": [
+        "El árbol mide unos 23 metros de alto.",
+        "Las luces van en unos 8 kilómetros de cable: una cada 16 centímetros."
+      ],
+      "explicacion": "8 kilómetros son 8.000 metros de cable. Con una luz cada 16 centímetros: 8.000 / 0,16 = 50.000 luces.",
+      "curiosidad": "La estrella de la punta pesa unos 400 kilos y lleva tres millones de cristales.",
+      "fuente": "Rockefeller Center, datos oficiales del árbol de Navidad de 2025",
+      "simulacion": {
+        "mediana": 20000,
+        "sigma": 1.2
+      },
+      "id": "q179"
+    },
+    {
+      "categoria": "Deporte",
+      "pregunta": "¿Cuántas personas vieron por televisión la final del Mundial de fútbol de 2022 entre Argentina y Francia?",
+      "unidad": "personas",
+      "respuesta": 1420000000,
+      "pistas": [
+        "En el mundo había unos 8.000 millones de personas.",
+        "La vio, al menos un rato, más de una de cada seis."
+      ],
+      "explicacion": "8.000 millones de personas / 5,6 ≈ 1.430 millones. Cifra revisada de la FIFA: 1.420 millones de espectadores.",
+      "curiosidad": "La final de 2026, que España ganó a Argentina en la prórroga, fue la más vista de la historia en Estados Unidos: 62,8 millones.",
+      "fuente": "FIFA, informe global de audiencias (noviembre de 2024)",
+      "simulacion": {
+        "mediana": 1000000000,
+        "sigma": 1.0
+      },
+      "id": "q180"
+    }
+  ],
+  "retos": [
+    {
+      "numero": 1,
+      "preguntas": [
+        "q089",
+        "q043",
+        "q030"
+      ]
+    },
+    {
+      "numero": 2,
+      "preguntas": [
+        "q068",
+        "q031",
+        "q060"
+      ]
+    },
+    {
+      "numero": 3,
+      "preguntas": [
+        "q055",
+        "q066",
+        "q018"
+      ]
+    },
+    {
+      "numero": 4,
+      "preguntas": [
+        "q023",
+        "q011",
+        "q021"
+      ]
+    },
+    {
+      "numero": 5,
+      "preguntas": [
+        "q025",
+        "q024",
+        "q012"
+      ]
+    },
+    {
+      "numero": 6,
+      "preguntas": [
+        "q035",
+        "q029",
+        "q054"
+      ]
+    },
+    {
+      "numero": 7,
+      "preguntas": [
+        "q048",
+        "q075",
+        "q013"
+      ]
+    },
+    {
+      "numero": 8,
+      "preguntas": [
+        "q001",
+        "q042",
+        "q084"
+      ]
+    },
+    {
+      "numero": 9,
+      "preguntas": [
+        "q059",
+        "q044",
+        "q019"
+      ]
+    },
+    {
+      "numero": 10,
+      "preguntas": [
+        "q022",
+        "q036",
+        "q051"
+      ]
+    },
+    {
+      "numero": 11,
+      "preguntas": [
+        "q003",
+        "q034",
+        "q015"
+      ]
+    },
+    {
+      "numero": 12,
+      "preguntas": [
+        "q077",
+        "q074",
+        "q005"
+      ]
+    },
+    {
+      "numero": 13,
+      "preguntas": [
+        "q056",
+        "q050",
+        "q085"
+      ]
+    },
+    {
+      "numero": 14,
+      "preguntas": [
+        "q083",
+        "q010",
+        "q065"
+      ]
+    },
+    {
+      "numero": 15,
+      "preguntas": [
+        "q069",
+        "q057",
+        "q079"
+      ]
+    },
+    {
+      "numero": 16,
+      "preguntas": [
+        "q038",
+        "q070",
+        "q020"
+      ]
+    },
+    {
+      "numero": 17,
+      "preguntas": [
+        "q062",
+        "q080",
+        "q064"
+      ]
+    },
+    {
+      "numero": 18,
+      "preguntas": [
+        "q027",
+        "q081",
+        "q072"
+      ]
+    },
+    {
+      "numero": 19,
+      "preguntas": [
+        "q017",
+        "q046",
+        "q090"
+      ]
+    },
+    {
+      "numero": 20,
+      "preguntas": [
+        "q088",
+        "q007",
+        "q041"
+      ]
+    },
+    {
+      "numero": 21,
+      "preguntas": [
+        "q058",
+        "q071",
+        "q002"
+      ]
+    },
+    {
+      "numero": 22,
+      "preguntas": [
+        "q016",
+        "q076",
+        "q026"
+      ]
+    },
+    {
+      "numero": 23,
+      "preguntas": [
+        "q006",
+        "q039",
+        "q014"
+      ]
+    },
+    {
+      "numero": 24,
+      "preguntas": [
+        "q032",
+        "q047",
+        "q049"
+      ]
+    },
+    {
+      "numero": 25,
+      "preguntas": [
+        "q040",
+        "q052",
+        "q087"
+      ]
+    },
+    {
+      "numero": 26,
+      "preguntas": [
+        "q063",
+        "q086",
+        "q004"
+      ]
+    },
+    {
+      "numero": 27,
+      "preguntas": [
+        "q008",
+        "q009",
+        "q067"
+      ]
+    },
+    {
+      "numero": 28,
+      "preguntas": [
+        "q073",
+        "q028",
+        "q061"
+      ]
+    },
+    {
+      "numero": 29,
+      "preguntas": [
+        "q045",
+        "q037",
+        "q082"
+      ]
+    },
+    {
+      "numero": 30,
+      "preguntas": [
+        "q053",
+        "q078",
+        "q033"
+      ]
+    },
+    {
+      "numero": 31,
+      "preguntas": [
+        "q091",
+        "q092",
+        "q093"
+      ]
+    },
+    {
+      "numero": 32,
+      "preguntas": [
+        "q115",
+        "q110",
+        "q172"
+      ]
+    },
+    {
+      "numero": 33,
+      "preguntas": [
+        "q149",
+        "q140",
+        "q114"
+      ]
+    },
+    {
+      "numero": 34,
+      "preguntas": [
+        "q098",
+        "q102",
+        "q131"
+      ]
+    },
+    {
+      "numero": 35,
+      "preguntas": [
+        "q104",
+        "q157",
+        "q174"
+      ]
+    },
+    {
+      "numero": 36,
+      "preguntas": [
+        "q126",
+        "q101",
+        "q139"
+      ]
+    },
+    {
+      "numero": 37,
+      "preguntas": [
+        "q100",
+        "q141",
+        "q166"
+      ]
+    },
+    {
+      "numero": 38,
+      "preguntas": [
+        "q118",
+        "q136",
+        "q146"
+      ]
+    },
+    {
+      "numero": 39,
+      "preguntas": [
+        "q144",
+        "q145",
+        "q161"
+      ]
+    },
+    {
+      "numero": 40,
+      "preguntas": [
+        "q180",
+        "q153",
+        "q103"
+      ]
+    },
+    {
+      "numero": 41,
+      "preguntas": [
+        "q105",
+        "q171",
+        "q116"
+      ]
+    },
+    {
+      "numero": 42,
+      "preguntas": [
+        "q119",
+        "q173",
+        "q095"
+      ]
+    },
+    {
+      "numero": 43,
+      "preguntas": [
+        "q127",
+        "q175",
+        "q097"
+      ]
+    },
+    {
+      "numero": 44,
+      "preguntas": [
+        "q179",
+        "q154",
+        "q163"
+      ]
+    },
+    {
+      "numero": 45,
+      "preguntas": [
+        "q178",
+        "q096",
+        "q168"
+      ]
+    },
+    {
+      "numero": 46,
+      "preguntas": [
+        "q125",
+        "q111",
+        "q151"
+      ]
+    },
+    {
+      "numero": 47,
+      "preguntas": [
+        "q155",
+        "q130",
+        "q108"
+      ]
+    },
+    {
+      "numero": 48,
+      "preguntas": [
+        "q143",
+        "q169",
+        "q124"
+      ]
+    },
+    {
+      "numero": 49,
+      "preguntas": [
+        "q137",
+        "q121",
+        "q150"
+      ]
+    },
+    {
+      "numero": 50,
+      "preguntas": [
+        "q107",
+        "q138",
+        "q156"
+      ]
+    },
+    {
+      "numero": 51,
+      "preguntas": [
+        "q132",
+        "q164",
+        "q120"
+      ]
+    },
+    {
+      "numero": 52,
+      "preguntas": [
+        "q099",
+        "q167",
+        "q117"
+      ]
+    },
+    {
+      "numero": 53,
+      "preguntas": [
+        "q177",
+        "q133",
+        "q147"
+      ]
+    },
+    {
+      "numero": 54,
+      "preguntas": [
+        "q113",
+        "q106",
+        "q165"
+      ]
+    },
+    {
+      "numero": 55,
+      "preguntas": [
+        "q170",
+        "q152",
+        "q162"
+      ]
+    },
+    {
+      "numero": 56,
+      "preguntas": [
+        "q112",
+        "q135",
+        "q122"
+      ]
+    },
+    {
+      "numero": 57,
+      "preguntas": [
+        "q176",
+        "q123",
+        "q109"
+      ]
+    },
+    {
+      "numero": 58,
+      "preguntas": [
+        "q160",
+        "q142",
+        "q159"
+      ]
+    },
+    {
+      "numero": 59,
+      "preguntas": [
+        "q158",
+        "q128",
+        "q094"
+      ]
+    },
+    {
+      "numero": 60,
+      "preguntas": [
+        "q148",
+        "q129",
+        "q134"
+      ]
+    }
+  ],
+  "reanudacion": {
+    "numero": 31,
+    "fecha": "2026-11-16"
+  }
+}
